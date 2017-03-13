@@ -24,5 +24,26 @@ namespace CHW_ATP
         {
             InitializeComponent();
         }
+
+        private void buttonPLAYERS_Click(object sender, RoutedEventArgs e)
+        {
+            HomeWindow homeWindow = new HomeWindow();
+            homeWindow.Show();
+        }
+
+        private void buttonTOURNAMENTS_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void buttonRANK_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void buttonSTATS_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
