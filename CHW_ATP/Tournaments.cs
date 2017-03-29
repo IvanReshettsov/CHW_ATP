@@ -8,6 +8,14 @@ namespace CHW_ATP
 {
     class Tournaments
     {
+        private string _date;
+
+        public string Date
+        {
+            get { return _date; }
+            set { _date = value; }
+        }
+
         private string _tname;
 
         public string TName
@@ -17,20 +25,20 @@ namespace CHW_ATP
 
         }
 
-        private string _location;
+        private string _city;
 
-        public string Location
+        public string City
         {
-            get { return _location; }
-            set { _location = value; }
+            get { return _city; }
+            set { _city = value; }
         }
 
-        private int _category;
+        private string _country;
 
-        public int Category
+        public string Country
         {
-            get { return _category; }
-            set { _category = value; }
+            get { return _country; }
+            set { _country = value; }
         }
 
         private string _surface;
@@ -41,29 +49,39 @@ namespace CHW_ATP
             set { _surface = value; }
         }
 
+        private int _category;
 
-        private double _prize;
-
-        public double Prize
+        public int Category
         {
-            get { return _prize; }
-            set { _prize = value; }
+            get { return _category; }
+            set { _category = value; }
         }
 
-        public Tournaments(string tname, string location, int category, string surface, double prize)
+        private string _prizeMoney;
+
+        public string Prize_Money
         {
+            get { return _prizeMoney; }
+            set { _prizeMoney = value; }
+        }
+
+        
+        public Tournaments(string date, string tname, string city, string country, string surface, int category,string prizeMoney)
+        {
+            _date = date;
             _tname = tname;
-            _location = location;
+            _city = city;
             _category = category;
             _surface = surface;
-            _prize = prize;
+            _country = country;
+            _prizeMoney = prizeMoney;
         }
 
         public string InfoTournaments
         {
             get
             {
-                return $"{_tname} , {_location}, ATP {_category}, {_surface}, {_prize}$";
+                return $"{_tname} , {_country}, ATP {_category}, {_surface}, {_city}, {_prizeMoney}$";
             }
         }
     }

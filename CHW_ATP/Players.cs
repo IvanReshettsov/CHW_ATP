@@ -17,6 +17,15 @@ namespace CHW_ATP
 
         }
 
+        private int _age;
+
+        public int Age
+        {
+            get { return _age; }
+            set { _age = value; }
+        }
+
+
         private string _nationality;
 
         public string Nationality
@@ -65,31 +74,26 @@ namespace CHW_ATP
             set { _titles = value; }
         }
 
-        private double _prizeMoney;
+       
 
-        public double PrizeMoney
-        {
-            get { return _prizeMoney; }
-            set { _prizeMoney = value; }
-        }
-
-        public Players(string name, string nationality, string strongHand, int rating, int height, int weight, int titles, double prizeMoney)
+        public Players(string name, int age, string nationality, string strongHand, int rating, int height, int weight, int titles)
         {
             _name = name;
+            _age = age;
             _nationality = nationality;
             _strongHand = strongHand;
             _rating = rating;
             _height = height;
             _weight = weight;
             _titles = titles;
-            _prizeMoney = prizeMoney;
+          
         }
 
         public string Info
         {
             get
             {
-                return $"{_name} ; {_nationality}; {_strongHand}; №{_rating}; {_height} cm; {_weight} kg; {_titles} titles; {_prizeMoney}$";
+                return $"{_name} ; {Age}; {_nationality}; {_strongHand}; №{_rating}; {_height} cm; {_weight} kg; {_titles} titles $";
             }
         }
     }

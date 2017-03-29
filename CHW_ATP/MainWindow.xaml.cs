@@ -20,6 +20,7 @@ namespace CHW_ATP
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -27,23 +28,31 @@ namespace CHW_ATP
 
         private void buttonPLAYERS_Click(object sender, RoutedEventArgs e)
         {
+            //this.Hide();
             HomeWindow homeWindow = new HomeWindow();
             homeWindow.Show();
         }
 
         private void buttonTOURNAMENTS_Click(object sender, RoutedEventArgs e)
         {
-
+            TournamentsWindow tournamentsWindow = new TournamentsWindow();
+            tournamentsWindow.Show();
         }
 
         private void buttonRANK_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void buttonSTATS_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void buttonTOURNAMENTS_Click_1(object sender, RoutedEventArgs e)
+        {
+            TournamentsWindow tournamentsWindow = new TournamentsWindow();
+            tournamentsWindow.Show();
         }
     }
 }
