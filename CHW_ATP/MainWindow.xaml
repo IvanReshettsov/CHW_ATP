@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button x:Name="buttonTOURNAMENTS" Content="Tournaments" HorizontalAlignment="Left" Margin="167,123,0,0" VerticalAlignment="Top" Width="75" Click="buttonTOURNAMENTS_Click_1"/>
-        <Button x:Name="buttonREGISTRATION" Content="Log in" HorizontalAlignment="Left" Margin="217,218,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonREGISTRATION" Content="Log in" HorizontalAlignment="Left" Margin="217,218,0,0" VerticalAlignment="Top" Width="75" Click="buttonREGISTRATION_Click"/>
         <Button x:Name="buttonRANK" Content="Rankings" HorizontalAlignment="Left" Margin="259,123,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="buttonPLAYERS" Content="Players" HorizontalAlignment="Left" Margin="73,123,0,0" VerticalAlignment="Top" Width="75" Click="buttonPLAYERS_Click"/>
         <Button x:Name="buttonSTATS" Content="Statistics" HorizontalAlignment="Left" Margin="352,123,0,0" VerticalAlignment="Top" Width="75"/>

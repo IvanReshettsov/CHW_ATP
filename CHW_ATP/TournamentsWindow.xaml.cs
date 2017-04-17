@@ -27,6 +27,8 @@ namespace CHW_ATP
             InitializeComponent();
         }
 
+        
+
         private void button_Click(object sender, RoutedEventArgs e)
         {
             gridTournaments.ItemsSource = null;
