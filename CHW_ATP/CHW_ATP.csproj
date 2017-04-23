@@ -58,6 +58,9 @@
     <Compile Include="NewPlayer.xaml.cs">
       <DependentUpon>NewPlayer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NewTournamentWindow.xaml.cs">
+      <DependentUpon>NewTournamentWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegisterWindow.xaml.cs">
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>
@@ -85,6 +88,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="NewPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewTournamentWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

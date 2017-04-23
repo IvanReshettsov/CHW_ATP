@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CHW_ATP
 {
-    class Players
+   public class Players
     {
         private string _name;
 

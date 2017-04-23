@@ -13,6 +13,8 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="buttonShowPlayers" Content="Show" HorizontalAlignment="Left" Margin="20,229,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" Grid.Column="1"/>
         <DataGrid x:Name="gridPlayers" HorizontalAlignment="Left" Margin="50,50,50,60" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="800" Width="525" SelectionChanged="gridPlayers_SelectionChanged"/>
+        <Button x:Name="buttonRemove" Grid.ColumnSpan="2" Content="Remove" HorizontalAlignment="Left" Margin="50,21,0,0" VerticalAlignment="Top" Width="75" Click="buttonRemove_Click"/>
+        <Button x:Name="buttonAdd" Content="Add" HorizontalAlignment="Left" Margin="88.2,21,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="buttonAdd_Click"/>
 
     </Grid>
 </Window>

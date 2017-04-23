@@ -7,12 +7,18 @@
         mc:Ignorable="d"
         Title="TournamentsWindow" Height="300" Width="300">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="152*"/>
+            <RowDefinition Height="117*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="47*"/>
             <ColumnDefinition Width="26*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="gridTournaments"  HorizontalAlignment="Left" Margin="50,50,50,60" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="800" Width="885" SelectionChanged="gridTournaments_SelectionChanged"/>
+        <DataGrid x:Name="gridTournaments"  HorizontalAlignment="Left" Margin="50,50,-643,-581" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="800" Width="885" SelectionChanged="gridTournaments_SelectionChanged" Grid.RowSpan="2"/>
         <Button x:Name="buttonShowTournaments" Content="Show" HorizontalAlignment="Left" Margin="19,29,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button_Remove" Grid.ColumnSpan="2" Content="Remove" HorizontalAlignment="Left" Margin="114,26,0,0" VerticalAlignment="Top" Width="75" Click="button_Remove_Click"/>
+        <Button x:Name="button_Add" Content="Add" HorizontalAlignment="Left" Margin="10.2,25,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="button_Add_Click"/>
 
     </Grid>
 </Window>

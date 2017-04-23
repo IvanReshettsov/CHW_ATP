@@ -50,10 +50,31 @@ namespace CHW_ATP
 
         private void gridTournaments_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Tournaments selected_tournament = gridTournaments.SelectedItem as Tournaments;
-            MessageBox.Show(" Date: " + selected_tournament.Date +"\n Name: " + selected_tournament.TName + "\n City: " + selected_tournament.City+ "\n Country: " + selected_tournament.Country
-                + "\n Surface: " + selected_tournament.Surface + "\n Category: " + " ATP " + selected_tournament.Category + "\n Prize Money: " + selected_tournament.Prize_Money);
+            //Tournaments selected_tournament = gridTournaments.SelectedItem as Tournaments;
+            //MessageBox.Show(" Date: " + selected_tournament.Date +"\n Name: " + selected_tournament.TName + "\n City: " + selected_tournament.City+ "\n Country: " + selected_tournament.Country
+            //    + "\n Surface: " + selected_tournament.Surface + "\n Category: " + " ATP " + selected_tournament.Category + "\n Prize Money: " + selected_tournament.Prize_Money);
 
+        }
+
+        private void button_Remove_Click(object sender, RoutedEventArgs e)
+        {
+            Tournaments selected_tournament = gridTournaments.SelectedItem as Tournaments;
+            for (int i = TournamentsInfo.Count - 1; i >= 0; i--)
+            {
+                if (TournamentsInfo[i] == selected_tournament)
+                { TournamentsInfo.Remove(TournamentsInfo[i]); }
+            }
+            gridTournaments.ItemsSource = TournamentsInfo;
+        }
+
+        private void button_Add_Click(object sender, RoutedEventArgs e)
+        {
+            var addTournament = new NewTournamentWindow();
+            if (addTournament.ShowDialog().Value)
+            {
+                TournamentsInfo.Add(addTournament.AddedTournament);
+            }
+            gridTournaments.ItemsSource =TournamentsInfo;
         }
     }
 }

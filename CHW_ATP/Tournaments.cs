@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CHW_ATP
 {
-    class Tournaments
+   public class Tournaments
     {
         private string _date;
 
