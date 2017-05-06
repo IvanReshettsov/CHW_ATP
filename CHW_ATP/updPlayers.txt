@@ -1,0 +1,100 @@
+Novak Djokovic ; 29; Serbia; Right-Handed; №2; 187 cm; 75 kg; 67 titles
+ Stan Wawrinka ; 31; Switzerland; Right-Handed; №3; 182 cm; 81 kg; 15 titles
+ Kei Nishikori ; 27; Japan; Right-Handed; №4; 177 cm; 75 kg; 11 titles
+ Milos Raonic ; 26; Canada; Right-Handed; №5; 195 cm; 98 kg; 8 titles
+ Roger Federer ; 35; Switzerland; Right-Handed; №6; 185 cm; 85 kg; 90 titles
+ Rafael Nadal ; 30; Spain; Left-Handed; №7; 185 cm; 85 kg; 69 titles
+ Dominic Thiem ; 23; Austria; Right-Handed; №8; 185 cm; 81 kg; 8 titles
+ Marin Cilic ; 28; Croatia; Right-Handed; №9; 198 cm; 89 kg; 16 titles
+ Jo-Wilfried Tsonga ; 31; France; Right-Handed; №10; 187 cm; 90 kg; 14 titles
+ Gael Monfils ; 30; France; Right-Handed; №11; 193 cm; 80 kg; 6 titles
+ David Goffin ; 26; Belgium; Right-Handed; №12; 180 cm; 68 kg; 2 titles
+ Grigor Dimitrov ; 25; Bulgaria; Right-Handed; №13; 190 cm; 80 kg; 6 titles
+ Tomas Berdych ; 31; Czech Republic; Right-Handed; №14; 195 cm; 90 kg; 13 titles
+ Lucas Pouille ; 23; France; Right-Handed; №15; 185 cm; 81 kg; 1 titles
+ Nick Kyrgios ; 21; Australia; Right-Handed; №16; 193 cm; 85 kg; 3 titles
+ Jack Sock ; 24; USA; Right-Handed; №17; 190 cm; 84 kg; 3 titles
+ Roberto Bautista Agut ; 28; Spain; Right-Handed; №18; 182 cm; 76 kg; 5 titles
+ Pablo Carreno Busta ; 25; Spain; Right-Handed; №19; 187 cm; 74 kg; 2 titles
+ Alexander Zverev ; 19; Germany; Right-Handed; №20; 198 cm; 85 kg; 2 titles
+ Ivo Karlovic ; 38; Croatia; Right-Handed; №21; 210 cm; 104 kg; 8 titles
+ Richard Gasquet ; 30; France; Right-Handed; №22; 185 cm; 75 kg; 14 titles
+ John Isner ; 31; USA; Right-Handed; №23; 208 cm; 108 kg; 10 titles
+ Albert Ramos-Vinolas ; 29; Spain; Left-Handed; №24; 187 cm; 80 kg; 1 titles
+ Gilles Simon ; 32; France; Right-Handed; №25; 182 cm; 70 kg; 12 titles
+ Pablo Cuevas ; 31; Uruguay; Right-Handed; №26; 180 cm; 80 kg; 6 titles
+ Sam Querrey ; 29; USA; Right-Handed; №27; 198 cm; 95 kg; 9 titles
+ Steve Johnson ; 27; USA; Right-Handed; №28; 187 cm; 86 kg; 1 titles
+ Gilles Muller ; 33; Luxembourg; Left-Handed; №29; 193 cm; 89 kg; 1 titles
+ Fernando Verdasco ; 33; Spain; Left-Handed; №30; 185 cm; 87 kg; 7 titles
+ Philipp Kohlschreiber ; 33; Germany; Right-Handed; №31; 177 cm; 70 kg; 7 titles
+ David Ferrer ; 34; Spain; Right-Handed; №32; 175 cm; 72 kg; 26 titles
+ Mischa Zverev ; 29; Germany; Left-Handed; №33; 190 cm; 80 kg; 0 titles
+ Juan Martin del Potro ; 28; Argentina; Right-Handed; №34; 198 cm; 97 kg; 19 titles
+ Joao Sousa ; 27; Portugal; Right-Handed; №35; 185 cm; 73 kg; 2 titles
+ Feliciano Lopez ; 35; Spain; Left-Handed; №36; 187 cm; 85 kg; 5 titles
+ Paolo Lorenzi ; 35; Italy; Right-Handed; №37; 182 cm; 76 kg; 1 titles
+ Viktor Troicki ; 31; Serbia; Right-Handed; №38; 193 cm; 85 kg; 3 titles
+ Benoit Paire ; 27; France; Right-Handed; №39; 195 cm; 80 kg; 1 titles
+ Fabio Fognini ; 29; Italy; Right-Handed; №40; 177 cm; 74 kg; 4 titles
+ Marcel Granollers ; 30; Spain; Right-Handed; №41; 190 cm; 76 kg; 4 titles
+ Diego Schwartzman ; 24; Argentina; Right-Handed; №42; 170 cm; 64 kg; 1 titles
+ Daniel Evans ; 26; Great Britain; Right-Handed; №43; 175 cm; 75 kg; 0 titles
+ Bernard Tomic ; 24; Australia; Right-Handed; №44; 195 cm; 91 kg; 3 titles
+ Kyle Edmund ; 22; Great Britain; Right-Handed; №45; 187 cm; 83 kg; 0 titles
+ Florian Mayer ; 33; Germany; Right-Handed; №46; 190 cm; 81 kg; 2 titles
+ Ryan Harrison ; 24; USA; Right-Handed; №47; 185 cm; 84 kg; 1 titles
+ Robin Haase ; 29; Netherlands; Right-Handed; №48; 190 cm; 77 kg; 2 titles
+ Steve Darcis ; 33; Belgium; Right-Handed; №49; 177 cm; 73 kg; 2 titles
+ Marcos Baghdatis ; 31; Cyprus; Right-Handed; №50; 177 cm; 82 kg; 4 titles
+ Donald Young ; 27; USA; Left-Handed; №51; 182 cm; 79 kg; 0 titles
+ Karen Khachanov ; 20; Russia; Right-Handed; №52; 198 cm; 88 kg; 1 titles
+ Malek Jaziri ; 33; Tunisia; Right-Handed; №53; 185 cm; 83 kg; 0 titles
+ Jiri Vesely ; 23; Czech Republic; Left-Handed; №54; 198 cm; 92 kg; 1 titles
+ Nicolas Mahut ; 35; France; Right-Handed; №55; 190 cm; 80 kg; 4 titles
+ Nicolas Almagro ; 31; Spain; Right-Handed; №56; 182 cm; 84 kg; 13 titles
+ Federico Delbonis ; 26; Argentina; Left-Handed; №57; 190 cm; 88 kg; 2 titles
+ Yoshihito Nishioka ; 21; Japan; Left-Handed; №58; 170 cm; 64 kg; 0 titles
+ Nikoloz Basilashvili ; 25; Georgia; Right-Handed; №59; 185 cm; 79 kg; 0 titles
+ Daniil Medvedev ; 21; Russia; Right-Handed; №60; 198 cm; 80 kg; 0 titles
+ Martin Klizan ; 27; Slovakia; Left-Handed; №61; 190 cm; 80 kg; 5 titles
+ Borna Coric ; 20; Croatia; Right-Handed; №62; 185 cm; 79 kg; 0 titles
+ Jan-Lennard Struff ; 26; Germany; Right-Handed; №63; 195 cm; 87 kg; 0 titles
+ Yen-Hsun Lu ; 33; Chinese Taipei; Right-Handed; №64; 180 cm; 74 kg; 0 titles
+ Adrian Mannarino ; 28; France; Left-Handed; №65; 180 cm; 70 kg; 0 titles
+ Damir Dzumhur ; 24; Bosnia and Herzegovina; Right-Handed; №66; 175 cm; 70 kg; 0 titles
+ Alexandr Dolgopolov ; 28; Ukraine; Right-Handed; №67; 180 cm; 71 kg; 3 titles
+ Andrey Kuznetsov ; 26; Russia; Right-Handed; №68; 185 cm; 70 kg; 0 titles
+ Carlos Berlocq ; 34; Argentina; Right-Handed; №69; 182 cm; 80 kg; 2 titles
+ Denis Istomin ; 30; Uzbekistan; Right-Handed; №70; 187 cm; 88 kg; 1 titles
+ Thomaz Bellucci ; 29; Brazil; Right-Handed; №71; 187 cm; 82 kg; 4 titles
+ Juan Monaco ; 32; Argentina; Right-Handed; №72; 185 cm; 81 kg; 9 titles
+ Pierre-Hugues Herbert ; 26; France; Left-Handed; №73; 187 cm; 79 kg; 0 titles
+ Kevin Anderson ; 30; South Africa; Right-Handed; №74; 203 cm; 89 kg; 3 titles
+ Horacio Zeballos ; 31; Argentina; Right-Handed; №75; 187 cm; 83 kg; 1 titles
+ Mikhail Kukushkin ; 29; Kazakhstan; Right-Handed; №76; 182 cm; 72 kg; 1 titles
+ Jeremy Chardy ; 30; France; Right-Handed; №77; 187 cm; 75 kg; 1 titles
+ Dustin Brown ; 32; Germany; Right-Handed; №78; 195 cm; 78 kg; 0 titles
+ Jordan Thompson ; 22; Australia; Right-Handed; №79; 182 cm; 73 kg; 0 titles
+ Andreas Seppi ; 33; Italy; Right-Handed; №80; 190 cm; 75 kg; 3 titles
+ Evgeny Donskoy ; 26; Russia; Right-Handed; №81; 185 cm; 74 kg; 0 titles
+ Thiago Monteiro ; 22; Brazil; Right-Handed; №82; 182 cm; 78 kg; 0 titles
+ Dudi Sela ; 31; Israel; Right-Handed; №83; 175 cm; 65 kg; 0 titles
+ Rogerio Dutra Silva ; 33; Brazil; Right-Handed; №84; 177 cm; 73 kg; 0 titles
+ Dusan Lajovic ; 26; Serbia; Right-Handed; №85; 182 cm; 78 kg; 0 titles
+ Radu Albot ; 27; Moldova; Right-Handed; №86; 175 cm; 69 kg; 0 titles
+ Mikhail Youzhny ; 34; Russia; Right-Handed; №87; 182 cm; 72 kg; 10 titles
+ Stephane Robert ; 36; France; Right-Handed; №88; 185 cm; 77 kg; 0 titles
+ Gastao Elias ; 26; Portugal; Right-Handed; №89; 182 cm; 76 kg; 0 titles
+ Guillermo Garcia-Lopez ; 33; Spain; Right-Handed; №90; 185 cm; 80 kg; 5 titles
+ Victor Estrella Burgos ; 36; Dominican Republic; Right-Handed; №91; 170 cm; 77 kg; 3 titles
+ Hyeon Chung ; 20; South Korea; Right-Handed; №92; 185 cm; 83 kg; 0 titles
+ Janko Tipsarevic ; 32; Serbia; Right-Handed; №93; 175 cm; 80 kg; 4 titles
+ Aljaz Bedene ; 27; Great Britain; Right-Handed; №94; 182 cm; 72 kg; 0 titles
+ Jared Donaldson ; 20; USA; Right-Handed; №95; 187 cm; 75 kg; 0 titles
+ Adam Pavlasek ; 22; Czech Republic; Right-Handed; №96; 185 cm; 76 kg; 0 titles
+ Yuichi Sugita ; 28; Japan; Right-Handed; №97; 185 cm; 80 kg; 0 titles
+ Renzo Olivo ; 25; Argentina; Right-Handed; №98; 180 cm; 72 kg; 0 titles
+ Radek Stepanek ; 38; Chech Republic; Right-Handed; №99; 185 cm; 75 kg; 5 titles
+ Taro Daniel ; 24; Japan; Right-Handed; №100; 190 cm; 76 kg; 0 titles
+ 

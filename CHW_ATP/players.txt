@@ -1,0 +1,100 @@
+Andy Murray;29;Great Britain;Right-Handed;1;190;84;45
+Novak Djokovic;29;Serbia;Right-Handed;2;187;75;67
+Stan Wawrinka;31;Switzerland;Right-Handed;3;182;81;15
+Kei Nishikori;27;Japan;Right-Handed;4;177;75;11
+Milos Raonic;26;Canada;Right-Handed;5;195;98;8
+Roger Federer;35;Switzerland;Right-Handed;6;185;85;90
+Rafael Nadal;30;Spain;Left-Handed;7;185;85;69
+Dominic Thiem;23;Austria;Right-Handed;8;185;81;8
+Marin Cilic;28;Croatia;Right-Handed;9;198;89;16	
+Jo-Wilfried Tsonga;31;France;Right-Handed;10;187;90;14	
+Gael Monfils;30;France;Right-Handed;11;193;80;6
+David Goffin;26;Belgium;Right-Handed;12;180;68;2
+Grigor Dimitrov;25;Bulgaria;Right-Handed;13;190;80;6
+Tomas Berdych;31;Czech Republic;Right-Handed;14;195;90;13
+Lucas Pouille;23;France;Right-Handed;15;185;81;1
+Nick Kyrgios;21;Australia;Right-Handed;16;193;85;3	 	
+Jack Sock;24;USA;Right-Handed;17;190;84;3
+Roberto Bautista Agut;28;Spain;Right-Handed;18;182;76;5
+Pablo Carreno Busta;25;Spain;Right-Handed;19;187;74;2	
+Alexander Zverev;19;Germany;Right-Handed;20;198;85;2
+Ivo Karlovic;38;Croatia;Right-Handed;21;210;104;8
+Richard Gasquet;30;France;Right-Handed;22;185;75;14	
+John Isner;31;USA;Right-Handed;23;208;108;10
+Albert Ramos-Vinolas;29;Spain;Left-Handed;24;187;80;1	
+Gilles Simon;32;France;Right-Handed;25;182;70;12
+Pablo Cuevas;31;Uruguay;Right-Handed;26;180;80;6
+Sam Querrey;29;USA;Right-Handed;27;198;95;9
+Steve Johnson;27;USA;Right-Handed;28;187;86;1	
+Gilles Muller;33;Luxembourg;Left-Handed;29;193;89;1
+Fernando Verdasco;33;Spain;Left-Handed;30;185;87;7	
+Philipp Kohlschreiber;33;Germany;Right-Handed;31;177;70;7
+David Ferrer;34;Spain;Right-Handed;32;175;72;26
+Mischa Zverev;29;Germany;Left-Handed;33;190;80;0
+Juan Martin del Potro;28;Argentina;Right-Handed;34;198;97;19
+Joao Sousa;27;Portugal;Right-Handed;35;185;73;2
+Feliciano Lopez;35;Spain;Left-Handed;36;187;85;5
+Paolo Lorenzi;35;Italy;Right-Handed;37;182;76;1
+Viktor Troicki;31;Serbia;Right-Handed;38;193;85;3
+Benoit Paire;27;France;Right-Handed;39;195;80;1
+Fabio Fognini;29;Italy;Right-Handed;40;177;74;4	
+Marcel Granollers;30;Spain;Right-Handed;41;190;76;4	
+Diego Schwartzman;24;Argentina;Right-Handed;42;170;64;1
+Daniel Evans;26;Great Britain;Right-Handed;43;175;75;0
+Bernard Tomic;24;Australia;Right-Handed;44;195;91;3
+Kyle Edmund;22;Great Britain;Right-Handed;45;187;83;0
+Florian Mayer;33;Germany;Right-Handed;46;190;81;2	
+Ryan Harrison;24;USA;Right-Handed;47;185;84;1	
+Robin Haase;29;Netherlands;Right-Handed;48;190;77;2
+Steve Darcis;33;Belgium;Right-Handed;49;177;73;2
+Marcos Baghdatis;31;Cyprus;Right-Handed;50;177;82;4
+Donald Young;27;USA;Left-Handed;51;182;79;0
+Karen Khachanov;20;Russia;Right-Handed;52;198;88;1	
+Malek Jaziri;33;Tunisia;Right-Handed;53;185;83;0
+Jiri Vesely;23;Czech Republic;Left-Handed;54;198;92;1
+Nicolas Mahut;35;France;Right-Handed;55;190;80;4
+Nicolas Almagro;31;Spain;Right-Handed;56;182;84;13
+Federico Delbonis;26;Argentina;Left-Handed;57;190;88;2
+Yoshihito Nishioka;21;Japan;Left-Handed;58;170;64;0
+Nikoloz Basilashvili;25;Georgia;Right-Handed;59;185;79;0
+Daniil Medvedev;21;Russia;Right-Handed;60;198;80;0
+Martin Klizan;27;Slovakia;Left-Handed;61;190;80;5	
+Borna Coric;20;Croatia;Right-Handed;62;185;79;0
+Jan-Lennard Struff;26;Germany;Right-Handed;63;195;87;0	
+Yen-Hsun Lu;33;Chinese Taipei;Right-Handed;64;180;74;0
+Adrian Mannarino;28;France;Left-Handed;65;180;70;0
+Damir Dzumhur;24;Bosnia and Herzegovina;Right-Handed;66;175;70;0	
+Alexandr Dolgopolov;28;Ukraine;Right-Handed;67;180;71;3
+Andrey Kuznetsov;26;Russia;Right-Handed;68;185;70;0	
+Carlos Berlocq;34;Argentina;Right-Handed;69;182;80;2	
+Denis Istomin;30;Uzbekistan;Right-Handed;70;187;88;1
+Thomaz Bellucci;29;Brazil;Right-Handed;71;187;82;4	
+Juan Monaco;32;Argentina;Right-Handed;72;185;81;9
+Pierre-Hugues Herbert;26;France;Left-Handed;73;187;79;0
+Kevin Anderson;30;South Africa;Right-Handed;74;203;89;3
+Horacio Zeballos;31;Argentina;Right-Handed;75;187;83;1
+Mikhail Kukushkin;29;Kazakhstan;Right-Handed;76;182;72;1
+Jeremy Chardy;30;France;Right-Handed;77;187;75;1
+Dustin Brown;32;Germany;Right-Handed;78;195;78;0
+Jordan Thompson;22;Australia;Right-Handed;79;182;73;0	
+Andreas Seppi;33;Italy;Right-Handed;80;190;75;3
+Evgeny Donskoy;26;Russia;Right-Handed;81;185;74;0	
+Thiago Monteiro;22;Brazil;Right-Handed;82;182;78;0	
+Dudi Sela;31;Israel;Right-Handed;83;175;65;0
+Rogerio Dutra Silva;33;Brazil;Right-Handed;84;177;73;0	
+Dusan Lajovic;26;Serbia;Right-Handed;85;182;78;0	
+Radu Albot;27;Moldova;Right-Handed;86;175;69;0
+Mikhail Youzhny;34;Russia;Right-Handed;87;182;72;10
+Stephane Robert;36;France;Right-Handed;88;185;77;0
+Gastao Elias;26;Portugal;Right-Handed;89;182;76;0
+Guillermo Garcia-Lopez;33;Spain;Right-Handed;90;185;80;5
+Victor Estrella Burgos;36;Dominican Republic;Right-Handed;91;170;77;3
+Hyeon Chung;20;South Korea;Right-Handed;92;185;83;0
+Janko Tipsarevic;32;Serbia;Right-Handed;93;175;80;4
+Aljaz Bedene;27;Great Britain;Right-Handed;94;182;72;0
+Jared Donaldson;20;USA;Right-Handed;95;187;75;0
+Adam Pavlasek;22;Czech Republic;Right-Handed;96;185;76;0
+Yuichi Sugita;28;Japan;Right-Handed;97;185;80;0
+Renzo Olivo;25;Argentina;Right-Handed;98;180;72;0
+Radek Stepanek;38;Chech Republic;Right-Handed;99;185;75;5
+Taro Daniel;24;Japan;Right-Handed;100;190;76;0

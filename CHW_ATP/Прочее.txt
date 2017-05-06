@@ -1,0 +1,144 @@
+SaveInFile
+{
+
+            try
+            {
+                
+                if (FileNameUP.Length!=0)
+                {
+                    File.Delete(FileNameUP);
+                }
+                
+                using (StreamWriter wrPlayer = new StreamWriter(FileNameUP, true))
+                {
+                    for (int i = 0; i < PlayersInfo.Count; i++)
+                    {
+                        wrPlayer.Write(PlayersInfo[i].Info);
+                    }
+
+                                          
+                }
+                if (PlayersInfo.Count == 0)
+                {
+                    MessageBox.Show("Ошибка при сохранении файла!");
+                }
+                else { MessageBox.Show("Файл успешно сохранен"); }
+                
+                
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ошибка при сохранении файла!");
+            }
+
+
+
+
+
+        }
+
+SaveTournaments
+{
+try
+            {
+                const string FileNameUT = "../../updTournaments.txt";
+                if (FileNameUT.Length != 0)
+                {
+                    File.Delete(FileNameUT);
+                }
+
+                using (StreamWriter wrPlayer = new StreamWriter(FileNameUT, true))
+                {
+                    for (int i = 0; i < TournamentsInfo.Count; i++)
+                    {
+                        wrPlayer.Write(TournamentsInfo[i].InfoTournaments);
+                    }
+
+
+                }
+                if (TournamentsInfo.Count == 0)
+                {
+                    MessageBox.Show("Ошибка при сохранении файла!");
+                }
+                else { MessageBox.Show("Файл успешно сохранен"); }
+
+
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка при сохранении файла!");
+            }
+
+}
+
+SHOW PLAYERS
+{
+            gridPlayers.ItemsSource = null;
+            gridPlayers.Columns.Clear();
+            PlayersInfo.Clear();
+            CoachesInfo.Clear();
+            string[] coachesMass = File.ReadAllLines(FileNameC, Encoding.GetEncoding(1251));
+            for (int i = 0; i < coachesMass.Length; i++)
+            {
+                string[] CoachesMass1 = coachesMass[i].Split(new char[] { ';' });
+                Coaches exampleC = new Coaches(CoachesMass1[0],CoachesMass1[1]);
+                CoachesInfo.Add(exampleC);
+
+
+            }
+            
+            string[] playersMass = File.ReadAllLines(FileNameP, Encoding.GetEncoding(1251));
+            for (int i = 0; i < playersMass.Length; i++)
+            {
+                string[] PlayersMass1 = playersMass[i].Split(new char[] { ';' });
+                Players exampleP = new Players(PlayersMass1[0], int.Parse(PlayersMass1[1]), PlayersMass1[2], PlayersMass1[3], int.Parse(PlayersMass1[4]), int.Parse(PlayersMass1[5]), int.Parse(PlayersMass1[6]), int.Parse(PlayersMass1[7]));
+                PlayersInfo.Add(exampleP);
+
+
+            }
+           
+            gridPlayers.ItemsSource = PlayersInfo;
+        }
+Log in
+ List<User> User = new List<User>();
+        private string CalculateHash(string password) {
+            MD5 md5 = MD5.Create();
+            var hash = md5.ComputeHash(Encoding.ASCII.GetBytes(password));
+            return Convert.ToBase64String(hash);
+        }
+
+        private void buttonLogin_Click(object sender, RoutedEventArgs e) {
+
+            // Хэш зарегистрированного пользователя должен браться из хранилища
+            // данных программы
+           
+
+            for (int i = 0; i < User.Count; i++)
+            {
+                if (textBoxLogin.Text == User[i].Name)
+                { var hash = CalculateHash(User[i].Password);
+                    if(CalculateHash(passwordBox.Password) == hash)
+                    {
+                        NavigationService.Navigate(Pages.MainPage);
+                    }
+                }
+                
+                    
+                else
+                    MessageBox.Show("Incorrect login/password");
+            }
+        }
+
+Coaches
+gridPlayers.ItemsSource = null;
+                gridPlayers.Columns.Clear();
+                PlayersInfo.Clear();
+                CoachesInfo.Clear();
+                string[] coachesMass = File.ReadAllLines(FileNameC, Encoding.GetEncoding(1251));
+                for (int i = 0; i < coachesMass.Length; i++)
+                {
+                    string[] CoachesMass1 = coachesMass[i].Split(new char[] { ';' });
+                    Coaches exampleC = new Coaches(CoachesMass1[0]);
+                    CoachesInfo.Add(exampleC);
+

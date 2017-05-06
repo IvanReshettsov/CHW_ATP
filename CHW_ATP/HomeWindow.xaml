@@ -15,6 +15,10 @@
         <DataGrid x:Name="gridPlayers" HorizontalAlignment="Left" Margin="50,50,50,60" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="800" Width="525" SelectionChanged="gridPlayers_SelectionChanged"/>
         <Button x:Name="buttonRemove" Grid.ColumnSpan="2" Content="Remove" HorizontalAlignment="Left" Margin="50,21,0,0" VerticalAlignment="Top" Width="75" Click="buttonRemove_Click"/>
         <Button x:Name="buttonAdd" Content="Add" HorizontalAlignment="Left" Margin="88.2,21,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="buttonAdd_Click"/>
+        <Button x:Name="buttonSerialize" Content="Serialize" HorizontalAlignment="Left" Margin="20,229,0,0" VerticalAlignment="Top" Width="75" Click="buttonSaveInFile_Click"/>
+        <RadioButton x:Name="radioButton_Serialize" Content="Serialize" HorizontalAlignment="Left" Margin="10,183,0,0" VerticalAlignment="Top" Checked="radioButton_Serialize_Checked"/>
+        <RadioButton x:Name="radioButton_Deserialize" Content="Deserialize" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" Checked="radioButton_Deserialize_Checked"/>
+        <Label x:Name="label_edit" Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

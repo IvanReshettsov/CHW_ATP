@@ -7,12 +7,7 @@
         mc:Ignorable="d"
         Title="RegisterWindow" Height="300" Width="300">
     <Grid>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="90,147,0,0" VerticalAlignment="Top" Width="98"/>
-        <TextBox x:Name="textBox_Login" HorizontalAlignment="Left" Height="23" Margin="90,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="label_Login" Content="Login" HorizontalAlignment="Left" Margin="23,103,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label_Password" Content="Password" HorizontalAlignment="Left" Margin="23,139,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label_Name" Content="Authorization" HorizontalAlignment="Left" Margin="106,56,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button_register" Content="Authorize" HorizontalAlignment="Left" Margin="106,195,0,0" VerticalAlignment="Top" Width="75"/>
-
+        <Frame Name="frameMain" NavigationUIVisibility="Hidden"/>
+        
     </Grid>
 </Window>

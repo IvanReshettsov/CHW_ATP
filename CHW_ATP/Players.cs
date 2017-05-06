@@ -42,6 +42,15 @@ namespace CHW_ATP
             set { _rating = value; }
         }
 
+        private Coaches _coach;
+
+        public Coaches Coaches
+        {
+            get { return _coach; }
+            set { _coach = value; }
+        }
+
+
         private int _height;
 
         public int Height
@@ -74,7 +83,10 @@ namespace CHW_ATP
             set { _titles = value; }
         }
 
-       
+       public Players()
+        {
+
+        }
 
         public Players(string name, int age, string nationality, string strongHand, int rating, int height, int weight, int titles)
         {
@@ -86,14 +98,15 @@ namespace CHW_ATP
             _height = height;
             _weight = weight;
             _titles = titles;
-          
+            
+
         }
 
         public string Info
         {
             get
             {
-                return $"{_name} ; {Age}; {_nationality}; {_strongHand}; №{_rating}; {_height} cm; {_weight} kg; {_titles} titles $";
+                return $"{_name} ; {Age}; {_nationality}; {_strongHand}; №{_rating}; Coach:{_coach}; {_height} cm; {_weight} kg; {_titles} titles\n ";
             }
         }
     }

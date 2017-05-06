@@ -10,24 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CHW_ATP
 {
     /// <summary>
-    /// Interaction logic for RegisterWindow.xaml
+    /// Interaction logic for CurrentPage.xaml
     /// </summary>
-    public partial class RegisterWindow : Window
+    public partial class CurrentPage : Page
     {
-        
-        public RegisterWindow()
+        public CurrentPage()
         {
             InitializeComponent();
-            frameMain.Navigate(new LoginPage());
-            
         }
 
         
-
     }
 }

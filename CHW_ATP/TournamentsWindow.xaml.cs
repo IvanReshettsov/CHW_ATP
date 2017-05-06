@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml.Serialization;
 
 namespace CHW_ATP
 {
@@ -20,7 +21,9 @@ namespace CHW_ATP
     /// </summary>
     public partial class TournamentsWindow : Window
     {
-        const string FileNameT = "tournaments.txt";
+        const string FileNameT = "../../tournaments.txt";
+        const string FileNameUT = "../../updTournaments.txt";
+        
         List<Tournaments> TournamentsInfo = new List<Tournaments>();
         public TournamentsWindow()
         {
@@ -45,6 +48,8 @@ namespace CHW_ATP
             }
             
             gridTournaments.ItemsSource = TournamentsInfo;
+            if(label_edit.Content.ToString()=="Edit mode")
+            button_Remove.IsEnabled = true;
 
         }
 
@@ -58,6 +63,12 @@ namespace CHW_ATP
 
         private void button_Remove_Click(object sender, RoutedEventArgs e)
         {
+            if (gridTournaments.ItemsSource == null)
+            {
+                MessageBox.Show("List of tournaments is empty! \nTry to load information from the file firstly.", "Error");
+                button_Remove.IsEnabled = false;
+            }
+            // анимация кнопки show
             Tournaments selected_tournament = gridTournaments.SelectedItem as Tournaments;
             for (int i = TournamentsInfo.Count - 1; i >= 0; i--)
             {
@@ -75,6 +86,52 @@ namespace CHW_ATP
                 TournamentsInfo.Add(addTournament.AddedTournament);
             }
             gridTournaments.ItemsSource =TournamentsInfo;
+        }
+
+        private void buttonSaveTournaments_Click(object sender, RoutedEventArgs e)
+        {
+            if (TournamentsInfo.Count == 0)
+                MessageBox.Show("List of tournaments is empty! \nTry to load information from the file firstly.", "Error");
+            //придумать анимацию с выделением/миганием кнопки "Show"
+            else
+            if ((radioButton_Serialize.IsChecked == true) && (radioButton_Deserialize.IsChecked == false))
+            {
+                InfoSerializing serializeTournaments = new InfoSerializing();
+                serializeTournaments.Tournaments = TournamentsInfo;
+
+                using (var fs = new FileStream("tournaments.xml", FileMode.Create))
+                {
+                    XmlSerializer xmlTournaments = new XmlSerializer(typeof(InfoSerializing));
+                    xmlTournaments.Serialize(fs, serializeTournaments);
+                    MessageBox.Show("List is serialized", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            else if ((radioButton_Serialize.IsChecked == false) && (radioButton_Deserialize.IsChecked == true))
+            {
+                InfoSerializing deserializeTournaments;
+                using (var fs = new FileStream("tournaments.xml", FileMode.Open))
+                {
+                    XmlSerializer xmlTournaments = new XmlSerializer(typeof(InfoSerializing));
+                    deserializeTournaments = (InfoSerializing)xmlTournaments.Deserialize(fs);
+                    MessageBox.Show("List is deserialized", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+
+            }
+
+            else
+            {
+                MessageBox.Show("Choose any option", "Error!");
+            }
+        }
+
+        private void radioButton_Serialize_Checked(object sender, RoutedEventArgs e)
+        {
+            buttonSerializeTournaments.Content = "Serialize";
+        }
+
+        private void radioButton_Deserialize_Checked(object sender, RoutedEventArgs e)
+        {
+            buttonSerializeTournaments.Content = "Deserialize";
         }
     }
 }

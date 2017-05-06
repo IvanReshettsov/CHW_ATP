@@ -93,7 +93,7 @@ namespace CHW_ATP
 
             _addedPlayer = new Players(textBoxNameP.Text, int.Parse(textBoxAge.Text), textBoxNationality.Text, comboBoxStrongHand.Text, int.Parse(textBoxRank.Text), int.Parse(textBoxHeight.Text), int.Parse(textBoxWeight.Text), int.Parse(textBoxTitles.Text));
             DialogResult = true;
-            }
+        }
         }
         
     }

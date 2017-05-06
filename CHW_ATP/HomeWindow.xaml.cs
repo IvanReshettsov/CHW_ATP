@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.IO;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using System.Xml.Serialization;
 
 namespace CHW_ATP
 {
@@ -21,16 +21,21 @@ namespace CHW_ATP
     /// </summary>
     public partial class HomeWindow : Window
     {
-        const string FileNameP = "players.txt";
-        List<Players> PlayersInfo = new List<Players>();
         
+        const string FileNameP = "../../players.txt";
+        const string FileNameUP = "../../updPlayers.txt";
+        const string FileNameC = "../../coaches.txt";
+
+        List<Players> PlayersInfo = new List<Players>();
+        List<Coaches> CoachesInfo = new List<Coaches>();
         
         public HomeWindow()
         {
             InitializeComponent();
+            
 
         }
-
+        
 
         private void RefreshGrid()
         {
@@ -44,19 +49,23 @@ namespace CHW_ATP
         private void button_Click(object sender, RoutedEventArgs e)
         
         {
-            gridPlayers.ItemsSource = null;
-            gridPlayers.Columns.Clear();
-            PlayersInfo.Clear();
-            string[] playersMass = File.ReadAllLines(FileNameP, Encoding.GetEncoding(1251));
-            for (int i = 0; i < playersMass.Length; i++)
             {
-                string[] PlayersMass1 = playersMass[i].Split(new char[] { ';' });
-                Players exampleP = new Players(PlayersMass1[0], int.Parse(PlayersMass1[1]), PlayersMass1[2], PlayersMass1[3], int.Parse(PlayersMass1[4]), int.Parse(PlayersMass1[5]), int.Parse(PlayersMass1[6]), int.Parse(PlayersMass1[7]));
-                PlayersInfo.Add(exampleP);
+               
+
+                string[] playersMass = File.ReadAllLines(FileNameP, Encoding.GetEncoding(1251));
+                for (int i = 0; i < playersMass.Length; i++)
+                {
+                    string[] PlayersMass1 = playersMass[i].Split(new char[] { ';' });
+                    Players exampleP = new Players(PlayersMass1[0], int.Parse(PlayersMass1[1]), PlayersMass1[2], PlayersMass1[3], int.Parse(PlayersMass1[4]), int.Parse(PlayersMass1[5]), int.Parse(PlayersMass1[6]), int.Parse(PlayersMass1[7]));
+                    PlayersInfo.Add(exampleP);
 
 
+                }
+
+                gridPlayers.ItemsSource = PlayersInfo;
+                if (label_edit.Content.ToString() == "Edit mode")
+                    buttonRemove.IsEnabled = true;
             }
-            gridPlayers.ItemsSource = PlayersInfo;
         }
        
 
@@ -71,6 +80,15 @@ namespace CHW_ATP
 
         private void buttonRemove_Click(object sender, RoutedEventArgs e)
         {
+            if (gridPlayers.ItemsSource == null)
+            {
+                MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error");
+                    buttonRemove.IsEnabled = false;
+            }
+            if (gridPlayers.SelectedItem==null)
+            {
+                MessageBox.Show("Choose a player that you want to remove", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
             Players selected_player = gridPlayers.SelectedItem as Players;
             for (int i = PlayersInfo.Count - 1; i >= 0; i--)
             {
@@ -79,7 +97,8 @@ namespace CHW_ATP
             }
             gridPlayers.ItemsSource = PlayersInfo;
             
-            
+
+
 
 
         }
@@ -93,6 +112,55 @@ namespace CHW_ATP
             }
             gridPlayers.ItemsSource = PlayersInfo;
         }
+
+        private void buttonSaveInFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (PlayersInfo.Count == 0)
+                MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error");
+            //придумать анимацию с выделением/миганием кнопки "Show"
+            else
+            if ((radioButton_Serialize.IsChecked == true)&&(radioButton_Deserialize.IsChecked==false))
+            {
+                
+                InfoSerializing serializePlayers = new InfoSerializing();
+                serializePlayers.Players = PlayersInfo;
+
+                using (var fs = new FileStream("players.xml", FileMode.Create))
+                {
+                    XmlSerializer xmlPlayers = new XmlSerializer(typeof(InfoSerializing));
+                    xmlPlayers.Serialize(fs, serializePlayers);
+                    MessageBox.Show("List is serialized", "Information",MessageBoxButton.OK,MessageBoxImage.Information);
+                }
+            }
+            else if ((radioButton_Serialize.IsChecked == false) && (radioButton_Deserialize.IsChecked == true))
+            {
+                
+                InfoSerializing deserializePlayers;
+                using (var fs = new FileStream("players.xml", FileMode.Open))
+                {
+                    XmlSerializer xmlPlayers = new XmlSerializer(typeof(InfoSerializing));
+                    deserializePlayers = (InfoSerializing)xmlPlayers.Deserialize(fs);
+                    MessageBox.Show("List is deserialized", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+
+            }
+            
+            else
+          
+            {
+                MessageBox.Show("Choose any option", "Error!");
+            }
+        }
+
+        private void radioButton_Deserialize_Checked(object sender, RoutedEventArgs e)
+        {
+            buttonSerialize.Content = "Deserialize";
+        }
+
+        private void radioButton_Serialize_Checked(object sender, RoutedEventArgs e)
+        {
+            buttonSerialize.Content = "Serialize";
+        }
     }
     }
 
@@ -105,8 +173,4 @@ namespace CHW_ATP
 
 
 
-//if (gridPlayers.SelectedIndex != -1)
-//{
-//   gridPlayers.Items.RemoveAt(gridPlayers.SelectedIndex);
-//    RefreshGrid();
-//}
+

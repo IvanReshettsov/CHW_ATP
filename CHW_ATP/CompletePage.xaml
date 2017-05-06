@@ -1,0 +1,18 @@
+﻿<Page x:Class="CHW_ATP.CompletePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CHW_ATP"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="CompletePage">
+
+    <Grid>
+        <Label Content="You are logged in the system!" FontSize="20" HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
+        <Button x:Name="button_COMPLETE" Content="Start working" HorizontalAlignment="Center" VerticalAlignment="Center" Width="84" Margin="108,182,108,98" Click="button_COMPLETE_Click"/>
+        <Label x:Name="label" Content="Close the window after clicking " HorizontalAlignment="Center" Margin="29,214,0,0" VerticalAlignment="Center" Width="271" Height="37" FontSize="16"/>
+        <Label x:Name="label1" Content=" this button" HorizontalAlignment="Center" Margin="99,259,86,10" VerticalAlignment="Center" FontSize="16" Width="115"/>
+    </Grid>
+</Page>

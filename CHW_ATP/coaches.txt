@@ -1,0 +1,108 @@
+Joakim Nystrom;Sweden
+Dirk Hordorff;Germany
+Thierry Ascione;France
+Galo Blanco;Spain
+Michael Chang;USA
+Craig Boynton;USA
+Alberto Castellani;Italy
+Jose Manuel Clavet;Spain
+Franco Davin;Argentina
+Jan De Witt;Germany
+Jamie Delgado;Great Britain
+Jean Demeroutis;Belgium
+Diego Dinomo;Argentina
+Stephan Fehske;Germany
+Neville Godwin;South Africa
+Mark Hilton;Great Britain
+Goran Ivanisevic;Croatia
+Ronan Lafaix;France
+Alexandre Lisiecki;France
+Ivan Ljubicic;Croatia
+Samuel Lopez;Spain
+Alberto Mancini;Argentina
+Felix Mantilla;Spain
+Frederico Marques;Portugal
+Mariano Monachesi;Argentina
+Toni Nadal;Spain
+Magnus Norman;Sweden
+Jose Perlas;Spain
+Emmanuel Planque;France
+Petar Popovic;Serbia
+Sebastian Prieto;Argentina
+Davide Sanguinetti;Italy
+Andres Schneiter;Argentina
+Liam Smith;USA
+Boris Sobkin;Russia
+Mitsuru Takada;Japan
+Gustavo Tavernini;Argentina
+Danai Udomchoke;Thailand
+Marian Vajda;Slovakia
+Daniel Vallverdu;Venezuela
+Thierry Van Cleemput;Belgium
+Riccardo Piatti;Italy
+Jonas Bjorkman;Sweden
+Gunter Bresnik;Austria
+Troy Hahn;USA
+Mikael Tillstrom;Sweden
+Lleyton Hewitt;Australia
+Jose Maria Diaz;Spain
+Tomas Carbonell;Spain
+Alexander Zverev Sr;Germany
+Thierry Champion;France
+Rene Moller;New Zealand
+Francisco Fogues;Spain
+Emilio Sanchez;Spain
+Claudio Galoppini;Italy
+Jack Reader;USA
+John Tomic;Australia
+Ryan Jones;Great Britain
+Gabriel Urpi;Spain
+Martin Hromec;Slovakia
+Tobias Summerer;Germany
+Carsten Arriens;Germany
+Erwann Tortuyaux;France
+Juan Ignacio Chela;Argentina
+Donald Young Sr;USA
+Nick Cavaday;Great Britain
+Jaroslav Machovsky;Czech Republic
+Joao Zwetch;Brazil
+Ivica Ancic;Croatia
+Juan Spina;Argentina
+Goran Marijan;Croatia
+Christophe Freyss;France
+Jean-Rene Lisnard;France
+Francisco Yunis;Spain
+ALejandro Lombardo;Argentina
+Manuel Antuna;Colombia
+Jonas Bjorkman;Sweden
+Gunter Bresnik;Austria
+Troy Hahn;USA
+Mikael Tillstrom;Sweden
+Lleyton Hewitt;Australia
+Jose Maria Diaz;Spain
+Tomas Carbonell;Spain
+Alexander Zverev Sr;Germany
+Thierry Champion;France
+Rene Moller;New Zealand
+Francisco Fogues;Spain
+Emilio Sanchez;Spain
+Claudio Galoppini;Italy
+Jack Reader;USA
+John Tomic;Australia
+Ryan Jones;Great Britain
+Sebastian Prieto;Argentina
+Davide Sanguinetti;Italy
+Andres Schneiter;Argentina
+Liam Smith;USA
+Boris Sobkin;Russia
+Mitsuru Takada;Japan
+Gustavo Tavernini;Argentina
+Danai Udomchoke;Thailand
+Marian Vajda;Slovakia
+Daniel Vallverdu;Venezuela
+Thierry Van Cleemput;Belgium
+Riccardo Piatti;Italy
+Alberto Castellani;Italy
+Jose Manuel Clavet;Spain
+Franco Davin;Argentina
+Jan De Witt;Germany

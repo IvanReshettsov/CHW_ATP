@@ -1,0 +1,72 @@
+﻿01 JAN - 08 JAN;Brisbane International presented by Suncorp;Brisbane;Australia;Outdoor Hard;250;$495,630
+02 JAN - 08 JAN;Qatar ExxonMobil Open;Doha;Qatar;Outdoor Hard;250;$1,334,270
+02 JAN - 08 JAN;Aircel Chennai Open;Chennai;India;Outdoor Hard;250;$505,730
+08 JAN - 14 JAN;Apia International Sydney;Sydney;Australia;Outdoor Hard;250;$495,630
+09 JAN - 14 JAN;ASB Classic;Auckland;New Zealand;Outdoor Hard;250;$508,360
+16 JAN - 29 JAN;Australian Open;Melbourne;Australia;Outdoor Hard;2000;A$22,624,000
+03 FEB - 05 FEB;Davis Cup First Round;Multiple Locations;Multiple Locations;Multiple Choice;0;Not Announced 
+06 FEB - 12 FEB;Ecuador Open;Quito;Ecuador;Outdoor Clay;250;$540,310
+06 FEB - 12 FEB;Garanti Koza Sofia Open;Sofia;Bulgaria;Indoor Hard;250;€540,310
+06 FEB - 12 FEB;Open Sud de France;Montpellier;France;Indoor Hard;250;€540,310
+13 FEB - 19 FEB;ABN Amro World Tennis Tournament;Rotterdam;Netherlands;Indoor Hard;500;€1,854,365
+13 FEB - 19 FEB;Memphis Open;Memphis;USA;Indoor Hard;250;$720,410
+13 FEB - 19 FEB;Argentina Open;Buenos Aires;Argentina;Outdoor Clay;250;$624,340
+20 FEB - 26 FEB;Rio Open presented by Claro;Rio de Janeiro;Brazil;Outdoor Clay;500;$1,603,940
+20 FEB - 26 FEB;Open 13 Marseille;Marseille;France;Indoor Hard;250;€691,850
+20 FEB - 26 FEB;Delray Beach Open;Delray Beach;USA;Outdoor Hard;250;$599,345
+27 FEB - 04 MAR;Dubai Duty Free Tennis Championships;Dubai;UAE;Outdoor Hard;500;$2,858,530
+27 FEB - 04 MAR;Abierto Mexicano Telcel;Acapulco;Mexico;Outdoor Hard;500;$1,633,690
+27 FEB - 04 MAR;Brasil Open;Sao Paulo;Brazil;Outdoor Clay;250;$520,285
+09 MAR - 19 MAR;BNP Paribas Open;Indian Wells;USA;Outdoor Hard;1000;$7,913,405
+22 MAR - 04 APR;Miami Open presented by Itaú;Miami;USA;Outdoor Hard;1000;$7,913,405
+07 APR - 09 APR;Davis Cup Quarter-Finals;Multiple Locations;Multiple Locations;Multiple Choice;0;Not Announced 
+10 APR - 16 APR;Fayez Sarofim & Co. US Men’s Clay Court Championship;Houston;USA;Outdoor Clay;250;$600,345
+10 APR - 16 APR;Grand Prix Hassan II;Marrakech;Morocco;Outdoor Clay;250;€540,310
+16 APR - 23 APR;Monte-Carlo Rolex Masters;Monte Carlo;Monaco;Outdoor Clay;1000;€4,629,725
+24 APR - 30 APR;Barcelona Open Banco Sabadell;Barcelona;Spain;Outdoor Clay;500;€2,604,340
+24 APR - 30 APR;Hungarian Open;Budapest;Hungary;Outdoor Clay;250;€540,310
+01 MAY - 07 MAY;BMW Open by FWU;Munich;Germany;Outdoor Clay;250;€540,310
+01 MAY - 07 MAY;Millennium Estoril Open;Estoril;Portugal;Outdoor Clay;250;€540,310
+01 MAY - 07 MAY;TEB BNP Paribas Istanbul Open;Istanbul;Turkey;Outdoor Clay;250;€497,255
+07 MAY - 14 MAY;Mutua Madrid Open;Madrid;Spain;Outdoor Clay;1000;€6,408,230
+14 MAY - 21 MAY;Internazionali BNL d’Italia;Rome;Italy;Outdoor Clay;1000;€4,835,975
+21 MAY - 27 MAY;Banque Eric Sturdza Geneva Open;Geneva;Switzerland;Outdoor Clay;250;€540,310
+21 MAY - 27 MAY;Open Parc Auvergne-Rhône-Alpes Lyon;Lyon;France;Outdoor Clay;250;€540,310
+28 MAY - 11 JUN;Roland Garros;Paris;France;Outdoor Clay;2000;€14,880,000
+12 JUN - 18 JUN;MercedesCup;Stuttgart;Germany;Outdoor Grass;250;€701,975
+12 JUN - 18 JUN;Ricoh Open;s-Hertogenbosch;Netherlands;Outdoor Grass;250;€660,375
+19 JUN - 25 JUN;Aegon Championships;London;Great Britain;Outdoor Grass;500;€1,966,095
+19 JUN - 25 JUN;Gerry Weber Open;Halle;Germany;Outdoor Grass;500;€1,966,095
+25 JUN - 01 JUL;Aegon International;Eastbourne;Great Britain;Outdoor Grass;250;€693,910
+25 JUN - 01 JUL;Antalya Open;Antalya;Turkey;Outdoor Grass;250;$497,255
+03 JUL - 16 JUL;Wimbledon;London;Great Britain;Outdoor Grass;2000;£10,856,000
+17 JUL - 23 JUL;Dell Technologies Hall of Fame Open;Newport;USA;Outdoor Grass;250;$600,345
+17 JUL - 23 JUL;Konzum Croatia Open Umag;Umag;Croatia;Outdoor Clay;250;€540,310
+17 JUL - 23 JUL;SkiStar Swedish Open;Bastad;Sweden;Outdoor Clay;250;€540,310
+24 JUL - 30 JUL;German Tennis Championships;Hamburg;Germany;Outdoor Clay;500;€1,629,375
+24 JUL - 30 JUL;J. Safra Sarasin Swiss Open Gstaad;Gstaad;Switzerland;Outdoor Clay;250;€540,310
+24 JUL - 30 JUL;BB&T Atlanta Open;Atlanta;USA;Outdoor Hard;250;$720,410
+31 JUL - 06 AUG;Citi Open;Washington;USA;Outdoor Hard;500;$2,002,460
+31 JUL - 06 AUG;Abierto Mexicano de Tenis Mifel presentado por Cinemex;Los Cabos;Mexico;Outdoor Hard;250;$727,995
+31 JUL - 06 AUG;Generali Open;Kitzbuhel;Austria;Outdoor Clay;250;€540,310
+07 AUG - 13 AUG;Coupe Rogers;Montreal;Canada;Outdoor Hard;1000;$5,275,595
+13 AUG - 20 AUG;Western & Southern Open;Cincinnati;USA;Outdoor Hard;1000;$5,627,305
+20 AUG - 26 AUG;Winston-Salem Open;Winston-Salem;USA;Outdoor Hard;250;$748,960
+28 AUG - 10 SEP;US Open;New York;USA;Outdoor Hard;2000;$36,324,000
+15 SEP - 17 SEP;Davis Cup Semi-Finals;Multiple Locations;Multiple Locations;Multiple Choice;0;Not Announced
+18 SEP - 24 SEP;Moselle Open;Metz;France;Indoor Hard;250;€540,310
+18 SEP - 24 SEP;St. Petersburg Open;St. Petersburg;Russia;Indoor Hard;250;$1,025,205
+25 SEP - 01 OCT;Chengdu Open;Chengdu;China;Outdoor Hard;250;$1,138,910
+25 SEP - 01 OCT;Shenzhen Open;Shenzhen;China;Outdoor Hard;250;$731,680
+02 OCT - 10 OCT;China Open;Beijing;China;Outdoor Hard;500;$4,280,460
+02 OCT - 10 OCT;Rakuten Japan Open Tennis Championships;Tokyo;Japan;Outdoor Hard;500;$1,706,175
+08 OCT - 15 OCT;Shanghai Rolex Masters;Shanghai;China;Outdoor Hard;1000;$8,092,625
+16 OCT - 22 OCT;VTB Kremlin Cup;Moscow;Russia;Indoor Hard;250;$823,600
+16 OCT - 22 OCT;If Stockholm Open;Stockholm;Sweden;Indoor Hard;250;€660,375
+16 OCT - 22 OCT;European Open;Antwerp;Belgium;Indoor Hard;250;€660,375
+23 OCT - 29 OCT;Erste Bank Open 500;Vienna;Austria;Indoor Hard;500;€2,621,850
+23 OCT - 29 OCT;Swiss Indoors Basel;Basel;Switzerland;Indoor Hard;500;€2,291,860
+30 OCT - 05 NOV;Paris Masters;Paris;France;Indoor Hard;1000;€4,835,975
+07 NOV - 11 NOV;Next Gen ATP Finals;Milan;Italy;Indoor Hard;0;Not Announced;
+12 NOV - 19 NOV;ATP Finals;London;Great Britain;Indoor Hard;1000;$7,500,000
+24 NOV - 26 NOV;Davis Cup Final;Multiple Locations;Multiple Locations;Multiple Choice;0;Not Announced
