@@ -96,13 +96,19 @@ namespace CHW_ATP
             }
             
         }
+        //private void Page_PreviewKeyDown(object sender, KeyEventArgs e)
+        //{
+        //    // Using keyboard handling on the page level
+        //    if (e.Key == Key.Enter)
+        //        button_register_Click(null, null);
+        //}
 
-    
-
-        
 
 
-        
+
+
+
+
     }
 }
 

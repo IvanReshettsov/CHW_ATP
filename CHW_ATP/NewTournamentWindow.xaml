@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CHW_ATP"
         mc:Ignorable="d"
-        Title="NewTournamentWindow" Height="300" Width="300">
+        Title="NewTournamentWindow" Height="500" Width="500">
     <Grid Margin="0,0,-0.4,-62.6">
-        <TextBox x:Name="textBox_Name" HorizontalAlignment="Left" Height="23" Margin="117,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_Country" HorizontalAlignment="Left" Height="23" Margin="117,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_City" HorizontalAlignment="Left" Height="23" Margin="117,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="comboBox_DateMonth2" HorizontalAlignment="Left" Margin="187,57,0,0" VerticalAlignment="Top" Width="67">
+        <TextBox x:Name="textBox_Name" Height="23" Margin="194,92,24.4,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Country" Height="23" Margin="194,120,24.4,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_City"  Height="23" Margin="194,148,24.4,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox_DateMonth2" Margin="301,57,24.4,0" VerticalAlignment="Top" Width="67">
             <TextBlock>JAN</TextBlock>
             <TextBlock>FEB</TextBlock>
             <TextBlock>MAR</TextBlock>
@@ -24,7 +24,7 @@
             <TextBlock>NOV</TextBlock>
             <TextBlock>DEC</TextBlock>
         </ComboBox>
-        <ComboBox x:Name="comboBox_DateDay2" HorizontalAlignment="Left" Margin="117,57,0,0" VerticalAlignment="Top" Width="36">
+        <ComboBox x:Name="comboBox_DateDay2" Margin="194,57,146.4,0" VerticalAlignment="Top" Width="52">
             <TextBlock>1</TextBlock>
             <TextBlock>2</TextBlock>
             <TextBlock>3</TextBlock>
@@ -57,25 +57,25 @@
             <TextBlock>30</TextBlock>
             <TextBlock>31</TextBlock>
         </ComboBox>
-        <ComboBox x:Name="comboBox_Category" HorizontalAlignment="Left" Margin="117,208,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="comboBox_Category" Margin="194,208,24.4,0" VerticalAlignment="Top">
             <TextBlock>0</TextBlock>
             <TextBlock>250</TextBlock>
             <TextBlock>500</TextBlock>
             <TextBlock>1000</TextBlock>
             <TextBlock>2000</TextBlock>
         </ComboBox>
-        <TextBox x:Name="textBox_PrizeMoney" HorizontalAlignment="Left" Height="23" Margin="117,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="comboBox_PrizeMoney" Margin="247,242,10,0" VerticalAlignment="Top">
+        <TextBox x:Name="textBox_PrizeMoney" Height="23" Margin="194,242,135.4,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <ComboBox x:Name="comboBox_PrizeMoney" Margin="326,242,24.4,0" VerticalAlignment="Top" Width="41">
             <TextBlock>$</TextBlock>
             <TextBlock>A$</TextBlock>
             <TextBlock>€</TextBlock>
             <TextBlock>£</TextBlock>
         </ComboBox>
-        <ComboBox x:Name="comboBox_Surface1" Margin="190,180,40,0" VerticalAlignment="Top">
+        <ComboBox x:Name="comboBox_Surface1" Margin="301,180,24.4,0" VerticalAlignment="Top" Width="66.6">
             <TextBlock>Clay</TextBlock>
             <TextBlock>Grass</TextBlock>
             <TextBlock>Hard</TextBlock>
-            <TextBlock>Multiple Choice </TextBlock>
+            <TextBlock>Multiple Choice</TextBlock>
         </ComboBox>
         <Label x:Name="label_PrizeMoney" Content="Prize Money:" HorizontalAlignment="Left" Margin="27,239,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Surface" Content="Surface:" HorizontalAlignment="Left" Margin="30,180,0,0" VerticalAlignment="Top"/>
@@ -84,12 +84,12 @@
         <Label x:Name="label_City" Content="City:" HorizontalAlignment="Left" Margin="30,145,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_tName" Content="Name:" HorizontalAlignment="Left" Margin="30,92,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Date" Content="Date:" HorizontalAlignment="Left" Margin="33,35,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="comboBox_Surface" Margin="117,180,115,0" VerticalAlignment="Top">
+        <ComboBox x:Name="comboBox_Surface" Margin="194,180,110.4,0" VerticalAlignment="Top" Width="88">
             <TextBlock>Indoor</TextBlock>
             <TextBlock>Outdoor</TextBlock>
         </ComboBox>
-        <Label x:Name="label_Date1" Content="From:" HorizontalAlignment="Left" Margin="75,15,0,0" VerticalAlignment="Top" Width="40"/>
-        <ComboBox x:Name="comboBox_DateDay_1" HorizontalAlignment="Left" Margin="117,15,0,0" VerticalAlignment="Top" Width="36">
+        <Label x:Name="label_Date1" Content="From:" HorizontalAlignment="Left" Margin="83,15,0,0" VerticalAlignment="Top" Width="40"/>
+        <ComboBox x:Name="comboBox_DateDay_1" Margin="194,19,146.4,0" VerticalAlignment="Top" Width="52">
             <TextBlock>1</TextBlock>
             <TextBlock>2</TextBlock>
             <TextBlock>3</TextBlock>
@@ -122,7 +122,7 @@
             <TextBlock>30</TextBlock>
             <TextBlock>31</TextBlock>
         </ComboBox>
-        <ComboBox x:Name="comboBoxDateMonth_1" HorizontalAlignment="Left" Margin="187,18,0,0" VerticalAlignment="Top" Width="67">
+        <ComboBox x:Name="comboBoxDateMonth_1" Margin="301,19,24.4,0" VerticalAlignment="Top" Width="67">
             <TextBlock>JAN</TextBlock>
             <TextBlock>FEB</TextBlock>
             <TextBlock>MAR</TextBlock>
@@ -136,8 +136,8 @@
             <TextBlock>NOV</TextBlock>
             <TextBlock>DEC</TextBlock>
         </ComboBox>
-        <Label x:Name="label_Date2" Content="Till:" HorizontalAlignment="Left" Margin="75,53,0,0" VerticalAlignment="Top" Width="40"/>
-        <Button x:Name="button_AddNewTournament" Content="Add" HorizontalAlignment="Left" Margin="219,124,0,0" VerticalAlignment="Top" Width="75" Click="button_AddNewTournament_Click"/>
+        <Label x:Name="label_Date2" Content="Till:" HorizontalAlignment="Left" Margin="83,61,0,0" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="button_AddNewTournament" Content="Add"  Margin="187,287,130.4,0" VerticalAlignment="Top" Width="75" Click="button_AddNewTournament_Click"/>
 
     </Grid>
 </Window>

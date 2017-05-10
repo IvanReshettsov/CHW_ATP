@@ -9,10 +9,10 @@
       Title="CompletePage">
 
     <Grid>
-        <Label Content="You are logged in the system!" FontSize="20" HorizontalAlignment="Center"
+        <Label Content="You are logged in the system!" FontSize="20"  Margin="19,45,0,136" Width="271" Height="37"
                VerticalAlignment="Center"/>
-        <Button x:Name="button_COMPLETE" Content="Start working" HorizontalAlignment="Center" VerticalAlignment="Center" Width="84" Margin="108,182,108,98" Click="button_COMPLETE_Click"/>
-        <Label x:Name="label" Content="Close the window after clicking " HorizontalAlignment="Center" Margin="29,214,0,0" VerticalAlignment="Center" Width="271" Height="37" FontSize="16"/>
-        <Label x:Name="label1" Content=" this button" HorizontalAlignment="Center" Margin="99,259,86,10" VerticalAlignment="Center" FontSize="16" Width="115"/>
+        <Button x:Name="button_COMPLETE" Content="Start working" VerticalAlignment="Center" Width="84" Height="25" Margin="108,94,108,87" Click="button_COMPLETE_Click"/>
+        <Label x:Name="label" Content="Close the window after clicking "  Margin="29,140,0,0" VerticalAlignment="Center" Width="271" Height="37" FontSize="16"/>
+        <Label x:Name="label1" Content=" this button"  Margin="99,190,86,10" VerticalAlignment="Center" FontSize="16" Width="115"/>
     </Grid>
 </Page>

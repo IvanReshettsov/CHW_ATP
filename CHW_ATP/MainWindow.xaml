@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CHW_ATP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="675">
     <Grid>
-        <Button x:Name="buttonTOURNAMENTS" Content="Tournaments" HorizontalAlignment="Left" Margin="274,128,0,0" VerticalAlignment="Top" Width="75" Click="buttonTOURNAMENTS_Click_1"/>
-        <Button x:Name="buttonREGISTRATION" Content="Register" HorizontalAlignment="Left" Margin="314,58,0,0" VerticalAlignment="Top" Width="75" Click="buttonREGISTRATION_Click"/>
-        <Button x:Name="buttonLOGOUT" Content="Log Out" HorizontalAlignment="Left" Margin="218,58,0,0" VerticalAlignment="Top" Width="75" Click="buttonLOGOUT_Click" Visibility="Hidden"/>
-        <Button x:Name="buttonPLAYERS" Content="Players" HorizontalAlignment="Left" Margin="168,128,0,0" VerticalAlignment="Top" Width="75" Click="buttonPLAYERS_Click"/>
-        <Button x:Name="buttonAUTHORIZATION" Content="Log In" HorizontalAlignment="Left" Margin="133,58,0,0" VerticalAlignment="Top" Width="75" Click="buttonAUTHORIZATION_Click"/>
-        <Label x:Name="label_LOGGED" Content="You are logged in the system" HorizontalAlignment="Left" Margin="344,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonTOURNAMENTS" Content="Tournaments"  Margin="344,243,170,118" VerticalAlignment="Top" Click="buttonTOURNAMENTS_Click_1" Height="58" Width="103" />
+        <Button x:Name="buttonREGISTRATION" Content="Register"  Margin="405,136,88,0" VerticalAlignment="Top" Click="buttonREGISTRATION_Click" Height="65" Width="124"/>
+        <Button x:Name="buttonLOGOUT" Content="Log Out" Margin="247,136,246,0" VerticalAlignment="Top" Height="65" Click="buttonLOGOUT_Click" Width="124" Visibility="Hidden"/>
+        <Button x:Name="buttonPLAYERS" Content="Players"  Margin="166,243,348,118" VerticalAlignment="Top" Click="buttonPLAYERS_Click" Height="58" Width="103"/>
+        <Button x:Name="buttonAUTHORIZATION" Content="Log In"  Margin="81,136,412,0" VerticalAlignment="Top" Click="buttonAUTHORIZATION_Click" Height="65" Width="124"/>
+        <Label x:Name="label_LOGGED" Content="You are logged in the system" Margin="344,10,0,20" VerticalAlignment="Top" HorizontalAlignment="Right"/>
 
 
     </Grid>

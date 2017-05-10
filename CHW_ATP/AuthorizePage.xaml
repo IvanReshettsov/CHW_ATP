@@ -9,11 +9,13 @@
       Title="AuthorizePage">
 
     <Grid>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="90,147,0,0" VerticalAlignment="Top" Width="98"/>
-        <TextBox x:Name="textBox_Login" HorizontalAlignment="Left" Height="23" Margin="90,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="label_Login" Content="Login" HorizontalAlignment="Left" Margin="23,103,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label_Password" Content="Password" HorizontalAlignment="Left" Margin="23,139,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button_register" Content="Authorize" HorizontalAlignment="Left" Margin="32,195,0,0" VerticalAlignment="Top" Width="104" Click="button_register_Click"/>
+        <PasswordBox x:Name="passwordBox" Margin="120,55,10,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox x:Name="textBox_Login" Height="25" Margin="120,10,10,0" 
+                  VerticalAlignment="Top"/>
+        <Label x:Name="label_Login" Content="Login:" Margin="23,10,211,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Password" Content="Password:" Margin="20,55,198,0" VerticalAlignment="Top"/>
+        <Button x:Name="button_register" Content="Authorize" Margin="100,100,10,0" 
+                VerticalAlignment="Top" Width="120" Height="25" HorizontalAlignment="Center" Click="button_register_Click"/>
         
 
 

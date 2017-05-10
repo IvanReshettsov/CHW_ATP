@@ -85,7 +85,7 @@ namespace CHW_ATP
                 MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error");
                     buttonRemove.IsEnabled = false;
             }
-            if (gridPlayers.SelectedItem==null)
+            if ((gridPlayers.SelectedItem==null)&&(gridPlayers.ItemsSource!=null))
             {
                 MessageBox.Show("Choose a player that you want to remove", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }

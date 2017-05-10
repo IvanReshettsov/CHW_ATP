@@ -63,10 +63,16 @@ namespace CHW_ATP
 
         private void button_Remove_Click(object sender, RoutedEventArgs e)
         {
+
+            if ((gridTournaments.SelectedItem == null)&&(gridTournaments.ItemsSource!=null))
+            {
+                MessageBox.Show("Choose a player that you want to remove", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                
+               
+            }
             if (gridTournaments.ItemsSource == null)
             {
-                MessageBox.Show("List of tournaments is empty! \nTry to load information from the file firstly.", "Error");
-                button_Remove.IsEnabled = false;
+                MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error",MessageBoxButton.OK,MessageBoxImage.Error); ;
             }
             // анимация кнопки show
             Tournaments selected_tournament = gridTournaments.SelectedItem as Tournaments;
