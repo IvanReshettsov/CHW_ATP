@@ -21,7 +21,7 @@ namespace CHW_ATP
     /// </summary>
     public partial class HomeWindow : Window
     {
-        
+        int count=0;
         const string FileNameP = "../../players.txt";
         const string FileNameUP = "../../updPlayers.txt";
         const string FileNameC = "../../coaches.txt";
@@ -50,7 +50,9 @@ namespace CHW_ATP
         
         {
             {
-               
+                gridPlayers.ItemsSource = null;
+                gridPlayers.Columns.Clear();
+                PlayersInfo.Clear();
 
                 string[] playersMass = File.ReadAllLines(FileNameP, Encoding.GetEncoding(1251));
                 for (int i = 0; i < playersMass.Length; i++)
@@ -160,6 +162,59 @@ namespace CHW_ATP
         private void radioButton_Serialize_Checked(object sender, RoutedEventArgs e)
         {
             buttonSerialize.Content = "Serialize";
+        }
+
+       
+        private void buttonSearch_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (gridPlayers.ItemsSource == null)
+            {
+                MessageBox.Show("Grid is empty!\nLoad information from the file firstly.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            if (gridPlayers.ItemsSource == null)
+            {
+                MessageBox.Show("List of players is empty!\nLoad information from the file firstly.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            if (string.IsNullOrWhiteSpace(textBoxSearch.Text))
+            {
+                MessageBox.Show("Enter your player's name.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                textBoxSearch.Focus();
+            }
+            else
+            {
+                count = 0;
+                for (int i = 0; i < PlayersInfo.Count; i++)
+                {
+                    if (textBoxSearch.Text == PlayersInfo[i].Name)
+                    {
+                        gridPlayers.ScrollIntoView(PlayersInfo[i]);
+                        gridPlayers.SelectedItem = PlayersInfo[i];
+                        textBoxSearch.Clear();
+
+                    }
+                    else
+                        count++;
+
+                }
+            }
+            if ((count==PlayersInfo.Count)&&(count!=0)&&(!string.IsNullOrWhiteSpace(textBoxSearch.Text)))
+            {
+
+                MessageBox.Show("This player is not found in the list.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                textBoxSearch.Clear();
+                textBoxSearch.Focus();
+                
+                //придумать анимацию с выделением кнопки ADD
+            }
+            else if (label_edit.Content.ToString()=="Edit mode")
+            {
+                MessageBox.Show("This player is not found in the list\n\nYou can add him if you want", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                textBoxSearch.Clear();
+                textBoxSearch.Focus();
+                
+            }
         }
     }
     }

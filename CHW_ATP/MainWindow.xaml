@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CHW_ATP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="675">
+        Title="MainWindow" Height="640" Width="770">
     <Grid>
-        <Button x:Name="buttonTOURNAMENTS" Content="Tournaments"  Margin="344,243,170,118" VerticalAlignment="Top" Click="buttonTOURNAMENTS_Click_1" Height="58" Width="103" />
-        <Button x:Name="buttonREGISTRATION" Content="Register"  Margin="405,136,88,0" VerticalAlignment="Top" Click="buttonREGISTRATION_Click" Height="65" Width="124"/>
-        <Button x:Name="buttonLOGOUT" Content="Log Out" Margin="247,136,246,0" VerticalAlignment="Top" Height="65" Click="buttonLOGOUT_Click" Width="124" Visibility="Hidden"/>
-        <Button x:Name="buttonPLAYERS" Content="Players"  Margin="166,243,348,118" VerticalAlignment="Top" Click="buttonPLAYERS_Click" Height="58" Width="103"/>
-        <Button x:Name="buttonAUTHORIZATION" Content="Log In"  Margin="81,136,412,0" VerticalAlignment="Top" Click="buttonAUTHORIZATION_Click" Height="65" Width="124"/>
+        <Button x:Name="buttonTOURNAMENTS" Content="Tournaments"  Margin="394,243,191,186" VerticalAlignment="Center" Click="buttonTOURNAMENTS_Click_1" Height="40" Width="107" FontSize="18" MouseEnter="buttonTOURNAMENTS_ENLARGE" MouseLeave="buttonTOURNAMENTS_Back_To_Size" />
+        <Button x:Name="buttonREGISTRATION" Content="Register"  Margin="454,115,158,0" VerticalAlignment="Top" Click="buttonREGISTRATION_Click" Height="46" Width="80" FontSize="18" MouseEnter="buttonREGISTER_ENLARGE" MouseLeave="buttonREGISTER_Back_To_Size"/>
+        <Button x:Name="buttonLOGOUT" Content="Log Out" Margin="305,115,307,0" VerticalAlignment="Top" Click="buttonLOGOUT_Click" Width="80" Height="46" Visibility="Hidden" FontSize="18" MouseEnter="buttonLOGOUT_ENLARGE" MouseLeave="buttonLOGOUT_Back_To_Size"/>
+        <Button x:Name="buttonPLAYERS" Content="Players"  Margin="186,268,419,211" VerticalAlignment="Center" Click="buttonPLAYERS_Click" Height="40" Width="107" FontSize="18" MouseEnter="buttonPLAYERS_ENLARGE" MouseLeave="buttonPLAYERS_Back_To_Size"/>
+        <Button x:Name="buttonAUTHORIZATION" Content="Log In"  Margin="151,113,461,0" VerticalAlignment="Top" Click="buttonAUTHORIZATION_Click" Height="46" Width="80" FontSize="18" MouseEnter="buttonLOGIN_ENLARGE" MouseLeave="buttonLOGIN_Back_To_Size"/>
         <Label x:Name="label_LOGGED" Content="You are logged in the system" Margin="344,10,0,20" VerticalAlignment="Top" HorizontalAlignment="Right"/>
 
 
