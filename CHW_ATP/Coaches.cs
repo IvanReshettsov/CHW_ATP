@@ -8,7 +8,7 @@ namespace CHW_ATP
 {
    public class Coaches
     {
-        private string _name;
+        public string _name;
 
         public string Name
         {
@@ -16,16 +16,24 @@ namespace CHW_ATP
             set { _name = value; }
         }
 
-       
+        private string _nation;
+
+        public string Nation
+        {
+            get { return _nation; }
+            set { _nation = value; }
+        }
+
+
         public Coaches()
         {
 
         }
 
-        public Coaches(string name)
+        public Coaches(string name, string nation)
         {
             _name = name;
-            
+            _nation = nation;
         }
 
         public string InfoCoaches

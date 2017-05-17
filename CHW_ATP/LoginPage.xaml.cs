@@ -97,12 +97,13 @@ namespace CHW_ATP
                 }
             if ((string.IsNullOrWhiteSpace(textBox_Login.Text)) || (string.IsNullOrWhiteSpace(passwordBox.Password)))
             {
-                MessageBox.Show("Enter your username and password", "Error");
+                MessageBox.Show("Enter your username and password", "Error", MessageBoxButton.OK,MessageBoxImage.Error);
+                textBox_Login.Focus();
             }
             else
             if (User.Count == 0)
             {
-                MessageBox.Show("Login is existed");
+                MessageBox.Show("Login is existed", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 ClearData();
             }
 

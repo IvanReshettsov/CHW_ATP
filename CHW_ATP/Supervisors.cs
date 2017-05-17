@@ -16,14 +16,6 @@ namespace CHW_ATP
             set { _name = value; }
         }
 
-        private int _age;
-
-        public int Age
-        {
-            get { return _age; }
-            set { _age = value; }
-        }
-
         private string _nation;
 
         public string Nation
@@ -32,16 +24,17 @@ namespace CHW_ATP
             set { _nation = value; }
         }
 
+
         public Supervisors()
         {
 
         }
 
-        public Supervisors(string name, int age, string nation)
+        public Supervisors(string name, string nation)
         {
             _name = name;
-            _age = age;
             _nation = nation;
+            
         }
     }
 }

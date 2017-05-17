@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:CHW_ATP"
         mc:Ignorable="d"
         Title="NewTournamentWindow" Height="500" Width="500">
-    <Grid Margin="0,0,-0.4,-62.6">
+    <Grid Margin="0,-1,0,-62">
+        
+        
         <TextBox x:Name="textBox_Name" Height="23" Margin="194,92,24.4,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox_Country" Height="23" Margin="194,120,24.4,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox_City"  Height="23" Margin="194,148,24.4,0" TextWrapping="Wrap" VerticalAlignment="Top"/>

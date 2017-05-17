@@ -28,6 +28,7 @@ namespace CHW_ATP
 
         private void button_COMPLETE_Click(object sender, RoutedEventArgs e)
         {
+            
             MainWindow m = new MainWindow();
             m.Show();
             m.label_LOGGED.Visibility = Visibility.Visible;

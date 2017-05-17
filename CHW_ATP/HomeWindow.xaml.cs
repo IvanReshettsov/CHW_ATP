@@ -25,9 +25,11 @@ namespace CHW_ATP
         const string FileNameP = "../../players.txt";
         const string FileNameUP = "../../updPlayers.txt";
         const string FileNameC = "../../coaches.txt";
+        
 
         List<Players> PlayersInfo = new List<Players>();
         List<Coaches> CoachesInfo = new List<Coaches>();
+        List<Supervisors> PlayerName = new List<Supervisors>();
         
         public HomeWindow()
         {
@@ -35,6 +37,7 @@ namespace CHW_ATP
             
 
         }
+
         
 
         private void RefreshGrid()
@@ -44,30 +47,63 @@ namespace CHW_ATP
             gridPlayers.ItemsSource = PlayersInfo;
         }
 
-        
+
 
         private void button_Click(object sender, RoutedEventArgs e)
-        
+
         {
+            //try
             {
-                gridPlayers.ItemsSource = null;
-                gridPlayers.Columns.Clear();
-                PlayersInfo.Clear();
-
-                string[] playersMass = File.ReadAllLines(FileNameP, Encoding.GetEncoding(1251));
-                for (int i = 0; i < playersMass.Length; i++)
                 {
-                    string[] PlayersMass1 = playersMass[i].Split(new char[] { ';' });
-                    Players exampleP = new Players(PlayersMass1[0], int.Parse(PlayersMass1[1]), PlayersMass1[2], PlayersMass1[3], int.Parse(PlayersMass1[4]), int.Parse(PlayersMass1[5]), int.Parse(PlayersMass1[6]), int.Parse(PlayersMass1[7]));
-                    PlayersInfo.Add(exampleP);
+                    gridPlayers.ItemsSource = null;
+                    gridPlayers.Columns.Clear();
+                    PlayersInfo.Clear();
+                    CoachesInfo.Clear();
+                    //string[] coachesMass = File.ReadAllLines(FileNameC, Encoding.GetEncoding(1251));
+                    //for (int i = 0; i < coachesMass.Length; i++)
+                    //{
+                    //    string[] CoachesMass1 = coachesMass[i].Split(new char[] { ';' });
+                    //    Coaches exampleC = new Coaches(CoachesMass1[0],);
+                    //    CoachesInfo.Add(exampleC);
+                    //}
 
+                    //string a = CoachesInfo[0].Name;
 
                 }
+                {
+                    gridPlayers.ItemsSource = null;
+                    gridPlayers.Columns.Clear();
+                    PlayersInfo.Clear();
 
-                gridPlayers.ItemsSource = PlayersInfo;
-                if (label_edit.Content.ToString() == "Edit mode")
-                    buttonRemove.IsEnabled = true;
+                    string[] playersMass = File.ReadAllLines(FileNameP, Encoding.GetEncoding(1251));
+                    for (int i = 0; i < 100; i++)
+                    {
+                        string[] PlayersMass1 = playersMass[i].Split(new char[] { ';' });
+                        string[] CoachesMass1 = playersMass[i+100].Split(new char[] { ';' });
+                        Coaches exampleC = new Coaches(CoachesMass1[0], CoachesMass1[1]);
+                        
+                        Players exampleP = new Players(PlayersMass1[0], int.Parse(PlayersMass1[1]), PlayersMass1[2], PlayersMass1[3], int.Parse(PlayersMass1[4]), int.Parse(PlayersMass1[5]), int.Parse(PlayersMass1[6]), int.Parse(PlayersMass1[7]));
+                        exampleP.Coaches = exampleC.Name.ToString();
+                        PlayersInfo.Add(exampleP);
+
+                    }
+
+
+                    gridPlayers.ItemsSource = PlayersInfo;
+                    if (label_edit.Content.ToString() == "Edit mode")
+                        buttonRemove.IsEnabled = true;
+                }
             }
+            //catch
+            //{
+            //    MessageBox.Show("File does not exist", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //}
+
+            //вписать в комбобокс в xaml имена всех игроков
+
+
+
+
         }
        
 
@@ -177,21 +213,21 @@ namespace CHW_ATP
                 MessageBox.Show("List of players is empty!\nLoad information from the file firstly.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             else
-            if (string.IsNullOrWhiteSpace(textBoxSearch.Text))
+            if (string.IsNullOrWhiteSpace(textBox_Search.Text))
             {
                 MessageBox.Show("Enter your player's name.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                textBoxSearch.Focus();
+                textBox_Search.Focus();
             }
             else
             {
                 count = 0;
                 for (int i = 0; i < PlayersInfo.Count; i++)
                 {
-                    if (textBoxSearch.Text == PlayersInfo[i].Name)
+                    if (textBox_Search.Text == PlayersInfo[i].Name)
                     {
                         gridPlayers.ScrollIntoView(PlayersInfo[i]);
                         gridPlayers.SelectedItem = PlayersInfo[i];
-                        textBoxSearch.Clear();
+                        textBox_Search.Clear();
 
                     }
                     else
@@ -199,21 +235,44 @@ namespace CHW_ATP
 
                 }
             }
-            if ((count==PlayersInfo.Count)&&(count!=0)&&(!string.IsNullOrWhiteSpace(textBoxSearch.Text)))
+            if ((count==PlayersInfo.Count)&&(count!=0)&&(!string.IsNullOrWhiteSpace(textBox_Search.Text)))
             {
 
                 MessageBox.Show("This player is not found in the list.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                textBoxSearch.Clear();
-                textBoxSearch.Focus();
+                textBox_Search.Clear();
+                textBox_Search.Focus();
                 
                 //придумать анимацию с выделением кнопки ADD
             }
-            else if (label_edit.Content.ToString()=="Edit mode")
+            if ((count == PlayersInfo.Count)&& (count != 0) && (!string.IsNullOrWhiteSpace(textBox_Search.Text))&&(label_edit.Content.ToString()=="Edit mode"))
             {
                 MessageBox.Show("This player is not found in the list\n\nYou can add him if you want", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                textBoxSearch.Clear();
-                textBoxSearch.Focus();
+                textBox_Search.Clear();
+                textBox_Search.Focus();
                 
+            }
+        }
+
+        bool _name = false;
+
+        private void textBox_Search_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (!_name)
+            {
+                textBox_Search.Text = "";
+                textBox_Search.Foreground = new SolidColorBrush(Colors.Black);
+            }
+        }
+
+        private void textBox_Search_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBox_Search.Text))
+                _name = true;
+            else
+            {
+                textBox_Search.Text = "Enter your player's name";
+                _name = false;
+                textBox_Search.Foreground = new SolidColorBrush(Colors.Gray);
             }
         }
     }

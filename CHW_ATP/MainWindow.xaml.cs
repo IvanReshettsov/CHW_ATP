@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
-
+//СДЕЛАТЬ АНИМАЦИЮ ИЗМЕНЕНИЯ ФОНА В СОБЫТИИ MOUSEENTER КАЖДОЙ КНОПКИ!!!!!
 
 namespace CHW_ATP
 {
@@ -27,14 +27,78 @@ namespace CHW_ATP
         List<Players> PlayersInfo = new List<Players>();
         const string FileNameT = "tournaments.txt";
         List<Tournaments> TournamentsInfo = new List<Tournaments>();
-       
+        int color = 0;
         public MainWindow()
         {
-            
+
             InitializeComponent();
             label_LOGGED.Visibility = Visibility.Hidden;
-
         }
+
+        //    Background = new SolidColorBrush(SystemColors.ControlColor);
+
+        //    ColorAnimation animation = new ColorAnimation();
+        //    animation.To = Colors.LightSkyBlue;
+        //    animation.Duration = new Duration(TimeSpan.FromSeconds(3));
+        //    Storyboard.SetTarget(animation, MainGrid);
+        //    Storyboard.SetTargetProperty(animation, new PropertyPath(SolidColorBrush.ColorProperty));
+
+
+        //    //для второй анимации
+        //    //Storyboard.SetTarget(scd_animation, MainGrid);
+        //    //Storyboard.SetTargetProperty(scd_animation, new PropertyPath(SolidColorBrush.ColorProperty));
+
+
+        //    Background.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+        //    animation.Completed += ScdAnimation;
+
+        //    ColorAnimation scd_animation = new ColorAnimation();
+        //    scd_animation.From = Colors.LightSkyBlue;
+        //    scd_animation.To = Colors.MistyRose;
+        //    scd_animation.Duration = new Duration(TimeSpan.FromSeconds(3));
+
+        //    Background.BeginAnimation(SolidColorBrush.ColorProperty, scd_animation);
+
+        //    //////Background.BeginAnimation(SolidColorBrush.ColorProperty, scd_animation);
+        //    //////var storyboard = new Storyboard();
+
+        //    //////storyboard.Children.Add(animation);
+        //    //////storyboard.Children.Add(scd_animation);
+        //    //////storyboard.Children = new TimelineCollection { animation, scd_animation, };
+
+        //    //////storyboard.Begin(this);
+
+
+
+        //    //////ColorAnimation ca = new ColorAnimation(Colors.Red, Colors.Blue, new Duration(TimeSpan.FromSeconds(4)));
+        //    //////Storyboard.SetTarget(ca, this);
+        //    //////Storyboard.SetTargetProperty(ca, new PropertyPath("Background.Color"));
+
+
+        //    //////Storyboard stb = new Storyboard();
+        //    //////stb.Children.Add(ca);
+
+
+        //    //////ColorAnimation ca1 = new ColorAnimation(Colors.Blue, Colors.Green, new Duration(TimeSpan.FromSeconds(4)));
+        //    //////Storyboard.SetTarget(ca1, this);
+        //    //////Storyboard.SetTargetProperty(ca1, new PropertyPath("Background.Color"));
+
+
+        //    //////stb.Children = new TimelineCollection { ca, ca1 };
+
+        //    //////stb.Begin();
+
+
+        //}
+
+        //private void ScdAnimation(object sender, EventArgs e)
+        //{
+        //    ColorAnimation scd_animation = new ColorAnimation();
+        //    scd_animation.From = Colors.LightSkyBlue;
+        //    scd_animation.To = Colors.MistyRose;
+        //    scd_animation.Duration = new Duration(TimeSpan.FromSeconds(3));
+        //    Background.BeginAnimation(SolidColorBrush.ColorProperty, scd_animation);
+        //}
 
         private void EnableAuthorization()
         {
@@ -342,5 +406,9 @@ namespace CHW_ATP
             buttonLOGOUT.BeginAnimation(WidthProperty, log_out_width);
             buttonLOGOUT.BeginAnimation(HeightProperty, log_out_height);
         }
+
+        
+          
+        
     }
 }

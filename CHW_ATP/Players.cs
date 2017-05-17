@@ -42,9 +42,9 @@ namespace CHW_ATP
             set { _rating = value; }
         }
 
-        private Coaches _coach;
+        private string _coach;
 
-        public Coaches Coaches
+        public string Coaches
         {
             get { return _coach; }
             set { _coach = value; }
@@ -88,7 +88,7 @@ namespace CHW_ATP
 
         }
 
-        public Players(string name, int age, string nationality, string strongHand, int rating, int height, int weight, int titles)
+        public Players(string name, int age, string nationality, string strongHand, int rating, int height,  int weight, int titles)
         {
             _name = name;
             _age = age;
@@ -98,6 +98,8 @@ namespace CHW_ATP
             _height = height;
             _weight = weight;
             _titles = titles;
+            
+
             
 
         }

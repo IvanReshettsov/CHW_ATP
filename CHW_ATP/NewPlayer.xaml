@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CHW_ATP"
         mc:Ignorable="d"
-        Title="NewPlayer" Height="368.067" Width="376.47">
+        Title="NewPlayer" Height="420.067" Width="376.47">
     <Grid Margin="0,0,2,5">
         <TextBox x:Name="textBoxNameP"  Height="23" Margin="180,10,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label x:Name="labelNameP" Content="Name:" HorizontalAlignment="Left" Margin="32,7,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelNameP" Content="Name:" HorizontalAlignment="Left" Margin="28,7,0,0" VerticalAlignment="Top"/>
         <Label x:Name="labelNationality" Content="Nationality:" HorizontalAlignment="Left" Margin="28,66,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBoxNationality"  Height="23" Margin="180,69,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label x:Name="labelAge" HorizontalAlignment="Left"  Content="Age:" Margin="32,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelAge" HorizontalAlignment="Left"  Content="Age:" Margin="29,35,0,0" VerticalAlignment="Top"/>
 
         <ComboBox x:Name="comboBoxStrongHand"  Margin="180,97,18,0" VerticalAlignment="Top">
             <TextBlock>Right-Handed</TextBlock>
@@ -19,16 +19,18 @@
         </ComboBox>
         <Label x:Name="labelStrongHand" Content="Strong-Hand:" HorizontalAlignment="Left"  Margin="28,92,0,0" VerticalAlignment="Top"/>
         <Label x:Name="labelRank" Content="Rank:" HorizontalAlignment="Left" Margin="29,118,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelHeight" Content="Height:" HorizontalAlignment="Left" Margin="28,183,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxRank" Height="23" Margin="180,124,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxHeight" Height="23" Margin="180,187,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label x:Name="labelWeight" Content="Weight:" HorizontalAlignment="Left" Margin="28,221,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.095,-0.261"/>
-        <Label x:Name="labelTitles" Content="Titles:" HorizontalAlignment="Left" Margin="28,252,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxWeight" Height="23" Margin="180,221,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxTitles" Height="23" Margin="180,252,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button x:Name="buttonAddPlayer" Content="Add"  Margin="227,293,64,0" VerticalAlignment="Top" Width="75" Click="buttonAddPlayer_Click"/>
+        <Label x:Name="labelHeight" Content="Height:" HorizontalAlignment="Left" Margin="28,232,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxRank" Height="23" Margin="180,134,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxHeight" Height="23" Margin="180,232,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label x:Name="labelWeight" Content="Weight:" HorizontalAlignment="Left" Margin="28,269,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.095,-0.261"/>
+        <Label x:Name="labelTitles" Content="Titles:" HorizontalAlignment="Left" Margin="29,303,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxWeight" Height="23" Margin="180,269,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxTitles" Height="23" Margin="180,306,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="buttonAddPlayer" Content="Add"  Margin="227,343,64,0" VerticalAlignment="Top" Width="75" Click="buttonAddPlayer_Click"/>
         <TextBox x:Name="textBoxAge"  Height="23" Margin="180,38,18,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxCoach"  Height="23" Margin="180,152,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-        <Label x:Name="label_Coach" Content="Coach" HorizontalAlignment="Left" Margin="30,152,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxCoach"  Height="23" Margin="180,163,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label x:Name="label_Coach" Content="Coach" HorizontalAlignment="Left" Margin="28,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelNationality_Coach" Content="Nation:" HorizontalAlignment="Left" Margin="28,192,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxNationality_Coach"  Height="23" Margin="180,195,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
     </Grid>
 </Window>

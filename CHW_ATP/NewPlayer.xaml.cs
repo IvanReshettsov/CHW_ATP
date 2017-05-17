@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
+
 
 namespace CHW_ATP
 {
@@ -25,7 +27,8 @@ namespace CHW_ATP
         }
 
         Players _addedPlayer;
-
+        List<Coaches> CoachesInfo = new List<Coaches>();
+        const string FileNameC = "../../coaches.txt";
 
         public Players AddedPlayer
         {
@@ -92,6 +95,32 @@ namespace CHW_ATP
             }
 
             _addedPlayer = new Players(textBoxNameP.Text, int.Parse(textBoxAge.Text), textBoxNationality.Text, comboBoxStrongHand.Text, int.Parse(textBoxRank.Text), int.Parse(textBoxHeight.Text), int.Parse(textBoxWeight.Text), int.Parse(textBoxTitles.Text));
+            _addedPlayer.Coaches = textBoxCoach.Text;
+            string[] coachesMass = File.ReadAllLines(FileNameC, Encoding.GetEncoding(1251));
+            for (int i = 0; i < coachesMass.Length; i++)
+            {
+                string[] CoachesMass1 = coachesMass[i].Split(new char[] { ';' });
+                Coaches exampleC = new Coaches(CoachesMass1[0], CoachesMass1[1]);
+                CoachesInfo.Add(exampleC);
+            }
+            int count = 0;
+            int Count = 0;
+            for (int i = 0; i < CoachesInfo.Count; i++)
+            {
+                if (textBoxCoach.Text == CoachesInfo[i].Name)
+                    count += 1;
+                else
+                {
+                    Count += 1;
+                }
+            }
+
+            if (Count == CoachesInfo.Count)
+            {
+                Coaches newcoach = new Coaches(textBoxCoach.Text,textBoxNationality_Coach.Text );
+                CoachesInfo.Add(newcoach);
+            }
+
             DialogResult = true;
         }
         }

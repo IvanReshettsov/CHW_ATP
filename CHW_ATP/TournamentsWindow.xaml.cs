@@ -30,28 +30,36 @@ namespace CHW_ATP
             InitializeComponent();
         }
 
-        
+
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            gridTournaments.ItemsSource = null;
-            gridTournaments.Columns.Clear();
-            TournamentsInfo.Clear();
-            string[] tournamentsMass = File.ReadAllLines(FileNameT, Encoding.GetEncoding(1251));
-            for (int i = 0; i < tournamentsMass.Length; i++)
+            try
             {
-                string[] TournamentsMass1 = tournamentsMass[i].Split(new char[] { ';' });
-                Tournaments exampleT = new Tournaments(TournamentsMass1[0], TournamentsMass1[1], TournamentsMass1[2], TournamentsMass1[3], TournamentsMass1[4], int.Parse(TournamentsMass1[5]), TournamentsMass1[6]);
-                TournamentsInfo.Add(exampleT);
+                gridTournaments.ItemsSource = null;
+                gridTournaments.Columns.Clear();
+                TournamentsInfo.Clear();
+                string[] tournamentsMass = File.ReadAllLines(FileNameT, Encoding.GetEncoding(1251));
+                for (int i = 0; i < tournamentsMass.Length; i++)
+                {
+                    string[] TournamentsMass1 = tournamentsMass[i].Split(new char[] { ';' });
+                    Tournaments exampleT = new Tournaments(TournamentsMass1[0], TournamentsMass1[1], TournamentsMass1[2], TournamentsMass1[3], TournamentsMass1[4], int.Parse(TournamentsMass1[5]), TournamentsMass1[6]);
+                    TournamentsInfo.Add(exampleT);
 
+
+                }
+
+                gridTournaments.ItemsSource = TournamentsInfo;
+                if (label_edit.Content.ToString() == "Edit mode")
+                    button_Remove.IsEnabled = true;
 
             }
-            
-            gridTournaments.ItemsSource = TournamentsInfo;
-            if(label_edit.Content.ToString()=="Edit mode")
-            button_Remove.IsEnabled = true;
-
+            catch
+            {
+                MessageBox.Show("File does not exist", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
+
 
         private void gridTournaments_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

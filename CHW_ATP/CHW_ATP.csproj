@@ -75,6 +75,7 @@
     <Compile Include="NewTournamentWindow.xaml.cs">
       <DependentUpon>NewTournamentWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PlayerName.cs" />
     <Compile Include="RegisterWindow.xaml.cs">
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>

@@ -142,3 +142,30 @@ gridPlayers.ItemsSource = null;
                     Coaches exampleC = new Coaches(CoachesMass1[0]);
                     CoachesInfo.Add(exampleC);
 
+¿Õ»Ã¿÷»ﬂ √À¿¬ÕŒ√Œ Œ Õ¿!!!
+
+ <Window.Background>
+        <SolidColorBrush x:Name="WindowBackGroundBrush"
+        Color="White"></SolidColorBrush>
+    </Window.Background>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent ="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <ColorAnimation 
+                     Storyboard.TargetName="WindowBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="Beige" RepeatBehavior="Forever" 
+                     Duration="0:0:4"  
+                     AutoReverse="True"></ColorAnimation>
+                    <ColorAnimation 
+                     Storyboard.TargetName="WindowBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="MistyRose" RepeatBehavior="Forever" 
+                        
+                     Duration="0:0:4"  
+                     AutoReverse="True"></ColorAnimation>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
