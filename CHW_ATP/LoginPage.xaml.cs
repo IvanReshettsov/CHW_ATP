@@ -126,6 +126,9 @@ namespace CHW_ATP
 
         }
 
-        
+        private void button_COMPLETE_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
+        }
     }
 }

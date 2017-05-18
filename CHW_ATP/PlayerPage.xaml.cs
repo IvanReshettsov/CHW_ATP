@@ -9,36 +9,41 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.IO;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 using System.Xml.Serialization;
 
 namespace CHW_ATP
 {
     /// <summary>
-    /// Interaction logic for HomeWindow.xaml
+    /// Interaction logic for PlayerPage.xaml
     /// </summary>
-    public partial class HomeWindow : Window
+    public partial class PlayerPage : Page
     {
-        int count=0;
+        int count = 0;
         const string FileNameP = "../../players.txt";
         const string FileNameUP = "../../updPlayers.txt";
         const string FileNameC = "../../coaches.txt";
-        
+
 
         List<Players> PlayersInfo = new List<Players>();
         List<Coaches> CoachesInfo = new List<Coaches>();
         List<Supervisors> PlayerName = new List<Supervisors>();
-        
-        public HomeWindow()
+
+        public PlayerPage()
         {
             InitializeComponent();
-            
+            if(RegPages.MainPage.label_LOGGED.Visibility==Visibility.Visible)
+            {
+                buttonAdd.IsEnabled = true;
+                buttonRemove.IsEnabled = true;
+            }
 
         }
 
-        
+
 
         private void RefreshGrid()
         {
@@ -79,11 +84,11 @@ namespace CHW_ATP
                     for (int i = 0; i < 100; i++)
                     {
                         string[] PlayersMass1 = playersMass[i].Split(new char[] { ';' });
-                        string[] CoachesMass1 = playersMass[i+100].Split(new char[] { ';' });
+                        string[] CoachesMass1 = playersMass[i + 100].Split(new char[] { ';' });
                         Coaches exampleC = new Coaches(CoachesMass1[0], CoachesMass1[1]);
-                        
+
                         Players exampleP = new Players(PlayersMass1[0], int.Parse(PlayersMass1[1]), PlayersMass1[2], PlayersMass1[3], int.Parse(PlayersMass1[4]), int.Parse(PlayersMass1[5]), int.Parse(PlayersMass1[6]), int.Parse(PlayersMass1[7]));
-                        exampleP.Coaches = exampleC.Name.ToString();
+                        exampleP.Coach = exampleC.Name.ToString();
                         PlayersInfo.Add(exampleP);
 
                     }
@@ -105,7 +110,7 @@ namespace CHW_ATP
 
 
         }
-       
+
 
 
         private void gridPlayers_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -121,9 +126,9 @@ namespace CHW_ATP
             if (gridPlayers.ItemsSource == null)
             {
                 MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error");
-                    buttonRemove.IsEnabled = false;
+                buttonRemove.IsEnabled = false;
             }
-            if ((gridPlayers.SelectedItem==null)&&(gridPlayers.ItemsSource!=null))
+            if ((gridPlayers.SelectedItem == null) && (gridPlayers.ItemsSource != null))
             {
                 MessageBox.Show("Choose a player that you want to remove", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
@@ -134,21 +139,34 @@ namespace CHW_ATP
                 { PlayersInfo.Remove(PlayersInfo[i]); }
             }
             gridPlayers.ItemsSource = PlayersInfo;
-            
+
 
 
 
 
         }
 
+        public void NewPlayerAdded(Players newPlayer)
+        {
+            PlayersInfo.Add(newPlayer);
+            gridPlayers.ItemsSource = null;
+            gridPlayers.Columns.Clear();
+            gridPlayers.ItemsSource = PlayersInfo;
+        }
+
         private void buttonAdd_Click(object sender, RoutedEventArgs e)
         {
-            var addPlayer = new NewPlayer();
-            if (addPlayer.ShowDialog().Value)
-            {
-                PlayersInfo.Add(addPlayer.AddedPlayer);
-            }
-            gridPlayers.ItemsSource = PlayersInfo;
+            NavigationService.Navigate(RegPages.NewPlayerPage);
+            RegPages.NewPlayerPage.textBoxAge.Clear();
+            RegPages.NewPlayerPage.textBoxCoach.Clear();
+            RegPages.NewPlayerPage.textBoxHeight.Clear();
+            RegPages.NewPlayerPage.textBoxNameP.Clear();
+            RegPages.NewPlayerPage.textBoxNationality.Clear();
+            RegPages.NewPlayerPage.textBoxNationality_Coach.Clear();
+            RegPages.NewPlayerPage.textBoxRank.Clear();
+            RegPages.NewPlayerPage.textBoxTitles.Clear();
+            RegPages.NewPlayerPage.textBoxWeight.Clear();
+            RegPages.NewPlayerPage.comboBoxStrongHand.Text = "";
         }
 
         private void buttonSaveInFile_Click(object sender, RoutedEventArgs e)
@@ -157,9 +175,9 @@ namespace CHW_ATP
                 MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error");
             //придумать анимацию с выделением/миганием кнопки "Show"
             else
-            if ((radioButton_Serialize.IsChecked == true)&&(radioButton_Deserialize.IsChecked==false))
+            if ((radioButton_Serialize.IsChecked == true) && (radioButton_Deserialize.IsChecked == false))
             {
-                
+
                 InfoSerializing serializePlayers = new InfoSerializing();
                 serializePlayers.Players = PlayersInfo;
 
@@ -167,12 +185,12 @@ namespace CHW_ATP
                 {
                     XmlSerializer xmlPlayers = new XmlSerializer(typeof(InfoSerializing));
                     xmlPlayers.Serialize(fs, serializePlayers);
-                    MessageBox.Show("List is serialized", "Information",MessageBoxButton.OK,MessageBoxImage.Information);
+                    MessageBox.Show("List is serialized", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
             }
             else if ((radioButton_Serialize.IsChecked == false) && (radioButton_Deserialize.IsChecked == true))
             {
-                
+
                 InfoSerializing deserializePlayers;
                 using (var fs = new FileStream("players.xml", FileMode.Open))
                 {
@@ -182,9 +200,9 @@ namespace CHW_ATP
                 }
 
             }
-            
+
             else
-          
+
             {
                 MessageBox.Show("Choose any option", "Error!");
             }
@@ -200,7 +218,7 @@ namespace CHW_ATP
             buttonSerialize.Content = "Serialize";
         }
 
-       
+
         private void buttonSearch_Click_1(object sender, RoutedEventArgs e)
         {
             if (gridPlayers.ItemsSource == null)
@@ -235,21 +253,21 @@ namespace CHW_ATP
 
                 }
             }
-            if ((count==PlayersInfo.Count)&&(count!=0)&&(!string.IsNullOrWhiteSpace(textBox_Search.Text)))
+            if ((count == PlayersInfo.Count) && (count != 0) && (!string.IsNullOrWhiteSpace(textBox_Search.Text)))
             {
 
                 MessageBox.Show("This player is not found in the list.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 textBox_Search.Clear();
                 textBox_Search.Focus();
-                
+
                 //придумать анимацию с выделением кнопки ADD
             }
-            if ((count == PlayersInfo.Count)&& (count != 0) && (!string.IsNullOrWhiteSpace(textBox_Search.Text))&&(label_edit.Content.ToString()=="Edit mode"))
+            if ((count == PlayersInfo.Count) && (count != 0) && (!string.IsNullOrWhiteSpace(textBox_Search.Text)) && (label_edit.Content.ToString() == "Edit mode"))
             {
                 MessageBox.Show("This player is not found in the list\n\nYou can add him if you want", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 textBox_Search.Clear();
                 textBox_Search.Focus();
-                
+
             }
         }
 
@@ -275,16 +293,10 @@ namespace CHW_ATP
                 textBox_Search.Foreground = new SolidColorBrush(Colors.Gray);
             }
         }
+
+        private void buttonGOBACK_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(RegPages.MainPage);
+        }
     }
-    }
-
-
-
-
-
-
-
-
-
-
-
+}

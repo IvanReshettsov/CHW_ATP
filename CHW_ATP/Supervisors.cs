@@ -24,6 +24,7 @@ namespace CHW_ATP
             set { _nation = value; }
         }
 
+        
 
         public Supervisors()
         {

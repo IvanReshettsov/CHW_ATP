@@ -5,54 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CHW_ATP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="640" Width="770">
+        Title="MainWindow" Height="640" Width="950">
     <Grid x:Name="MainGrid" >
-        
-        <Button x:Name="buttonTOURNAMENTS" Content="Tournaments"  Margin="394,243,191,186" VerticalAlignment="Center" Click="buttonTOURNAMENTS_Click_1" Height="40" Width="107" FontSize="18" MouseEnter="buttonTOURNAMENTS_ENLARGE" MouseLeave="buttonTOURNAMENTS_Back_To_Size" />
-        <Button x:Name="buttonREGISTRATION" Content="Register"  Margin="454,115,158,0" VerticalAlignment="Top" Click="buttonREGISTRATION_Click" Height="46" Width="80" FontSize="18" MouseEnter="buttonREGISTER_ENLARGE" MouseLeave="buttonREGISTER_Back_To_Size"/>
-        <Button x:Name="buttonLOGOUT" Content="Log Out" Margin="305,115,307,0" VerticalAlignment="Top" Click="buttonLOGOUT_Click" Width="80" Height="46" Visibility="Hidden" FontSize="18" MouseEnter="buttonLOGOUT_ENLARGE" MouseLeave="buttonLOGOUT_Back_To_Size"/>
-        <Button x:Name="buttonPLAYERS" Content="Players"  Margin="186,268,419,211" VerticalAlignment="Center" Click="buttonPLAYERS_Click" Height="40" Width="107" FontSize="18" MouseEnter="buttonPLAYERS_ENLARGE" MouseLeave="buttonPLAYERS_Back_To_Size"/>
-        <Button x:Name="buttonAUTHORIZATION" Content="Log In"  Margin="151,113,461,0" VerticalAlignment="Top" Click="buttonAUTHORIZATION_Click" Height="46" Width="80" FontSize="18" MouseEnter="buttonLOGIN_ENLARGE" MouseLeave="buttonLOGIN_Back_To_Size"/>
-        <Label x:Name="label_LOGGED" Content="You are logged in the system" Margin="344,10,0,20" VerticalAlignment="Top" HorizontalAlignment="Right"/>
-
-        <Grid.Background>
-            <SolidColorBrush x:Name="GridBackGroundBrush"
-        Color="White"></SolidColorBrush>
-
-        </Grid.Background>
-
-        <Grid.Triggers>
-            <EventTrigger RoutedEvent ="Grid.MouseEnter">
-                <BeginStoryboard HandoffBehavior="Compose">
-                    <Storyboard>
-                        <ColorAnimation 
-                     Storyboard.TargetName="GridBackGroundBrush" 
-                     Storyboard.TargetProperty="Color"
-                     To="MistyRose" AutoReverse="True" RepeatBehavior="Forever"
-                        
-                     Duration="0:0:4"  
-                     >
-                        </ColorAnimation>
-                    </Storyboard>
-                </BeginStoryboard>
-            </EventTrigger>
-            <EventTrigger RoutedEvent ="Grid.MouseLeave">
-                <BeginStoryboard HandoffBehavior="Compose">
-                    <Storyboard>
-                        <ColorAnimation 
-                     Storyboard.TargetName="GridBackGroundBrush" 
-                     Storyboard.TargetProperty="Color"
-                     To="RoyalBlue" AutoReverse="True" RepeatBehavior="Forever"
-                        
-                     Duration="0:0:4"  
-                     >
-                        </ColorAnimation>
-                    </Storyboard>
-                </BeginStoryboard>
-            </EventTrigger>
-        </Grid.Triggers>
-
-
+        <Frame Name="frameMain" NavigationUIVisibility="Hidden"> </Frame>
+       
     </Grid>
 
     <Window.Background>

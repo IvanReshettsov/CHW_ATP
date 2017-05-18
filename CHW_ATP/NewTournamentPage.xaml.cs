@@ -10,21 +10,26 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace CHW_ATP
 {
     /// <summary>
-    /// Interaction logic for NewTournamentWindow.xaml
+    /// Interaction logic for NewTournamentPage.xaml
     /// </summary>
-    public partial class NewTournamentWindow : Window
+    public partial class NewTournamentPage : Page
     {
-        public NewTournamentWindow()
+        public NewTournamentPage()
         {
             InitializeComponent();
         }
 
         Tournaments _addedTournament;
+        List<Supervisors> SupervisorsInfo = new List<Supervisors>();
+        const string FileNameS = "../../supervisors.txt";
+
         public Tournaments AddedTournament
         {
             get
@@ -111,7 +116,7 @@ namespace CHW_ATP
                 comboBox_Surface1.Focus();
                 return;
             }
-            if(((comboBox_DateDay_1.Text == "30")||(comboBox_DateDay_1.Text == "31"))&&(comboBoxDateMonth_1.Text=="FEB"))
+            if (((comboBox_DateDay_1.Text == "30") || (comboBox_DateDay_1.Text == "31")) && (comboBoxDateMonth_1.Text == "FEB"))
             {
                 MessageBox.Show("Incorrect date ");
                 return;
@@ -121,7 +126,7 @@ namespace CHW_ATP
                 MessageBox.Show("Incorrect date ");
                 return;
             }
-            if ((comboBox_DateDay_1.Text == "31") && ((comboBoxDateMonth_1.Text == "APR")||(comboBoxDateMonth_1.Text=="JUN")||(comboBoxDateMonth_1.Text == "SEP")|| (comboBoxDateMonth_1.Text == "NOV")))
+            if ((comboBox_DateDay_1.Text == "31") && ((comboBoxDateMonth_1.Text == "APR") || (comboBoxDateMonth_1.Text == "JUN") || (comboBoxDateMonth_1.Text == "SEP") || (comboBoxDateMonth_1.Text == "NOV")))
             {
                 MessageBox.Show("Incorrect date ");
                 return;
@@ -131,9 +136,44 @@ namespace CHW_ATP
                 MessageBox.Show("Incorrect date ");
                 return;
             }
-            _addedTournament = new Tournaments(comboBox_DateDay_1.Text+" "+comboBoxDateMonth_1.Text+" - " +comboBox_DateDay2.Text+" "+comboBox_DateMonth2.Text, textBox_Name.Text,
-            textBox_City.Text, textBox_Country.Text, comboBox_Surface.Text+" "+comboBox_Surface1.Text,  int.Parse(comboBox_Category.Text), comboBox_PrizeMoney.Text+textBox_PrizeMoney.Text);
-            DialogResult = true;
+            _addedTournament = new Tournaments(comboBox_DateDay_1.Text + " " + comboBoxDateMonth_1.Text + " - " + comboBox_DateDay2.Text + " " + comboBox_DateMonth2.Text, textBox_Name.Text,
+            textBox_City.Text, textBox_Country.Text, comboBox_Surface.Text + " " + comboBox_Surface1.Text, int.Parse(comboBox_Category.Text), comboBox_PrizeMoney.Text + textBox_PrizeMoney.Text);
+            _addedTournament.Supervisor = textBox_Supervisor.Text;
+            
+            
+            string[] supervisorsMass = File.ReadAllLines(FileNameS, Encoding.GetEncoding(1251));
+            for (int i = 0; i < supervisorsMass.Length; i++)
+            {
+                string[] SupervisorsMass1 = supervisorsMass[i].Split(new char[] { ';' });
+                Supervisors exampleS = new Supervisors(SupervisorsMass1[0], SupervisorsMass1[1]);
+               SupervisorsInfo.Add(exampleS);
+            }
+            int count = 0;
+            int Count = 0;
+            for (int i = 0; i < SupervisorsInfo.Count; i++)
+            {
+                if (textBox_Supervisor.Text == SupervisorsInfo[i].Name)
+                    count += 1;
+                else
+                {
+                    Count += 1;
+                }
+            }
+
+            if (Count == SupervisorsInfo.Count)
+            {
+                Supervisors newsupervisor = new Supervisors(textBox_Supervisor.Text, textBox_SupervisorNation.Text);
+                SupervisorsInfo.Add(newsupervisor);
+            }
+
+            RegPages.TournamentPage.NewTournamentAdded(_addedTournament);
+            NavigationService.GoBack();
+            
+        }
+
+        private void buttonGOBACK_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
         }
     }
 }

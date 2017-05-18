@@ -1,12 +1,12 @@
-﻿<Window x:Class="CHW_ATP.HomeWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CHW_ATP"
-        mc:Ignorable="d"
-        Title="Players" Height="630" Width="930">
-
+﻿<Page x:Class="CHW_ATP.PlayerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CHW_ATP"
+      mc:Ignorable="d" 
+      d:DesignHeight="630" d:DesignWidth="940" 
+      Title="Players">
 
     <Grid>
 
@@ -14,10 +14,10 @@
             <ColumnDefinition Width="158*"/>
             <ColumnDefinition Width="283*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="buttonShowPlayers" Content="Show" Margin="19,429,451,0" VerticalAlignment="Top" Width="102" Click="button_Click" Height="53" FontSize="18" Grid.Column="1"/>
-        <DataGrid x:Name="gridPlayers" Margin="102,99,254,0" VerticalAlignment="Top"  Width="526" Grid.ColumnSpan="2" Height="300" SelectionChanged="gridPlayers_SelectionChanged"/>
-        <Button x:Name="buttonRemove" Content="Remove" Margin="151,433,75.4,0" Width="104" VerticalAlignment="Top" Click="buttonRemove_Click" Height="45" FontSize="18"/>
-        <Button x:Name="buttonAdd" Content="Add" Margin="0,433,282,0" VerticalAlignment="Top" Width="100" Click="buttonAdd_Click" Height="45" FontSize="18" HorizontalAlignment="Right" Grid.Column="1"/>
+        <Button x:Name="buttonShowPlayers" Content="Show" Margin="23,0,467,101" VerticalAlignment="Bottom" Width="102" Click="button_Click" Height="53" FontSize="18" Grid.Column="1"/>
+        <DataGrid x:Name="gridPlayers" Margin="133,75,215,185" VerticalAlignment="Center" Width="575" HorizontalAlignment="Center" Grid.ColumnSpan="2" Height="339" SelectionChanged="gridPlayers_SelectionChanged" />
+        <Button x:Name="buttonRemove" Content="Remove" Margin="158,0,68,101" Width="104" VerticalAlignment="Bottom" Click="buttonRemove_Click" Height="45" FontSize="18"/>
+        <Button x:Name="buttonAdd" Content="Add" Margin="0,0,291,101" VerticalAlignment="Bottom" Width="100" Click="buttonAdd_Click" Height="45" FontSize="18" HorizontalAlignment="Right" Grid.Column="1"/>
         <Button x:Name="buttonSerialize" Content="Serialize" Margin="0,260,88,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Click="buttonSaveInFile_Click" Grid.Column="1" Height="50" FontSize="18"/>
         <RadioButton x:Name="radioButton_Serialize" Content="Serialize" HorizontalAlignment="Right" Margin="0,150,88,0" VerticalAlignment="Top" Checked="radioButton_Serialize_Checked" Grid.Column="1" Height="33" Width="100" FontSize="16"/>
         <RadioButton x:Name="radioButton_Deserialize" Content="Deserialize" HorizontalAlignment="Right" Margin="0,203,74,0" VerticalAlignment="Top" Checked="radioButton_Deserialize_Checked" Grid.Column="1" Height="30" Width="114" FontSize="16"/>
@@ -31,12 +31,11 @@
             <ComboBoxItem>ComboBox Item #2</ComboBoxItem>
             <ComboBoxItem>ComboBox Item #3</ComboBoxItem>
         </ComboBox>
-
+        <Button x:Name="buttonGOBACK" Content="Go Back" Margin="0,58,88,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Click="buttonGOBACK_Click" Grid.Column="1" Height="50" FontSize="18"/>
 
 
     </Grid>
-    <Window.Background>
+    <Page.Background>
         <ImageBrush ImageSource="C:\Users\user\Desktop\CHW_ATP\CHW_ATP\CHW_ATP\Images\stadium.jpg"></ImageBrush>
-    </Window.Background>
-    
-</Window>
+    </Page.Background>
+</Page>

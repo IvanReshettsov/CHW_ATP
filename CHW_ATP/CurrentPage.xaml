@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CHW_ATP"
       mc:Ignorable="d" 
-      d:DesignHeight="650" d:DesignWidth="650"
+      d:DesignHeight="750" d:DesignWidth="750"
       Title="CurrentPage">
 
     <Grid>
@@ -19,7 +19,7 @@
                VerticalAlignment="Center" Margin="19,122,23,141" Width="280"/>
         <Label Content="to log in " FontSize="20" 
                VerticalAlignment="Center" Margin="106,149,106,114" Width="280"/>
-       
-        
+        <Button x:Name="button_GOBACK" Content="Go Back" VerticalAlignment="Center" Width="117" Height="35" Margin="322,425,311,290" Click="button_COMPLETE_Click" FontSize="18"/>
+
     </Grid>
 </Page>

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -11,21 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 using System.Xml.Serialization;
 
 namespace CHW_ATP
 {
     /// <summary>
-    /// Interaction logic for TournamentsWindow.xaml
+    /// Interaction logic for TournamentPage.xaml
     /// </summary>
-    public partial class TournamentsWindow : Window
+    public partial class TournamentPage : Page
     {
         const string FileNameT = "../../tournaments.txt";
         const string FileNameUT = "../../updTournaments.txt";
-        
+
         List<Tournaments> TournamentsInfo = new List<Tournaments>();
-        public TournamentsWindow()
+        public TournamentPage()
         {
             InitializeComponent();
         }
@@ -40,12 +41,15 @@ namespace CHW_ATP
                 gridTournaments.Columns.Clear();
                 TournamentsInfo.Clear();
                 string[] tournamentsMass = File.ReadAllLines(FileNameT, Encoding.GetEncoding(1251));
-                for (int i = 0; i < tournamentsMass.Length; i++)
+                for (int i = 0; i < 72; i++)
                 {
                     string[] TournamentsMass1 = tournamentsMass[i].Split(new char[] { ';' });
+                    string[] SupervisorsMass1 = tournamentsMass[i + 72].Split(new char[] { ';' });
+                    Supervisors exampleS = new Supervisors(SupervisorsMass1[0], SupervisorsMass1[1]);
                     Tournaments exampleT = new Tournaments(TournamentsMass1[0], TournamentsMass1[1], TournamentsMass1[2], TournamentsMass1[3], TournamentsMass1[4], int.Parse(TournamentsMass1[5]), TournamentsMass1[6]);
-                    TournamentsInfo.Add(exampleT);
+                    exampleT.Supervisor = exampleS.Name.ToString();
 
+                    TournamentsInfo.Add(exampleT);                    
 
                 }
 
@@ -56,7 +60,7 @@ namespace CHW_ATP
             }
             catch
             {
-                MessageBox.Show("File does not exist", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("File wasn't loaded", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -72,15 +76,15 @@ namespace CHW_ATP
         private void button_Remove_Click(object sender, RoutedEventArgs e)
         {
 
-            if ((gridTournaments.SelectedItem == null)&&(gridTournaments.ItemsSource!=null))
+            if ((gridTournaments.SelectedItem == null) && (gridTournaments.ItemsSource != null))
             {
                 MessageBox.Show("Choose a player that you want to remove", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                
-               
+
+
             }
             if (gridTournaments.ItemsSource == null)
             {
-                MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error",MessageBoxButton.OK,MessageBoxImage.Error); ;
+                MessageBox.Show("List of players is empty! \nTry to load information from the file firstly.", "Error", MessageBoxButton.OK, MessageBoxImage.Error); ;
             }
             // анимация кнопки show
             Tournaments selected_tournament = gridTournaments.SelectedItem as Tournaments;
@@ -91,15 +95,32 @@ namespace CHW_ATP
             }
             gridTournaments.ItemsSource = TournamentsInfo;
         }
+        public void NewTournamentAdded(Tournaments newTournament)
+        {
+            RegPages.NewTournamentPage.textBox_City.Clear();
+            RegPages.NewTournamentPage.textBox_Country.Clear();
+            RegPages.NewTournamentPage.textBox_Name.Clear();
+            RegPages.NewTournamentPage.textBox_PrizeMoney.Clear();
+            RegPages.NewTournamentPage.textBox_Supervisor.Clear();
+            RegPages.NewTournamentPage.textBox_SupervisorNation.Clear();
+            RegPages.NewTournamentPage.comboBoxDateMonth_1.Text="";
+            RegPages.NewTournamentPage.comboBox_Category.Text = "";
+            RegPages.NewTournamentPage.comboBox_DateDay2.Text = "";
+            RegPages.NewTournamentPage.comboBox_DateDay_1.Text = "";
+            RegPages.NewTournamentPage.comboBox_DateMonth2.Text = "";
+            RegPages.NewTournamentPage.comboBox_PrizeMoney.Text = "";
+            RegPages.NewTournamentPage.comboBox_Surface.Text = "";
+            RegPages.NewTournamentPage.comboBox_Surface1.Text = "";
+
+            TournamentsInfo.Add(newTournament);
+            gridTournaments.ItemsSource = null;
+            gridTournaments.Columns.Clear();
+            gridTournaments.ItemsSource = TournamentsInfo;
+        }
 
         private void button_Add_Click(object sender, RoutedEventArgs e)
         {
-            var addTournament = new NewTournamentWindow();
-            if (addTournament.ShowDialog().Value)
-            {
-                TournamentsInfo.Add(addTournament.AddedTournament);
-            }
-            gridTournaments.ItemsSource =TournamentsInfo;
+            NavigationService.Navigate(RegPages.NewTournamentPage);
         }
 
         private void buttonSaveTournaments_Click(object sender, RoutedEventArgs e)
@@ -146,6 +167,11 @@ namespace CHW_ATP
         private void radioButton_Deserialize_Checked(object sender, RoutedEventArgs e)
         {
             buttonSerializeTournaments.Content = "Deserialize";
+        }
+
+        private void buttonGOBACK_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(RegPages.MainPage);
         }
     }
 }

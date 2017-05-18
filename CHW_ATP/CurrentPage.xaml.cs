@@ -25,6 +25,9 @@ namespace CHW_ATP
             InitializeComponent();
         }
 
-        
+        private void button_COMPLETE_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(RegPages.MainPage);
+        }
     }
 }

@@ -98,17 +98,17 @@ Yuichi Sugita;28;Japan;Right-Handed;97;185;80;0
 Renzo Olivo;25;Argentina;Right-Handed;98;180;72;0
 Radek Stepanek;38;Chech Republic;Right-Handed;99;185;75;5
 Taro Daniel;24;Japan;Right-Handed;100;190;76;0
-Joakim Nystrom;Sweden
-Dirk Hordorff;Germany
+Jamie Delgado;Great Britain
+Marian Vajda;Slovakia
 Thierry Ascione;France
 Galo Blanco;Spain
 Michael Chang;USA
-Craig Boynton;USA
-Alberto Castellani;Italy
+Ivan Ljubicic;Croatia
+Toni Nadal;Spain
 Jose Manuel Clavet;Spain
 Franco Davin;Argentina
 Jan De Witt;Germany
-Jamie Delgado;Great Britain
+Joakim Nystrom;Sweden
 Jean Demeroutis;Belgium
 Diego Dinomo;Argentina
 Stephan Fehske;Germany
@@ -117,13 +117,13 @@ Mark Hilton;Great Britain
 Goran Ivanisevic;Croatia
 Ronan Lafaix;France
 Alexandre Lisiecki;France
-Ivan Ljubicic;Croatia
+Craig Boynton;USA
 Samuel Lopez;Spain
 Alberto Mancini;Argentina
 Felix Mantilla;Spain
 Frederico Marques;Portugal
 Mariano Monachesi;Argentina
-Toni Nadal;Spain
+Davide Sanguinetti;Italy
 Magnus Norman;Sweden
 Jose Perlas;Spain
 Emmanuel Planque;France

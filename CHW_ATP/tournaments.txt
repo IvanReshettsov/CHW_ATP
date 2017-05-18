@@ -70,3 +70,75 @@
 07 NOV - 11 NOV;Next Gen ATP Finals;Milan;Italy;Indoor Hard;0;Not Announced;
 12 NOV - 19 NOV;ATP Finals;London;Great Britain;Indoor Hard;1000;$7,500,000
 24 NOV - 26 NOV;Davis Cup Final;Multiple Locations;Multiple Locations;Multiple Choice;0;Not Announced
+Dana Loconto;USA
+Gerry Armstrong;Great Britain
+Paulo Pereira;Brazil
+Pedro Bravo;Chile
+Richard Ings;Australia
+Richard Kaufman;USA
+Rudy Berger;Germany
+Steve Ulrich;USA
+Anne Lasserre Ullrich;France		
+Bertie Bowron;Great Britain
+Donna Kelso;Australia
+Anne Lasserre Ullrich;France		
+Bertie Bowron;Great Britain
+Donna Kelso;Australia	
+Dana Loconto;USA
+Gerry Armstrong;Great Britain
+Paulo Pereira;Brazil
+Pedro Bravo;Chile			
+Billy Lipp;USA			
+Bruno Rebeuh;France		
+Bunny Williams;USA
+Dana Loconto;USA
+Gerry Armstrong;Great Britain
+Paulo Pereira;Brazil
+Pedro Bravo;Chile			
+Cecil Hollins;USA			
+Christina Olaussen;Denmark			
+David Littlefield;USA			
+Denis Overberg;Australia			
+Dessie Samuels;USA			
+Donna Kelso;Australia	
+Richard Ings;Australia
+Richard Kaufman;USA	
+Edward James;Great Britain			
+Enric Molina;Spain
+Dana Loconto;USA
+Gerry Armstrong;Great Britain
+Paulo Pereira;Brazil
+Pedro Bravo;Chile
+Anne Lasserre Ullrich;France		
+Bertie Bowron;Great Britain
+Donna Kelso;Australia	
+Dana Loconto;USA
+Gerry Armstrong;Great Britain
+Richard Ings;Australia
+Richard Kaufman;USA
+Anne Lasserre Ullrich;France		
+Bertie Bowron;Great Britain
+Donna Kelso;Australia	
+Edward James;Great Britain			
+Enric Molina;Spain		
+Fabian Cherny;Argentina		
+Fiona Edwards;Great Britain
+Steve Ulrich;USA
+Anne Lasserre Ullrich;France		
+Bertie Bowron;Great Britain
+Donna Kelso;Australia				
+Frank Hammond;USA			
+Freddie Sore;Great Britain
+Georgina Clark;Great Britain
+Gerry Armstrong;Great Britain
+Donna Kelso;Australia
+Paulo Pereira;Brazil
+Pedro Bravo;Chile
+Anne Lasserre Ullrich;France		
+Bertie Bowron;Great Britain
+Cecil Hollins;USA			
+Christina Olaussen;Denmark			
+David Littlefield;USA			
+Denis Overberg;Australia			
+Dessie Samuels;USA				
+Donna Kelso;Australia	

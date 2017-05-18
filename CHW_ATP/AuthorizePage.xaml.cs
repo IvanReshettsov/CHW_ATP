@@ -96,6 +96,11 @@ namespace CHW_ATP
             }
             
         }
+
+        private void button_COMPLETE_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
+        }
         //private void Page_PreviewKeyDown(object sender, KeyEventArgs e)
         //{
         //    // Using keyboard handling on the page level

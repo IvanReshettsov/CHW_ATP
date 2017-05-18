@@ -65,9 +65,9 @@ namespace CHW_ATP
             set { _prizeMoney = value; }
         }
 
-        private Supervisors _supervisor;
+        private string _supervisor;
 
-        public Supervisors Supervisor
+        public string Supervisor
         {
             get { return _supervisor; }
             set { _supervisor = value; }
@@ -78,7 +78,7 @@ namespace CHW_ATP
 
         }
         
-        public Tournaments(string date, string tname, string city, string country, string surface, int category,string prizeMoney/*, *//*Supervisors supervisor*/)
+        public Tournaments(string date, string tname, string city, string country, string surface, int category,string prizeMoney)
         {
             _date = date;
             _tname = tname;
@@ -87,7 +87,7 @@ namespace CHW_ATP
             _surface = surface;
             _country = country;
             _prizeMoney = prizeMoney;
-            //_supervisor = supervisor;
+            
         }
 
         public string InfoTournaments

@@ -14,9 +14,9 @@
                   VerticalAlignment="Top"/>
         <Label x:Name="label_Login" Content="Login:" Margin="23,10,211,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Password" Content="Password:" Margin="20,55,198,0" VerticalAlignment="Top"/>
-        <Button x:Name="button_register" Content="Authorize" Margin="100,100,10,0" 
-                VerticalAlignment="Top" Width="120" Height="25" HorizontalAlignment="Center" Click="button_register_Click"/>
-        
+        <Button x:Name="button_register" Content="Authorize" Margin="162,99,18,0" 
+                VerticalAlignment="Top" Width="112" Height="33" HorizontalAlignment="Center" Click="button_register_Click" FontSize="16"/>
+        <Button x:Name="button_GOBACK" Content="Go Back" VerticalAlignment="Top" Height="33" HorizontalAlignment="Center" Margin="23,99,165,168" Click="button_COMPLETE_Click" Width="112" FontSize="16"/>
 
 
     </Grid>

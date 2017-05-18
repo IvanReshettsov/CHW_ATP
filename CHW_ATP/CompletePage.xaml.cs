@@ -28,13 +28,13 @@ namespace CHW_ATP
 
         private void button_COMPLETE_Click(object sender, RoutedEventArgs e)
         {
+
+            NavigationService.Navigate(RegPages.MainPage);
             
-            MainWindow m = new MainWindow();
-            m.Show();
-            m.label_LOGGED.Visibility = Visibility.Visible;
-            m.buttonAUTHORIZATION.IsEnabled = false;
-            m.buttonREGISTRATION.IsEnabled = false;
-            m.buttonLOGOUT.Visibility = Visibility.Visible;
+           RegPages.MainPage.label_LOGGED.Visibility = Visibility.Visible;
+            RegPages.MainPage.buttonAUTHORIZATION.IsEnabled = false;
+            RegPages.MainPage.buttonREGISTRATION.IsEnabled = false;
+            RegPages.MainPage.buttonLOGOUT.Visibility = Visibility.Visible;
             
             
   

@@ -1,0 +1,152 @@
+﻿<Page x:Class="CHW_ATP.NewTournamentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CHW_ATP"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="NewTournamentWindow">
+    <Grid Margin="0,-1,0,-62">
+
+
+        <TextBox x:Name="textBox_Name" Height="23" Margin="194,92,24,448" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <TextBox x:Name="textBox_Country" Height="22" Margin="194,126,24,415" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <TextBox x:Name="textBox_City"  Height="23" Margin="194,159,24,381" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <ComboBox x:Name="comboBox_DateMonth2" Margin="355,57,78,484" VerticalAlignment="Center" Width="67">
+            <TextBlock>JAN</TextBlock>
+            <TextBlock>FEB</TextBlock>
+            <TextBlock>MAR</TextBlock>
+            <TextBlock>APR</TextBlock>
+            <TextBlock>MAY</TextBlock>
+            <TextBlock>JUN</TextBlock>
+            <TextBlock>JUL</TextBlock>
+            <TextBlock>AUG</TextBlock>
+            <TextBlock>SEP</TextBlock>
+            <TextBlock>OCT</TextBlock>
+            <TextBlock>NOV</TextBlock>
+            <TextBlock>DEC</TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="comboBox_DateDay2" Margin="248,57,200,484" VerticalAlignment="Center" Width="52">
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+            <TextBlock>5</TextBlock>
+            <TextBlock>6</TextBlock>
+            <TextBlock>7</TextBlock>
+            <TextBlock>8</TextBlock>
+            <TextBlock>9</TextBlock>
+            <TextBlock>10</TextBlock>
+            <TextBlock>11</TextBlock>
+            <TextBlock>12</TextBlock>
+            <TextBlock>13</TextBlock>
+            <TextBlock>14</TextBlock>
+            <TextBlock>15</TextBlock>
+            <TextBlock>16</TextBlock>
+            <TextBlock>17</TextBlock>
+            <TextBlock>18</TextBlock>
+            <TextBlock>19</TextBlock>
+            <TextBlock>20</TextBlock>
+            <TextBlock>21</TextBlock>
+            <TextBlock>22</TextBlock>
+            <TextBlock>23</TextBlock>
+            <TextBlock>24</TextBlock>
+            <TextBlock>25</TextBlock>
+            <TextBlock>26</TextBlock>
+            <TextBlock>27</TextBlock>
+            <TextBlock>28</TextBlock>
+            <TextBlock>29</TextBlock>
+            <TextBlock>30</TextBlock>
+            <TextBlock>31</TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="comboBox_Category" Margin="194,308,24,233" VerticalAlignment="Center">
+            <TextBlock>0</TextBlock>
+            <TextBlock>250</TextBlock>
+            <TextBlock>500</TextBlock>
+            <TextBlock>1000</TextBlock>
+            <TextBlock>2000</TextBlock>
+        </ComboBox>
+        <TextBox x:Name="textBox_PrizeMoney" Height="24" Margin="194,346,143,193" TextWrapping="Wrap" VerticalAlignment="Center" Width="163"/>
+        <ComboBox x:Name="comboBox_PrizeMoney" Margin="381,346,78,195" VerticalAlignment="Center" Width="41">
+            <TextBlock>$</TextBlock>
+            <TextBlock>A$</TextBlock>
+            <TextBlock>€</TextBlock>
+            <TextBlock>£</TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="comboBox_Surface1" Margin="355,264,67,277" Width="78" VerticalAlignment="Center">
+            <TextBlock>Clay</TextBlock>
+            <TextBlock>Grass</TextBlock>
+            <TextBlock>Hard</TextBlock>
+            <TextBlock>Multiple Choice</TextBlock>
+        </ComboBox>
+        <Label x:Name="label_PrizeMoney" Content="Prize Money:" HorizontalAlignment="Left" Margin="33,335,0,195" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <Label x:Name="label_Surface" Content="Surface:" HorizontalAlignment="Left" Margin="33,259,0,278" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <Label x:Name="label_Category" Content="Category:" HorizontalAlignment="Left" Margin="33,304,0,233" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <Label x:Name="label_Country" Content="Country:" HorizontalAlignment="Left" Margin="33,122,0,409" VerticalAlignment="Center" FontSize="16" Height="32"/>
+        <Label x:Name="label_City" Content="City:" HorizontalAlignment="Left" Margin="33,149,0,381" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <Label x:Name="label_tName" Content="Name:" HorizontalAlignment="Left" Margin="33,92,0,445" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <Label x:Name="label_Date" Content="Date:" HorizontalAlignment="Left" Margin="33,39,0,498" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <ComboBox x:Name="comboBox_Surface" Margin="194,264,218,277" VerticalAlignment="Center" Width="88">
+            <TextBlock>Indoor</TextBlock>
+            <TextBlock>Outdoor</TextBlock>
+        </ComboBox>
+        <Label x:Name="label_Date1" Content="From:" HorizontalAlignment="Left" Margin="83,16,0,515" VerticalAlignment="Center" Width="51" FontSize="16" Height="32"/>
+        <ComboBox x:Name="comboBox_DateDay_1" Margin="248,19,200,522" VerticalAlignment="Center" Width="52">
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+            <TextBlock>5</TextBlock>
+            <TextBlock>6</TextBlock>
+            <TextBlock>7</TextBlock>
+            <TextBlock>8</TextBlock>
+            <TextBlock>9</TextBlock>
+            <TextBlock>10</TextBlock>
+            <TextBlock>11</TextBlock>
+            <TextBlock>12</TextBlock>
+            <TextBlock>13</TextBlock>
+            <TextBlock>14</TextBlock>
+            <TextBlock>15</TextBlock>
+            <TextBlock>16</TextBlock>
+            <TextBlock>17</TextBlock>
+            <TextBlock>18</TextBlock>
+            <TextBlock>19</TextBlock>
+            <TextBlock>20</TextBlock>
+            <TextBlock>21</TextBlock>
+            <TextBlock>22</TextBlock>
+            <TextBlock>23</TextBlock>
+            <TextBlock>24</TextBlock>
+            <TextBlock>25</TextBlock>
+            <TextBlock>26</TextBlock>
+            <TextBlock>27</TextBlock>
+            <TextBlock>28</TextBlock>
+            <TextBlock>29</TextBlock>
+            <TextBlock>30</TextBlock>
+            <TextBlock>31</TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxDateMonth_1" Margin="355,19,78,522" VerticalAlignment="Center" Width="67">
+            <TextBlock>JAN</TextBlock>
+            <TextBlock>FEB</TextBlock>
+            <TextBlock>MAR</TextBlock>
+            <TextBlock>APR</TextBlock>
+            <TextBlock>MAY</TextBlock>
+            <TextBlock>JUN</TextBlock>
+            <TextBlock>JUL</TextBlock>
+            <TextBlock>AUG</TextBlock>
+            <TextBlock>SEP</TextBlock>
+            <TextBlock>OCT</TextBlock>
+            <TextBlock>NOV</TextBlock>
+            <TextBlock>DEC</TextBlock>
+        </ComboBox>
+        <Label x:Name="label_Date2" Content="Till:" HorizontalAlignment="Left" Margin="83,57,0,480" VerticalAlignment="Center" Width="40" FontSize="16" Height="33"/>
+        <Button x:Name="button_AddNewTournament" Content="Add"  Width="174" Margin="276,401,50,109" VerticalAlignment="Center" Height="53" FontSize="18" Click="button_AddNewTournament_Click"/>
+        <Button x:Name="buttonGOBACK" Content="Go Back" Width="174" Margin="33,401,293,109" VerticalAlignment="Center" Click="buttonGOBACK_Click" Height="53" FontSize="18"/>
+        <Label x:Name="label_Supervisor" Content="Supervisor:" Margin="33,190,377,347" Width="90" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <TextBox x:Name="textBox_Supervisor" Height="24" Margin="194,192,24,347" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="282" />
+        <Label x:Name="label_SupervisorNation" Content="Nation:" Margin="33,230,389,307" Width="78" VerticalAlignment="Center" FontSize="16" Height="33"/>
+        <TextBox x:Name="textBox_SupervisorNation" Height="24" Margin="194,232,24,307" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="282" />
+    </Grid>
+
+
+</Page>

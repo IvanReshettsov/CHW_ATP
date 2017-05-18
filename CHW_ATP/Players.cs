@@ -44,7 +44,7 @@ namespace CHW_ATP
 
         private string _coach;
 
-        public string Coaches
+        public string Coach
         {
             get { return _coach; }
             set { _coach = value; }
