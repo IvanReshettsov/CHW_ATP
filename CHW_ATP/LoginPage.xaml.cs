@@ -86,7 +86,7 @@ namespace CHW_ATP
                 User.Clear();
                 ExistedUsers.Clear();
                 string[] accounts = File.ReadAllLines(FileNameUT, Encoding.GetEncoding(1251));
-                if (accounts!=null)
+                
                 {
 
 
@@ -132,22 +132,8 @@ namespace CHW_ATP
 
 
                     }
-                }
-                else
-                {
-                    using (StreamWriter wrPlayer = new StreamWriter(FileNameUT, true))
-                    {
-                        User.Clear();
-                        User user = new User(textBox_Login.Text, passwordBox.Password);
-                        User.Add(user);
-
-
-                        for (int i = 0; i < User.Count; i++)
-                        {
-
-                            wrPlayer.Write(User[i].Info);
-                        }
-                    }
+                
+               
             }
                 if ((string.IsNullOrWhiteSpace(textBox_Login.Text)) || (string.IsNullOrWhiteSpace(passwordBox.Password)))
                 {
