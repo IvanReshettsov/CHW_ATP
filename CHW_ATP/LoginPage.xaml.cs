@@ -96,7 +96,7 @@ namespace CHW_ATP
 
 
 
-                
+
 
                 using (StreamWriter wrPlayer = new StreamWriter(FileNameUT, true))
                 {
@@ -139,15 +139,15 @@ namespace CHW_ATP
                 }
 
                 else
-            {
+                {
 
 
-                NavigationService.Navigate(RegPages.CurrentPage);
+                    NavigationService.Navigate(RegPages.CurrentPage);
 
 
 
 
-            }
+                }
             }
             catch
             {
@@ -158,7 +158,8 @@ namespace CHW_ATP
         }
 
         private void button_COMPLETE_Click(object sender, RoutedEventArgs e)
-        {try
+        {
+            try
 
             {
                 NavigationService.GoBack();
@@ -213,3 +214,4 @@ namespace CHW_ATP
         }
     }
 }
+
