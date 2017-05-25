@@ -80,52 +80,75 @@ namespace CHW_ATP
 
         private void button_register_Click(object sender, RoutedEventArgs e)
         {
+            
             try
             {
+                User.Clear();
                 ExistedUsers.Clear();
                 string[] accounts = File.ReadAllLines(FileNameUT, Encoding.GetEncoding(1251));
-                for (int i = 0; i < accounts.Length; i++)
+                if (accounts!=null)
                 {
-                    string[] Accounts = accounts[i].Split(new char[] { ' ' });
-                    User exampleA = new User(Accounts[0], Accounts[1]);
-                    ExistedUsers.Add(exampleA);
 
 
-                }
-
-
-
-
-
-
-                using (StreamWriter wrPlayer = new StreamWriter(FileNameUT, true))
-                {
-                    int count = 0;
-                    int Count = 0;
-                    for (int i = 0; i < ExistedUsers.Count; i++)
+                    for (int i = 0; i < accounts.Length; i++)
                     {
-                        if (textBox_Login.Text == ExistedUsers[i].Name)
-                            count += 1;
-                        else
-                        {
-                            Count += 1;
-                        }
+                        string[] Accounts = accounts[i].Split(new char[] { ' ' });
+                        User exampleA = new User(Accounts[0], Accounts[1]);
+                        ExistedUsers.Add(exampleA);
+
+
                     }
 
-                    if (Count == ExistedUsers.Count)
+
+
+
+
+
+                    using (StreamWriter wrPlayer = new StreamWriter(FileNameUT, true))
                     {
+                        int count = 0;
+                        int Count = 0;
+                        for (int i = 0; i < ExistedUsers.Count; i++)
+                        {
+                            if (textBox_Login.Text == ExistedUsers[i].Name)
+                                count += 1;
+                            else
+                            {
+                                Count += 1;
+                            }
+                        }
+
+                        if (Count == ExistedUsers.Count)
+                        {
+                            User user = new User(textBox_Login.Text, passwordBox.Password);
+                            User.Add(user);
+                        }
+
+                        for (int i = 0; i < User.Count; i++)
+                        {
+
+                            wrPlayer.WriteLine(User[i].Info);
+                        }
+
+
+                    }
+                }
+                else
+                {
+                    using (StreamWriter wrPlayer = new StreamWriter(FileNameUT, true))
+                    {
+                        User.Clear();
                         User user = new User(textBox_Login.Text, passwordBox.Password);
                         User.Add(user);
+
+
+                        for (int i = 0; i < User.Count; i++)
+                        {
+
+                            wrPlayer.Write(User[i].Info);
+                        }
                     }
-
-                    for (int i = 0; i < User.Count; i++)
-                    {
-
-                        wrPlayer.WriteLine(User[i].Info);
-                    }
-
-
-                }
+            }
                 if ((string.IsNullOrWhiteSpace(textBox_Login.Text)) || (string.IsNullOrWhiteSpace(passwordBox.Password)))
                 {
                     MessageBox.Show("Enter your username and password", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
