@@ -28,14 +28,51 @@
         <Label x:Name="labelTitles" Content="Titles:" HorizontalAlignment="Left" Margin="29,306,0,52" VerticalAlignment="Center" FontSize="16"/>
         <TextBox x:Name="textBoxWeight" Height="23" Margin="180,272,18,89" TextWrapping="Wrap" VerticalAlignment="Center"/>
         <TextBox x:Name="textBoxTitles" Height="24" Margin="180,306,18,54" TextWrapping="Wrap" VerticalAlignment="Center"/>
-        <Button x:Name="buttonAddPlayer" Content="Add" Width="174" Margin="262,416,32,46" VerticalAlignment="Center" Click="buttonAddPlayer_Click" Height="53" FontSize="18"/>
+        <Button x:Name="buttonAddPlayer" Content="Add" Width="174" Margin="262,416,32,46" VerticalAlignment="Center" Click="buttonAddPlayer_Click" Height="53" FontSize="18" MouseEnter="buttonAddPlayer_MouseEnter" MouseLeave="buttonAddPlayer_MouseLeave"/>
         <TextBox x:Name="textBoxAge"  Height="23" Margin="180,40,18,321" TextWrapping="Wrap" VerticalAlignment="Center"/>
         <TextBox x:Name="textBoxCoach"  Height="23" Margin="180,167,18,194" TextWrapping="Wrap" Text="" VerticalAlignment="Center"/>
         <Label x:Name="label_Coach" Content="Coach" HorizontalAlignment="Left" Margin="30,167,0,191" VerticalAlignment="Center" FontSize="16"/>
         <Label x:Name="labelNationality_Coach" Content="Nation:" HorizontalAlignment="Left" Margin="29,226,0,188" VerticalAlignment="Center" FontSize="16"/>
         <TextBox x:Name="textBoxNationality_Coach"  Height="23" Margin="180,248,18,203" TextWrapping="Wrap" Text="" VerticalAlignment="Center"  />
-        <Button x:Name="buttonGOBACK" Content="Go Back" Width="174" Margin="30,416,264,46" VerticalAlignment="Center" Click="buttonGOBACK_Click" Height="53" FontSize="18"/>
+        <Button x:Name="buttonGOBACK" Content="Go Back" Width="174" Margin="30,416,264,46" VerticalAlignment="Center" Click="buttonGOBACK_Click" Height="53" FontSize="18" MouseEnter="buttonGOBACK_MouseEnter" MouseLeave="buttonGOBACK_MouseLeave"/>
 
+        <Grid.Background>
+            <SolidColorBrush x:Name="GridBackGroundBrush"
+        Color="White"></SolidColorBrush>
+
+        </Grid.Background>
+
+
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent ="Grid.MouseEnter">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="MistyRose" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent ="Grid.MouseLeave">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="RoyalBlue" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Grid.Triggers>
 
 
     </Grid>

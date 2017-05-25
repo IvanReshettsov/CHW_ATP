@@ -169,3 +169,63 @@ gridPlayers.ItemsSource = null;
             </BeginStoryboard>
         </EventTrigger>
     </Window.Triggers>
+
+____________________________________
+textbox search
+
+            try
+            {
+                if (gridPlayers.ItemsSource == null)
+                {
+                    MessageBox.Show("Grid is empty!\nLoad information from the file firstly.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                else
+            if (gridPlayers.ItemsSource == null)
+                {
+                    MessageBox.Show("List of players is empty!\nLoad information from the file firstly.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                else
+            if (string.IsNullOrWhiteSpace(textBox_Search.Text))
+                {
+                    MessageBox.Show("Enter your player's name.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    textBox_Search.Focus();
+                }
+                else
+                {
+                    count = 0;
+                    for (int i = 0; i < PlayersInfo.Count; i++)
+                    {
+                        if (textBox_Search.Text == PlayersInfo[i].Name)
+                        {
+                            gridPlayers.ScrollIntoView(PlayersInfo[i]);
+                            gridPlayers.SelectedItem = PlayersInfo[i];
+                            textBox_Search.Clear();
+
+                        }
+                        else
+                            count++;
+
+                    }
+                }
+                if ((count == PlayersInfo.Count) && (count != 0) && (!string.IsNullOrWhiteSpace(textBox_Search.Text)))
+                {
+
+                    MessageBox.Show("This player is not found in the list.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    textBox_Search.Clear();
+                    textBox_Search.Focus();
+
+                    придумать анимацию с выделением кнопки ADD
+                }
+                if ((count == PlayersInfo.Count) && (count != 0) && (!string.IsNullOrWhiteSpace(textBox_Search.Text)) && (label_edit.Content.ToString() == "Edit mode"))
+                {
+                    MessageBox.Show("This player is not found in the list\n\nYou can add him if you want", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    textBox_Search.Clear();
+                    textBox_Search.Focus();
+
+                }
+
+            }
+            catch
+            {
+                MessageBox.Show("Search is impossible", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }

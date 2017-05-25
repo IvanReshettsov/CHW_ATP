@@ -1,0 +1,1094 @@
+<?xml version="1.0"?>
+<InfoSerializing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Players>
+    <Players>
+      <Name>Andy Murray</Name>
+      <Age>29</Age>
+      <Nationality>Great Britain</Nationality>
+      <Rating>1</Rating>
+      <Coach>Jamie Delgado</Coach>
+      <Height>190</Height>
+      <Weight>84</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>45</Titles>
+    </Players>
+    <Players>
+      <Name>Novak Djokovic</Name>
+      <Age>29</Age>
+      <Nationality>Serbia</Nationality>
+      <Rating>2</Rating>
+      <Coach>Marian Vajda</Coach>
+      <Height>187</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>67</Titles>
+    </Players>
+    <Players>
+      <Name>Stan Wawrinka</Name>
+      <Age>31</Age>
+      <Nationality>Switzerland</Nationality>
+      <Rating>3</Rating>
+      <Coach>Thierry Ascione</Coach>
+      <Height>182</Height>
+      <Weight>81</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>15</Titles>
+    </Players>
+    <Players>
+      <Name>Kei Nishikori</Name>
+      <Age>27</Age>
+      <Nationality>Japan</Nationality>
+      <Rating>4</Rating>
+      <Coach>Galo Blanco</Coach>
+      <Height>177</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>11</Titles>
+    </Players>
+    <Players>
+      <Name>Milos Raonic</Name>
+      <Age>26</Age>
+      <Nationality>Canada</Nationality>
+      <Rating>5</Rating>
+      <Coach>Michael Chang</Coach>
+      <Height>195</Height>
+      <Weight>98</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>8</Titles>
+    </Players>
+    <Players>
+      <Name>Roger Federer</Name>
+      <Age>35</Age>
+      <Nationality>Switzerland</Nationality>
+      <Rating>6</Rating>
+      <Coach>Ivan Ljubicic</Coach>
+      <Height>185</Height>
+      <Weight>85</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>90</Titles>
+    </Players>
+    <Players>
+      <Name>Dominic Thiem</Name>
+      <Age>23</Age>
+      <Nationality>Austria</Nationality>
+      <Rating>8</Rating>
+      <Coach>Jose Manuel Clavet</Coach>
+      <Height>185</Height>
+      <Weight>81</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>8</Titles>
+    </Players>
+    <Players>
+      <Name>Marin Cilic</Name>
+      <Age>28</Age>
+      <Nationality>Croatia</Nationality>
+      <Rating>9</Rating>
+      <Coach>Franco Davin</Coach>
+      <Height>198</Height>
+      <Weight>89</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>16</Titles>
+    </Players>
+    <Players>
+      <Name>Jo-Wilfried Tsonga</Name>
+      <Age>31</Age>
+      <Nationality>France</Nationality>
+      <Rating>10</Rating>
+      <Coach>Jan De Witt</Coach>
+      <Height>187</Height>
+      <Weight>90</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>14</Titles>
+    </Players>
+    <Players>
+      <Name>Gael Monfils</Name>
+      <Age>30</Age>
+      <Nationality>France</Nationality>
+      <Rating>11</Rating>
+      <Coach>Joakim Nystrom</Coach>
+      <Height>193</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>6</Titles>
+    </Players>
+    <Players>
+      <Name>David Goffin</Name>
+      <Age>26</Age>
+      <Nationality>Belgium</Nationality>
+      <Rating>12</Rating>
+      <Coach>Jean Demeroutis</Coach>
+      <Height>180</Height>
+      <Weight>68</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Grigor Dimitrov</Name>
+      <Age>25</Age>
+      <Nationality>Bulgaria</Nationality>
+      <Rating>13</Rating>
+      <Coach>Diego Dinomo</Coach>
+      <Height>190</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>6</Titles>
+    </Players>
+    <Players>
+      <Name>Tomas Berdych</Name>
+      <Age>31</Age>
+      <Nationality>Czech Republic</Nationality>
+      <Rating>14</Rating>
+      <Coach>Stephan Fehske</Coach>
+      <Height>195</Height>
+      <Weight>90</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>13</Titles>
+    </Players>
+    <Players>
+      <Name>Lucas Pouille</Name>
+      <Age>23</Age>
+      <Nationality>France</Nationality>
+      <Rating>15</Rating>
+      <Coach>Neville Godwin</Coach>
+      <Height>185</Height>
+      <Weight>81</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Nick Kyrgios</Name>
+      <Age>21</Age>
+      <Nationality>Australia</Nationality>
+      <Rating>16</Rating>
+      <Coach>Mark Hilton</Coach>
+      <Height>193</Height>
+      <Weight>85</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Jack Sock</Name>
+      <Age>24</Age>
+      <Nationality>USA</Nationality>
+      <Rating>17</Rating>
+      <Coach>Goran Ivanisevic</Coach>
+      <Height>190</Height>
+      <Weight>84</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Roberto Bautista Agut</Name>
+      <Age>28</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>18</Rating>
+      <Coach>Ronan Lafaix</Coach>
+      <Height>182</Height>
+      <Weight>76</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>5</Titles>
+    </Players>
+    <Players>
+      <Name>Pablo Carreno Busta</Name>
+      <Age>25</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>19</Rating>
+      <Coach>Alexandre Lisiecki</Coach>
+      <Height>187</Height>
+      <Weight>74</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Alexander Zverev</Name>
+      <Age>19</Age>
+      <Nationality>Germany</Nationality>
+      <Rating>20</Rating>
+      <Coach>Craig Boynton</Coach>
+      <Height>198</Height>
+      <Weight>85</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Ivo Karlovic</Name>
+      <Age>38</Age>
+      <Nationality>Croatia</Nationality>
+      <Rating>21</Rating>
+      <Coach>Samuel Lopez</Coach>
+      <Height>210</Height>
+      <Weight>104</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>8</Titles>
+    </Players>
+    <Players>
+      <Name>Richard Gasquet</Name>
+      <Age>30</Age>
+      <Nationality>France</Nationality>
+      <Rating>22</Rating>
+      <Coach>Alberto Mancini</Coach>
+      <Height>185</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>14</Titles>
+    </Players>
+    <Players>
+      <Name>John Isner</Name>
+      <Age>31</Age>
+      <Nationality>USA</Nationality>
+      <Rating>23</Rating>
+      <Coach>Felix Mantilla</Coach>
+      <Height>208</Height>
+      <Weight>108</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>10</Titles>
+    </Players>
+    <Players>
+      <Name>Albert Ramos-Vinolas</Name>
+      <Age>29</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>24</Rating>
+      <Coach>Frederico Marques</Coach>
+      <Height>187</Height>
+      <Weight>80</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Gilles Simon</Name>
+      <Age>32</Age>
+      <Nationality>France</Nationality>
+      <Rating>25</Rating>
+      <Coach>Mariano Monachesi</Coach>
+      <Height>182</Height>
+      <Weight>70</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>12</Titles>
+    </Players>
+    <Players>
+      <Name>Pablo Cuevas</Name>
+      <Age>31</Age>
+      <Nationality>Uruguay</Nationality>
+      <Rating>26</Rating>
+      <Coach>Davide Sanguinetti</Coach>
+      <Height>180</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>6</Titles>
+    </Players>
+    <Players>
+      <Name>Sam Querrey</Name>
+      <Age>29</Age>
+      <Nationality>USA</Nationality>
+      <Rating>27</Rating>
+      <Coach>Magnus Norman</Coach>
+      <Height>198</Height>
+      <Weight>95</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>9</Titles>
+    </Players>
+    <Players>
+      <Name>Steve Johnson</Name>
+      <Age>27</Age>
+      <Nationality>USA</Nationality>
+      <Rating>28</Rating>
+      <Coach>Jose Perlas</Coach>
+      <Height>187</Height>
+      <Weight>86</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Gilles Muller</Name>
+      <Age>33</Age>
+      <Nationality>Luxembourg</Nationality>
+      <Rating>29</Rating>
+      <Coach>Emmanuel Planque</Coach>
+      <Height>193</Height>
+      <Weight>89</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Fernando Verdasco</Name>
+      <Age>33</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>30</Rating>
+      <Coach>Petar Popovic</Coach>
+      <Height>185</Height>
+      <Weight>87</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>7</Titles>
+    </Players>
+    <Players>
+      <Name>Philipp Kohlschreiber</Name>
+      <Age>33</Age>
+      <Nationality>Germany</Nationality>
+      <Rating>31</Rating>
+      <Coach>Sebastian Prieto</Coach>
+      <Height>177</Height>
+      <Weight>70</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>7</Titles>
+    </Players>
+    <Players>
+      <Name>David Ferrer</Name>
+      <Age>34</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>32</Rating>
+      <Coach>Davide Sanguinetti</Coach>
+      <Height>175</Height>
+      <Weight>72</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>26</Titles>
+    </Players>
+    <Players>
+      <Name>Mischa Zverev</Name>
+      <Age>29</Age>
+      <Nationality>Germany</Nationality>
+      <Rating>33</Rating>
+      <Coach>Andres Schneiter</Coach>
+      <Height>190</Height>
+      <Weight>80</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Juan Martin del Potro</Name>
+      <Age>28</Age>
+      <Nationality>Argentina</Nationality>
+      <Rating>34</Rating>
+      <Coach>Liam Smith</Coach>
+      <Height>198</Height>
+      <Weight>97</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>19</Titles>
+    </Players>
+    <Players>
+      <Name>Joao Sousa</Name>
+      <Age>27</Age>
+      <Nationality>Portugal</Nationality>
+      <Rating>35</Rating>
+      <Coach>Boris Sobkin</Coach>
+      <Height>185</Height>
+      <Weight>73</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Feliciano Lopez</Name>
+      <Age>35</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>36</Rating>
+      <Coach>Mitsuru Takada</Coach>
+      <Height>187</Height>
+      <Weight>85</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>5</Titles>
+    </Players>
+    <Players>
+      <Name>Paolo Lorenzi</Name>
+      <Age>35</Age>
+      <Nationality>Italy</Nationality>
+      <Rating>37</Rating>
+      <Coach>Gustavo Tavernini</Coach>
+      <Height>182</Height>
+      <Weight>76</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Viktor Troicki</Name>
+      <Age>31</Age>
+      <Nationality>Serbia</Nationality>
+      <Rating>38</Rating>
+      <Coach>Danai Udomchoke</Coach>
+      <Height>193</Height>
+      <Weight>85</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Benoit Paire</Name>
+      <Age>27</Age>
+      <Nationality>France</Nationality>
+      <Rating>39</Rating>
+      <Coach>Marian Vajda</Coach>
+      <Height>195</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Fabio Fognini</Name>
+      <Age>29</Age>
+      <Nationality>Italy</Nationality>
+      <Rating>40</Rating>
+      <Coach>Daniel Vallverdu</Coach>
+      <Height>177</Height>
+      <Weight>74</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>4</Titles>
+    </Players>
+    <Players>
+      <Name>Marcel Granollers</Name>
+      <Age>30</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>41</Rating>
+      <Coach>Thierry Van Cleemput</Coach>
+      <Height>190</Height>
+      <Weight>76</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>4</Titles>
+    </Players>
+    <Players>
+      <Name>Diego Schwartzman</Name>
+      <Age>24</Age>
+      <Nationality>Argentina</Nationality>
+      <Rating>42</Rating>
+      <Coach>Riccardo Piatti</Coach>
+      <Height>170</Height>
+      <Weight>64</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Daniel Evans</Name>
+      <Age>26</Age>
+      <Nationality>Great Britain</Nationality>
+      <Rating>43</Rating>
+      <Coach>Jonas Bjorkman</Coach>
+      <Height>175</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Bernard Tomic</Name>
+      <Age>24</Age>
+      <Nationality>Australia</Nationality>
+      <Rating>44</Rating>
+      <Coach>Gunter Bresnik</Coach>
+      <Height>195</Height>
+      <Weight>91</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Kyle Edmund</Name>
+      <Age>22</Age>
+      <Nationality>Great Britain</Nationality>
+      <Rating>45</Rating>
+      <Coach>Troy Hahn</Coach>
+      <Height>187</Height>
+      <Weight>83</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Florian Mayer</Name>
+      <Age>33</Age>
+      <Nationality>Germany</Nationality>
+      <Rating>46</Rating>
+      <Coach>Mikael Tillstrom</Coach>
+      <Height>190</Height>
+      <Weight>81</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Ryan Harrison</Name>
+      <Age>24</Age>
+      <Nationality>USA</Nationality>
+      <Rating>47</Rating>
+      <Coach>Lleyton Hewitt</Coach>
+      <Height>185</Height>
+      <Weight>84</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Robin Haase</Name>
+      <Age>29</Age>
+      <Nationality>Netherlands</Nationality>
+      <Rating>48</Rating>
+      <Coach>Jose Maria Diaz</Coach>
+      <Height>190</Height>
+      <Weight>77</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Steve Darcis</Name>
+      <Age>33</Age>
+      <Nationality>Belgium</Nationality>
+      <Rating>49</Rating>
+      <Coach>Tomas Carbonell</Coach>
+      <Height>177</Height>
+      <Weight>73</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Marcos Baghdatis</Name>
+      <Age>31</Age>
+      <Nationality>Cyprus</Nationality>
+      <Rating>50</Rating>
+      <Coach>Alexander Zverev Sr</Coach>
+      <Height>177</Height>
+      <Weight>82</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>4</Titles>
+    </Players>
+    <Players>
+      <Name>Donald Young</Name>
+      <Age>27</Age>
+      <Nationality>USA</Nationality>
+      <Rating>51</Rating>
+      <Coach>Thierry Champion</Coach>
+      <Height>182</Height>
+      <Weight>79</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Karen Khachanov</Name>
+      <Age>20</Age>
+      <Nationality>Russia</Nationality>
+      <Rating>52</Rating>
+      <Coach>Rene Moller</Coach>
+      <Height>198</Height>
+      <Weight>88</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Malek Jaziri</Name>
+      <Age>33</Age>
+      <Nationality>Tunisia</Nationality>
+      <Rating>53</Rating>
+      <Coach>Francisco Fogues</Coach>
+      <Height>185</Height>
+      <Weight>83</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Jiri Vesely</Name>
+      <Age>23</Age>
+      <Nationality>Czech Republic</Nationality>
+      <Rating>54</Rating>
+      <Coach>Emilio Sanchez</Coach>
+      <Height>198</Height>
+      <Weight>92</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Nicolas Mahut</Name>
+      <Age>35</Age>
+      <Nationality>France</Nationality>
+      <Rating>55</Rating>
+      <Coach>Claudio Galoppini</Coach>
+      <Height>190</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>4</Titles>
+    </Players>
+    <Players>
+      <Name>Nicolas Almagro</Name>
+      <Age>31</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>56</Rating>
+      <Coach>Jack Reader</Coach>
+      <Height>182</Height>
+      <Weight>84</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>13</Titles>
+    </Players>
+    <Players>
+      <Name>Federico Delbonis</Name>
+      <Age>26</Age>
+      <Nationality>Argentina</Nationality>
+      <Rating>57</Rating>
+      <Coach>John Tomic</Coach>
+      <Height>190</Height>
+      <Weight>88</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Yoshihito Nishioka</Name>
+      <Age>21</Age>
+      <Nationality>Japan</Nationality>
+      <Rating>58</Rating>
+      <Coach>Ryan Jones</Coach>
+      <Height>170</Height>
+      <Weight>64</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Nikoloz Basilashvili</Name>
+      <Age>25</Age>
+      <Nationality>Georgia</Nationality>
+      <Rating>59</Rating>
+      <Coach>Gabriel Urpi</Coach>
+      <Height>185</Height>
+      <Weight>79</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Daniil Medvedev</Name>
+      <Age>21</Age>
+      <Nationality>Russia</Nationality>
+      <Rating>60</Rating>
+      <Coach>Martin Hromec</Coach>
+      <Height>198</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Martin Klizan</Name>
+      <Age>27</Age>
+      <Nationality>Slovakia</Nationality>
+      <Rating>61</Rating>
+      <Coach>Tobias Summerer</Coach>
+      <Height>190</Height>
+      <Weight>80</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>5</Titles>
+    </Players>
+    <Players>
+      <Name>Borna Coric</Name>
+      <Age>20</Age>
+      <Nationality>Croatia</Nationality>
+      <Rating>62</Rating>
+      <Coach>Carsten Arriens</Coach>
+      <Height>185</Height>
+      <Weight>79</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Jan-Lennard Struff</Name>
+      <Age>26</Age>
+      <Nationality>Germany</Nationality>
+      <Rating>63</Rating>
+      <Coach>Erwann Tortuyaux</Coach>
+      <Height>195</Height>
+      <Weight>87</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Yen-Hsun Lu</Name>
+      <Age>33</Age>
+      <Nationality>Chinese Taipei</Nationality>
+      <Rating>64</Rating>
+      <Coach>Juan Ignacio Chela</Coach>
+      <Height>180</Height>
+      <Weight>74</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Adrian Mannarino</Name>
+      <Age>28</Age>
+      <Nationality>France</Nationality>
+      <Rating>65</Rating>
+      <Coach>Donald Young Sr</Coach>
+      <Height>180</Height>
+      <Weight>70</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Damir Dzumhur</Name>
+      <Age>24</Age>
+      <Nationality>Bosnia and Herzegovina</Nationality>
+      <Rating>66</Rating>
+      <Coach>Nick Cavaday</Coach>
+      <Height>175</Height>
+      <Weight>70</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Alexandr Dolgopolov</Name>
+      <Age>28</Age>
+      <Nationality>Ukraine</Nationality>
+      <Rating>67</Rating>
+      <Coach>Jaroslav Machovsky</Coach>
+      <Height>180</Height>
+      <Weight>71</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Andrey Kuznetsov</Name>
+      <Age>26</Age>
+      <Nationality>Russia</Nationality>
+      <Rating>68</Rating>
+      <Coach>Joao Zwetch</Coach>
+      <Height>185</Height>
+      <Weight>70</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Carlos Berlocq</Name>
+      <Age>34</Age>
+      <Nationality>Argentina</Nationality>
+      <Rating>69</Rating>
+      <Coach>Ivica Ancic</Coach>
+      <Height>182</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>2</Titles>
+    </Players>
+    <Players>
+      <Name>Denis Istomin</Name>
+      <Age>30</Age>
+      <Nationality>Uzbekistan</Nationality>
+      <Rating>70</Rating>
+      <Coach>Juan Spina</Coach>
+      <Height>187</Height>
+      <Weight>88</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Thomaz Bellucci</Name>
+      <Age>29</Age>
+      <Nationality>Brazil</Nationality>
+      <Rating>71</Rating>
+      <Coach>Goran Marijan</Coach>
+      <Height>187</Height>
+      <Weight>82</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>4</Titles>
+    </Players>
+    <Players>
+      <Name>Juan Monaco</Name>
+      <Age>32</Age>
+      <Nationality>Argentina</Nationality>
+      <Rating>72</Rating>
+      <Coach>Christophe Freyss</Coach>
+      <Height>185</Height>
+      <Weight>81</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>9</Titles>
+    </Players>
+    <Players>
+      <Name>Pierre-Hugues Herbert</Name>
+      <Age>26</Age>
+      <Nationality>France</Nationality>
+      <Rating>73</Rating>
+      <Coach>Jean-Rene Lisnard</Coach>
+      <Height>187</Height>
+      <Weight>79</Weight>
+      <StrongHand>Left-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Kevin Anderson</Name>
+      <Age>30</Age>
+      <Nationality>South Africa</Nationality>
+      <Rating>74</Rating>
+      <Coach>Francisco Yunis</Coach>
+      <Height>203</Height>
+      <Weight>89</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Horacio Zeballos</Name>
+      <Age>31</Age>
+      <Nationality>Argentina</Nationality>
+      <Rating>75</Rating>
+      <Coach>ALejandro Lombardo</Coach>
+      <Height>187</Height>
+      <Weight>83</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Mikhail Kukushkin</Name>
+      <Age>29</Age>
+      <Nationality>Kazakhstan</Nationality>
+      <Rating>76</Rating>
+      <Coach>Manuel Antuna</Coach>
+      <Height>182</Height>
+      <Weight>72</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Jeremy Chardy</Name>
+      <Age>30</Age>
+      <Nationality>France</Nationality>
+      <Rating>77</Rating>
+      <Coach>Jonas Bjorkman</Coach>
+      <Height>187</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>1</Titles>
+    </Players>
+    <Players>
+      <Name>Dustin Brown</Name>
+      <Age>32</Age>
+      <Nationality>Germany</Nationality>
+      <Rating>78</Rating>
+      <Coach>Gunter Bresnik</Coach>
+      <Height>195</Height>
+      <Weight>78</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Jordan Thompson</Name>
+      <Age>22</Age>
+      <Nationality>Australia</Nationality>
+      <Rating>79</Rating>
+      <Coach>Troy Hahn</Coach>
+      <Height>182</Height>
+      <Weight>73</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Andreas Seppi</Name>
+      <Age>33</Age>
+      <Nationality>Italy</Nationality>
+      <Rating>80</Rating>
+      <Coach>Mikael Tillstrom</Coach>
+      <Height>190</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Evgeny Donskoy</Name>
+      <Age>26</Age>
+      <Nationality>Russia</Nationality>
+      <Rating>81</Rating>
+      <Coach>Lleyton Hewitt</Coach>
+      <Height>185</Height>
+      <Weight>74</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Thiago Monteiro</Name>
+      <Age>22</Age>
+      <Nationality>Brazil</Nationality>
+      <Rating>82</Rating>
+      <Coach>Jose Maria Diaz</Coach>
+      <Height>182</Height>
+      <Weight>78</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Dudi Sela</Name>
+      <Age>31</Age>
+      <Nationality>Israel</Nationality>
+      <Rating>83</Rating>
+      <Coach>Tomas Carbonell</Coach>
+      <Height>175</Height>
+      <Weight>65</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Rogerio Dutra Silva</Name>
+      <Age>33</Age>
+      <Nationality>Brazil</Nationality>
+      <Rating>84</Rating>
+      <Coach>Alexander Zverev Sr</Coach>
+      <Height>177</Height>
+      <Weight>73</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Dusan Lajovic</Name>
+      <Age>26</Age>
+      <Nationality>Serbia</Nationality>
+      <Rating>85</Rating>
+      <Coach>Thierry Champion</Coach>
+      <Height>182</Height>
+      <Weight>78</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Radu Albot</Name>
+      <Age>27</Age>
+      <Nationality>Moldova</Nationality>
+      <Rating>86</Rating>
+      <Coach>Rene Moller</Coach>
+      <Height>175</Height>
+      <Weight>69</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Mikhail Youzhny</Name>
+      <Age>34</Age>
+      <Nationality>Russia</Nationality>
+      <Rating>87</Rating>
+      <Coach>Francisco Fogues</Coach>
+      <Height>182</Height>
+      <Weight>72</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>10</Titles>
+    </Players>
+    <Players>
+      <Name>Stephane Robert</Name>
+      <Age>36</Age>
+      <Nationality>France</Nationality>
+      <Rating>88</Rating>
+      <Coach>Emilio Sanchez</Coach>
+      <Height>185</Height>
+      <Weight>77</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Gastao Elias</Name>
+      <Age>26</Age>
+      <Nationality>Portugal</Nationality>
+      <Rating>89</Rating>
+      <Coach>Claudio Galoppini</Coach>
+      <Height>182</Height>
+      <Weight>76</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Guillermo Garcia-Lopez</Name>
+      <Age>33</Age>
+      <Nationality>Spain</Nationality>
+      <Rating>90</Rating>
+      <Coach>Jack Reader</Coach>
+      <Height>185</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>5</Titles>
+    </Players>
+    <Players>
+      <Name>Victor Estrella Burgos</Name>
+      <Age>36</Age>
+      <Nationality>Dominican Republic</Nationality>
+      <Rating>91</Rating>
+      <Coach>John Tomic</Coach>
+      <Height>170</Height>
+      <Weight>77</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>3</Titles>
+    </Players>
+    <Players>
+      <Name>Hyeon Chung</Name>
+      <Age>20</Age>
+      <Nationality>South Korea</Nationality>
+      <Rating>92</Rating>
+      <Coach>Ryan Jones</Coach>
+      <Height>185</Height>
+      <Weight>83</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Janko Tipsarevic</Name>
+      <Age>32</Age>
+      <Nationality>Serbia</Nationality>
+      <Rating>93</Rating>
+      <Coach>Sebastian Prieto</Coach>
+      <Height>175</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>4</Titles>
+    </Players>
+    <Players>
+      <Name>Aljaz Bedene</Name>
+      <Age>27</Age>
+      <Nationality>Great Britain</Nationality>
+      <Rating>94</Rating>
+      <Coach>Davide Sanguinetti</Coach>
+      <Height>182</Height>
+      <Weight>72</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Jared Donaldson</Name>
+      <Age>20</Age>
+      <Nationality>USA</Nationality>
+      <Rating>95</Rating>
+      <Coach>Andres Schneiter</Coach>
+      <Height>187</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Adam Pavlasek</Name>
+      <Age>22</Age>
+      <Nationality>Czech Republic</Nationality>
+      <Rating>96</Rating>
+      <Coach>Liam Smith</Coach>
+      <Height>185</Height>
+      <Weight>76</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Yuichi Sugita</Name>
+      <Age>28</Age>
+      <Nationality>Japan</Nationality>
+      <Rating>97</Rating>
+      <Coach>Boris Sobkin</Coach>
+      <Height>185</Height>
+      <Weight>80</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Renzo Olivo</Name>
+      <Age>25</Age>
+      <Nationality>Argentina</Nationality>
+      <Rating>98</Rating>
+      <Coach>Mitsuru Takada</Coach>
+      <Height>180</Height>
+      <Weight>72</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+    <Players>
+      <Name>Radek Stepanek</Name>
+      <Age>38</Age>
+      <Nationality>Chech Republic</Nationality>
+      <Rating>99</Rating>
+      <Coach>Gustavo Tavernini</Coach>
+      <Height>185</Height>
+      <Weight>75</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>5</Titles>
+    </Players>
+    <Players>
+      <Name>Taro Daniel</Name>
+      <Age>24</Age>
+      <Nationality>Japan</Nationality>
+      <Rating>100</Rating>
+      <Coach>Danai Udomchoke</Coach>
+      <Height>190</Height>
+      <Weight>76</Weight>
+      <StrongHand>Right-Handed</StrongHand>
+      <Titles>0</Titles>
+    </Players>
+  </Players>
+</InfoSerializing>

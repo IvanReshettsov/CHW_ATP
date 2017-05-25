@@ -8,6 +8,43 @@
       d:DesignHeight="630" d:DesignWidth="950"
        Title="TournamentsWindow">
     <Grid>
+        <Grid.Background>
+            <SolidColorBrush x:Name="GridBackGroundBrush"
+        Color="White"></SolidColorBrush>
+
+        </Grid.Background>
+
+
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent ="Grid.MouseEnter">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="MistyRose" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent ="Grid.MouseLeave">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="RoyalBlue" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Grid.Triggers>
         <Grid.RowDefinitions>
             <RowDefinition Height="152*"/>
             <RowDefinition Height="117*"/>
@@ -16,15 +53,19 @@
             <ColumnDefinition Width="314*"/>
             <ColumnDefinition Width="161*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="gridTournaments"  Margin="136,99,12,0" VerticalAlignment="Top" Height="300" SelectionChanged="gridTournaments_SelectionChanged" Grid.RowSpan="2"/>
-        <Button x:Name="buttonShowTournaments" Content="Show" Margin="340,95,150,0" VerticalAlignment="Top" Click="button_Click" Grid.Row="1" Height="55" FontSize="18"/>
-        <Button x:Name="button_Remove" HorizontalAlignment="Left" Content="Remove" Margin="156,95,0,0" VerticalAlignment="Top" Width="103" Click="button_Remove_Click" FontSize="18" Height="54" Grid.Row="1"/>
-        <Button x:Name="button_Add" Content="Add" HorizontalAlignment="Right" Margin="0,95,2,0" VerticalAlignment="Top" Width="103" Click="button_Add_Click" FontSize="18" Grid.Row="1" Height="54"/>
-        <Button x:Name="buttonGOBACK" Content="Go Back" Margin="0,58,88,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Click="buttonGOBACK_Click" Grid.Column="1" Height="50" FontSize="18"/>
-        <Button x:Name="buttonSerializeTournaments" Content="Serialize" HorizontalAlignment="Right" Margin="0,233,69,0" VerticalAlignment="Top" Width="120" Click="buttonSaveTournaments_Click" Grid.Column="1" FontSize="18" Height="57"/>
-        <RadioButton x:Name="radioButton_Serialize" Content="Serialize" HorizontalAlignment="Right" Margin="0,127,101,0" VerticalAlignment="Top" Checked="radioButton_Serialize_Checked" FontSize="16" Grid.Column="1" Height="31" Width="88"/>
-        <RadioButton x:Name="radioButton_Deserialize" Content="Deserialize" HorizontalAlignment="Right" Margin="0,172,69,0" VerticalAlignment="Top" Checked="radioButton_Deserialize_Checked" Grid.Column="1" RenderTransformOrigin="0.566,0.533" FontSize="16" Height="36" Width="120"/>
-        <Label x:Name="label_edit" Content=" " HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="16" Height="31" Width="14"/>
+        <Label x:Name="label" Content="Scroll the grid &#xD;&#xA;after clicking REMOVE &#xD;&#xA;button" Foreground="Green" Margin="0,52,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <DataGrid x:Name="gridTournaments"  Margin="136,131,272,198" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Button x:Name="buttonShowTournaments" Content="Show" Margin="320,36,204,0" VerticalAlignment="Top" Click="button_Click" Width="104" Height="54" FontSize="18" MouseEnter="buttonShowTournaments_MouseEnter" MouseLeave="buttonShowTournaments_MouseLeave"/>
+        <Button x:Name="button_Remove" HorizontalAlignment="Left" Content="Remove" Margin="158,36,0,0" VerticalAlignment="Top" Width="104" Click="button_Remove_Click" FontSize="18" Height="54" MouseEnter="button_Remove_MouseEnter" MouseLeave="button_Remove_MouseLeave"/>
+        <Button x:Name="button_Add" Content="Add" HorizontalAlignment="Right" Margin="0,36,28,0" VerticalAlignment="Top" Width="104" Click="button_Add_Click" FontSize="18" Height="54" MouseEnter="button_Add_MouseEnter" MouseLeave="button_Add_MouseLeave"/>
+        <Button x:Name="buttonGOBACK" Content="Go Back" Margin="0,99,108,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="104" Click="buttonGOBACK_Click" Grid.Column="1" Height="54" FontSize="18" MouseEnter="buttonGOBACK_MouseEnter" MouseLeave="buttonGOBACK_MouseLeave"/>
+        <Button x:Name="buttonSerializeTournaments" Content="Serialize" HorizontalAlignment="Right" Margin="0,261,118,41" Width="104" Click="buttonSaveTournaments_Click" Grid.Column="1" Height="54" FontSize="18" MouseEnter="buttonSerializeTournaments_MouseEnter" MouseLeave="buttonSerializeTournaments_MouseLeave"/>
+        <RadioButton x:Name="radioButton_Serialize" Content="Serialize" HorizontalAlignment="Right" Margin="0,194,150,0" VerticalAlignment="Top" Checked="radioButton_Serialize_Checked" FontSize="16" Grid.Column="1" Height="31" Width="88"/>
+        <RadioButton x:Name="radioButton_Deserialize" Content="Deserialize" HorizontalAlignment="Right" Margin="0,225,118,0" VerticalAlignment="Top" Checked="radioButton_Deserialize_Checked" Grid.Column="1" RenderTransformOrigin="0.566,0.533" FontSize="16" Height="36" Width="120"/>
+        <Label x:Name="label_edit" Content=" " HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="16" Foreground="Green" Height="31" Width="216"/>
+        <Button x:Name="buttonSearch" Content="Search" Grid.Column="1" HorizontalAlignment="Right" Margin="0,44,108,0" VerticalAlignment="Top" Width="104" Height="54" FontSize="18"  Click="buttonSearch_Click_1" Grid.Row="1" MouseEnter="buttonSearch_MouseEnter" MouseLeave="buttonSearch_MouseLeave"/>
+
+        <ComboBox Name="cbSearch" IsEditable="True" Text="Enter tournament's name" Foreground="Gray" Margin="0,134,28,0" GotFocus="cb_Search_GotFocus" Height="35" LostFocus="cb_Search_LostFocus" VerticalAlignment="Top" Grid.Column="1" Width="210" HorizontalAlignment="Right" Grid.Row="1"/>
 
 
     </Grid>

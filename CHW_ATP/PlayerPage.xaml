@@ -8,34 +8,68 @@
       d:DesignHeight="630" d:DesignWidth="940" 
       Title="Players">
 
-    <Grid>
+    <Grid Margin="0,2,0,-1.6">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="158*"/>
             <ColumnDefinition Width="283*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="buttonShowPlayers" Content="Show" Margin="23,0,467,101" VerticalAlignment="Bottom" Width="102" Click="button_Click" Height="53" FontSize="18" Grid.Column="1"/>
-        <DataGrid x:Name="gridPlayers" Margin="133,75,215,185" VerticalAlignment="Center" Width="575" HorizontalAlignment="Center" Grid.ColumnSpan="2" Height="339" SelectionChanged="gridPlayers_SelectionChanged" />
-        <Button x:Name="buttonRemove" Content="Remove" Margin="158,0,68,101" Width="104" VerticalAlignment="Bottom" Click="buttonRemove_Click" Height="45" FontSize="18"/>
-        <Button x:Name="buttonAdd" Content="Add" Margin="0,0,291,101" VerticalAlignment="Bottom" Width="100" Click="buttonAdd_Click" Height="45" FontSize="18" HorizontalAlignment="Right" Grid.Column="1"/>
-        <Button x:Name="buttonSerialize" Content="Serialize" Margin="0,260,88,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Click="buttonSaveInFile_Click" Grid.Column="1" Height="50" FontSize="18"/>
-        <RadioButton x:Name="radioButton_Serialize" Content="Serialize" HorizontalAlignment="Right" Margin="0,150,88,0" VerticalAlignment="Top" Checked="radioButton_Serialize_Checked" Grid.Column="1" Height="33" Width="100" FontSize="16"/>
-        <RadioButton x:Name="radioButton_Deserialize" Content="Deserialize" HorizontalAlignment="Right" Margin="0,203,74,0" VerticalAlignment="Top" Checked="radioButton_Deserialize_Checked" Grid.Column="1" Height="30" Width="114" FontSize="16"/>
-        <Label x:Name="label_edit" Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="50" Width="179" FontSize="16"/>
-        <TextBox x:Name="textBox_Search" Foreground="Gray" HorizontalAlignment="Right" Height="23" Margin="0,336,24,0"  TextWrapping="Wrap" Text="Enter player's name" VerticalAlignment="Top" Width="164" GotFocus="textBox_Search_GotFocus" LostFocus="textBox_Search_LostFocus" Grid.Column="1"/>
+        <Button x:Name="buttonShowPlayers" Content="Show" Margin="0,47,499,0" VerticalAlignment="Top" Click="button_Click" Height="53"  Width="104" FontSize="18" Grid.Column="1" MouseEnter="buttonShowPlayers_Enlarge" MouseLeave="buttonShowPlayers_Back_to_size"/>
+        <DataGrid x:Name="gridPlayers" Margin="25,152,210,146.6" HorizontalAlignment="Center" Width="705" Grid.ColumnSpan="2"/>
 
-        <Button x:Name="buttonSearch" Content="Search" Grid.Column="1" HorizontalAlignment="Right" Margin="0,396,88,0" VerticalAlignment="Top" Width="100" Height="55" FontSize="18" Click="buttonSearch_Click_1"/>
-
-        <ComboBox Name="cbSearch" IsEditable="True" Margin="0,0,0,549">
-            <ComboBoxItem>ComboBox Item #1</ComboBoxItem>
-            <ComboBoxItem>ComboBox Item #2</ComboBoxItem>
-            <ComboBoxItem>ComboBox Item #3</ComboBoxItem>
-        </ComboBox>
-        <Button x:Name="buttonGOBACK" Content="Go Back" Margin="0,58,88,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Click="buttonGOBACK_Click" Grid.Column="1" Height="50" FontSize="18"/>
+        <Button x:Name="buttonRemove" Content="Remove" Margin="156,51,77,0" Width="104" VerticalAlignment="Top" Click="buttonRemove_Click" Height="45" FontSize="18" MouseEnter="buttonRemove_MouseEnter" MouseLeave="buttonRemove_MouseLeave"/>
+        <Button x:Name="buttonAdd" Content="Add" Margin="0,51,328,0" VerticalAlignment="Top" Width="104" Click="buttonAdd_Click" Height="45" FontSize="18" HorizontalAlignment="Right" Grid.Column="1" MouseEnter="buttonAdd_MouseEnter" MouseLeave="buttonAdd_MouseLeave_1"/>
+        <Button x:Name="buttonSerialize" Content="Serialize" Margin="0,239,88,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="104" Click="buttonSaveInFile_Click" Grid.Column="1" Height="53" FontSize="18" MouseEnter="buttonSerialize_MouseEnter" MouseLeave="buttonSerialize_MouseLeave"/>
+        <RadioButton x:Name="radioButton_Serialize" Content="Serialize" HorizontalAlignment="Right" Margin="0,152,88,0" VerticalAlignment="Top" Checked="radioButton_Serialize_Checked" Grid.Column="1" Height="33" Width="100" FontSize="16"/>
+        <RadioButton x:Name="radioButton_Deserialize" Content="Deserialize" HorizontalAlignment="Right" Margin="0,190,74,0" VerticalAlignment="Top" Checked="radioButton_Deserialize_Checked" Grid.Column="1" Height="30" Width="114" FontSize="16"/>
+        <Label x:Name="label_edit" Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="50" Width="179" Foreground="Green" FontSize="16"/>
 
 
+        <Button x:Name="buttonSearch" Content="Search" Grid.Column="1" HorizontalAlignment="Right" Margin="0,381,88,0" VerticalAlignment="Top" Width="104" Height="53" FontSize="18"  Click="buttonSearch_Click_1" MouseEnter="buttonSearch_MouseEnter" MouseLeave="buttonSearch_MouseLeave"/>
+
+        <ComboBox Name="cbSearch" IsEditable="True" Text="Enter player's name" Margin="0,473,25,0" GotFocus="cb_Search_GotFocus" Height="35" LostFocus="cb_Search_LostFocus" VerticalAlignment="Top" Grid.Column="1" Foreground="Gray" Width="180" HorizontalAlignment="Right"/>
+        <Button x:Name="buttonGOBACK" Content="Go Back" Margin="0,69,88,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="104" Click="buttonGOBACK_Click" Grid.Column="1" Height="53" FontSize="18" MouseEnter="buttonGOBACK_MouseEnter" MouseLeave="buttonGOBACK_MouseLeave"/>
+        <Label x:Name="label" Content="Scroll the grid &#xD;&#xA;after clicking REMOVE &#xD;&#xA;button" Foreground="Green" Margin="0,47,205,507.6" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Grid.Background>
+            <SolidColorBrush x:Name="GridBackGroundBrush"
+        Color="White"></SolidColorBrush>
+
+        </Grid.Background>
+
+
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent ="Grid.MouseEnter">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="MistyRose" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent ="Grid.MouseLeave">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="RoyalBlue" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Grid.Triggers>
     </Grid>
-    <Page.Background>
-        <ImageBrush ImageSource="C:\Users\user\Desktop\CHW_ATP\CHW_ATP\CHW_ATP\Images\stadium.jpg"></ImageBrush>
-    </Page.Background>
+
+
+
+
 </Page>

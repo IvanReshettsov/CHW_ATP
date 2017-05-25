@@ -16,7 +16,7 @@
             <Button x:Name="buttonLOGOUT" Content="Log Out" Margin="305,115,307,0" VerticalAlignment="Top" Click="buttonLOGOUT_Click" Width="80" Height="46" Visibility="Hidden" FontSize="18" MouseEnter="buttonLOGOUT_ENLARGE" MouseLeave="buttonLOGOUT_Back_To_Size"/>
             <Button x:Name="buttonPLAYERS" Content="Players"  Margin="186,268,419,211" VerticalAlignment="Center" Click="buttonPLAYERS_Click" Height="40" Width="107" FontSize="18" MouseEnter="buttonPLAYERS_ENLARGE" MouseLeave="buttonPLAYERS_Back_To_Size"/>
             <Button x:Name="buttonAUTHORIZATION" Content="Log In"  Margin="151,113,461,0" VerticalAlignment="Top" Click="buttonAUTHORIZATION_Click" Height="46" Width="80" FontSize="18" MouseEnter="buttonLOGIN_ENLARGE" MouseLeave="buttonLOGIN_Back_To_Size"/>
-            <Label x:Name="label_LOGGED" Content="You are logged in the system" Margin="344,10,0,20" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+            <Label x:Name="label_LOGGED" Content="You are logged in the system" Margin="344,10,0,20" FontSize="16" Foreground="Green" VerticalAlignment="Top" HorizontalAlignment="Right"/>
 
 
             <Grid.Background>

@@ -140,12 +140,50 @@
             <TextBlock>DEC</TextBlock>
         </ComboBox>
         <Label x:Name="label_Date2" Content="Till:" HorizontalAlignment="Left" Margin="83,57,0,480" VerticalAlignment="Center" Width="40" FontSize="16" Height="33"/>
-        <Button x:Name="button_AddNewTournament" Content="Add"  Width="174" Margin="276,401,50,109" VerticalAlignment="Center" Height="53" FontSize="18" Click="button_AddNewTournament_Click"/>
-        <Button x:Name="buttonGOBACK" Content="Go Back" Width="174" Margin="33,401,293,109" VerticalAlignment="Center" Click="buttonGOBACK_Click" Height="53" FontSize="18"/>
+        <Button x:Name="button_AddNewTournament" Content="Add"  Width="174" Margin="276,401,50,109" VerticalAlignment="Center" Height="53" FontSize="18" Click="button_AddNewTournament_Click" MouseEnter="button_AddNewTournament_MouseEnter" MouseLeave="button_AddNewTournament_MouseLeave"/>
+        <Button x:Name="buttonGOBACK" Content="Go Back" Width="174" Margin="33,401,293,109" VerticalAlignment="Center" Click="buttonGOBACK_Click" Height="53" FontSize="18" MouseEnter="buttonGOBACK_MouseEnter" MouseLeave="buttonGOBACK_MouseLeave"/>
         <Label x:Name="label_Supervisor" Content="Supervisor:" Margin="33,190,377,347" Width="90" VerticalAlignment="Center" FontSize="16" Height="33"/>
         <TextBox x:Name="textBox_Supervisor" Height="24" Margin="194,192,24,347" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="282" />
         <Label x:Name="label_SupervisorNation" Content="Nation:" Margin="33,230,389,307" Width="78" VerticalAlignment="Center" FontSize="16" Height="33"/>
         <TextBox x:Name="textBox_SupervisorNation" Height="24" Margin="194,232,24,307" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="282" />
+
+        <Grid.Background>
+            <SolidColorBrush x:Name="GridBackGroundBrush"
+        Color="White"></SolidColorBrush>
+
+        </Grid.Background>
+
+
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent ="Grid.MouseEnter">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="MistyRose" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent ="Grid.MouseLeave">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="RoyalBlue" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Grid.Triggers>
     </Grid>
 
 

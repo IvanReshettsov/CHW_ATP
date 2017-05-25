@@ -11,11 +11,50 @@
         <PasswordBox x:Name="passwordBox" Margin="125,55,10,0" VerticalAlignment="Top" Height="25"/>
         <TextBox x:Name="textBox_Login" Height="25" Margin="125,10,10,0" 
                  TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-        <Label x:Name="label_Login" Content="Login:" Margin="23,10,197,0" VerticalAlignment="Top"/>
-        <Label x:Name="label_Password" Content="Password:" Margin="20,55,190,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Login" Content="Login:" Margin="23,10,197,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width=" 90"/>
+        <Label x:Name="label_Password" Content="Password:" Margin="20,55,190,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="90"/>
         <Button x:Name="button_register" Content="Create account" Margin="158,99,22,0" 
-                VerticalAlignment="Top" Width="120" Height="33" HorizontalAlignment="Center" Click="button_register_Click" FontSize="16"/>
-        <Button x:Name="button_GOBACK" Content="Go Back" VerticalAlignment="Top" Height="33" HorizontalAlignment="Center" Margin="20,99,161,0" Click="button_COMPLETE_Click" Width="119" FontSize="16"/>
+                VerticalAlignment="Top" Width="120" Height="33" HorizontalAlignment="Center" Click="button_register_Click" FontSize="16" MouseEnter="button_register_MouseEnter" MouseLeave="button_register_MouseLeave"/>
+        
+        <Button x:Name="button_GOBACK" Content="Go Back" VerticalAlignment="Top" Height="33" HorizontalAlignment="Center" Margin="10,99,170,0" Click="button_COMPLETE_Click" Width="120" FontSize="16" MouseEnter="button_GOBACK_MouseEnter" MouseLeave="button_GOBACK_MouseLeave"/>
+
+        <Grid.Background>
+            <SolidColorBrush x:Name="GridBackGroundBrush"
+        Color="White"></SolidColorBrush>
+
+        </Grid.Background>
+
+
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent ="Grid.MouseEnter">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="MistyRose" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent ="Grid.MouseLeave">
+                <BeginStoryboard HandoffBehavior="Compose">
+                    <Storyboard>
+                        <ColorAnimation 
+                     Storyboard.TargetName="GridBackGroundBrush" 
+                     Storyboard.TargetProperty="Color"
+                     To="RoyalBlue" AutoReverse="True" RepeatBehavior="Forever"
+                        
+                     Duration="0:0:4"  
+                     >
+                        </ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Grid.Triggers>
     </Grid>
 
 </Page>

@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<InfoSerializing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tournaments>
+    <Tournaments>
+      <Date>01 JAN - 08 JAN</Date>
+      <TName>Brisbane International presented by Suncorp</TName>
+      <City>Brisbane</City>
+      <Country>Australia</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$495,630</Prize_Money>
+      <Supervisor>Dana Loconto</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>02 JAN - 08 JAN</Date>
+      <TName>Qatar ExxonMobil Open</TName>
+      <City>Doha</City>
+      <Country>Qatar</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$1,334,270</Prize_Money>
+      <Supervisor>Gerry Armstrong</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>02 JAN - 08 JAN</Date>
+      <TName>Aircel Chennai Open</TName>
+      <City>Chennai</City>
+      <Country>India</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$505,730</Prize_Money>
+      <Supervisor>Paulo Pereira</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>08 JAN - 14 JAN</Date>
+      <TName>Apia International Sydney</TName>
+      <City>Sydney</City>
+      <Country>Australia</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$495,630</Prize_Money>
+      <Supervisor>Pedro Bravo</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>09 JAN - 14 JAN</Date>
+      <TName>ASB Classic</TName>
+      <City>Auckland</City>
+      <Country>New Zealand</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$508,360</Prize_Money>
+      <Supervisor>Richard Ings</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>16 JAN - 29 JAN</Date>
+      <TName>Australian Open</TName>
+      <City>Melbourne</City>
+      <Country>Australia</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>2000</Category>
+      <Prize_Money>A$22,624,000</Prize_Money>
+      <Supervisor>Richard Kaufman</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>03 FEB - 05 FEB</Date>
+      <TName>Davis Cup First Round</TName>
+      <City>Multiple Locations</City>
+      <Country>Multiple Locations</Country>
+      <Surface>Multiple Choice</Surface>
+      <Category>0</Category>
+      <Prize_Money>Not Announced </Prize_Money>
+      <Supervisor>Rudy Berger</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>06 FEB - 12 FEB</Date>
+      <TName>Ecuador Open</TName>
+      <City>Quito</City>
+      <Country>Ecuador</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>$540,310</Prize_Money>
+      <Supervisor>Steve Ulrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>06 FEB - 12 FEB</Date>
+      <TName>Garanti Koza Sofia Open</TName>
+      <City>Sofia</City>
+      <Country>Bulgaria</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Anne Lasserre Ullrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>06 FEB - 12 FEB</Date>
+      <TName>Open Sud de France</TName>
+      <City>Montpellier</City>
+      <Country>France</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Bertie Bowron</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>13 FEB - 19 FEB</Date>
+      <TName>ABN Amro World Tennis Tournament</TName>
+      <City>Rotterdam</City>
+      <Country>Netherlands</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>€1,854,365</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>13 FEB - 19 FEB</Date>
+      <TName>Memphis Open</TName>
+      <City>Memphis</City>
+      <Country>USA</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$720,410</Prize_Money>
+      <Supervisor>Anne Lasserre Ullrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>13 FEB - 19 FEB</Date>
+      <TName>Argentina Open</TName>
+      <City>Buenos Aires</City>
+      <Country>Argentina</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>$624,340</Prize_Money>
+      <Supervisor>Bertie Bowron</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>20 FEB - 26 FEB</Date>
+      <TName>Rio Open presented by Claro</TName>
+      <City>Rio de Janeiro</City>
+      <Country>Brazil</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>500</Category>
+      <Prize_Money>$1,603,940</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>20 FEB - 26 FEB</Date>
+      <TName>Open 13 Marseille</TName>
+      <City>Marseille</City>
+      <Country>France</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>€691,850</Prize_Money>
+      <Supervisor>Dana Loconto</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>20 FEB - 26 FEB</Date>
+      <TName>Delray Beach Open</TName>
+      <City>Delray Beach</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$599,345</Prize_Money>
+      <Supervisor>Gerry Armstrong</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>27 FEB - 04 MAR</Date>
+      <TName>Dubai Duty Free Tennis Championships</TName>
+      <City>Dubai</City>
+      <Country>UAE</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>$2,858,530</Prize_Money>
+      <Supervisor>Paulo Pereira</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>27 FEB - 04 MAR</Date>
+      <TName>Abierto Mexicano Telcel</TName>
+      <City>Acapulco</City>
+      <Country>Mexico</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>$1,633,690</Prize_Money>
+      <Supervisor>Pedro Bravo</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>27 FEB - 04 MAR</Date>
+      <TName>Brasil Open</TName>
+      <City>Sao Paulo</City>
+      <Country>Brazil</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>$520,285</Prize_Money>
+      <Supervisor>Billy Lipp</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>09 MAR - 19 MAR</Date>
+      <TName>BNP Paribas Open</TName>
+      <City>Indian Wells</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>1000</Category>
+      <Prize_Money>$7,913,405</Prize_Money>
+      <Supervisor>Bruno Rebeuh</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>22 MAR - 04 APR</Date>
+      <TName>Miami Open presented by Itaú</TName>
+      <City>Miami</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>1000</Category>
+      <Prize_Money>$7,913,405</Prize_Money>
+      <Supervisor>Bunny Williams</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>07 APR - 09 APR</Date>
+      <TName>Davis Cup Quarter-Finals</TName>
+      <City>Multiple Locations</City>
+      <Country>Multiple Locations</Country>
+      <Surface>Multiple Choice</Surface>
+      <Category>0</Category>
+      <Prize_Money>Not Announced </Prize_Money>
+      <Supervisor>Dana Loconto</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>10 APR - 16 APR</Date>
+      <TName>Fayez Sarofim &amp; Co. US Men’s Clay Court Championship</TName>
+      <City>Houston</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>$600,345</Prize_Money>
+      <Supervisor>Gerry Armstrong</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>10 APR - 16 APR</Date>
+      <TName>Grand Prix Hassan II</TName>
+      <City>Marrakech</City>
+      <Country>Morocco</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Paulo Pereira</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>16 APR - 23 APR</Date>
+      <TName>Monte-Carlo Rolex Masters</TName>
+      <City>Monte Carlo</City>
+      <Country>Monaco</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>1000</Category>
+      <Prize_Money>€4,629,725</Prize_Money>
+      <Supervisor>Pedro Bravo</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>24 APR - 30 APR</Date>
+      <TName>Barcelona Open Banco Sabadell</TName>
+      <City>Barcelona</City>
+      <Country>Spain</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>500</Category>
+      <Prize_Money>€2,604,340</Prize_Money>
+      <Supervisor>Cecil Hollins</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>24 APR - 30 APR</Date>
+      <TName>Hungarian Open</TName>
+      <City>Budapest</City>
+      <Country>Hungary</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Christina Olaussen</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>01 MAY - 07 MAY</Date>
+      <TName>BMW Open by FWU</TName>
+      <City>Munich</City>
+      <Country>Germany</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>David Littlefield</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>01 MAY - 07 MAY</Date>
+      <TName>Millennium Estoril Open</TName>
+      <City>Estoril</City>
+      <Country>Portugal</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Denis Overberg</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>01 MAY - 07 MAY</Date>
+      <TName>TEB BNP Paribas Istanbul Open</TName>
+      <City>Istanbul</City>
+      <Country>Turkey</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€497,255</Prize_Money>
+      <Supervisor>Dessie Samuels</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>07 MAY - 14 MAY</Date>
+      <TName>Mutua Madrid Open</TName>
+      <City>Madrid</City>
+      <Country>Spain</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>1000</Category>
+      <Prize_Money>€6,408,230</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>14 MAY - 21 MAY</Date>
+      <TName>Internazionali BNL d’Italia</TName>
+      <City>Rome</City>
+      <Country>Italy</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>1000</Category>
+      <Prize_Money>€4,835,975</Prize_Money>
+      <Supervisor>Richard Ings</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>21 MAY - 27 MAY</Date>
+      <TName>Banque Eric Sturdza Geneva Open</TName>
+      <City>Geneva</City>
+      <Country>Switzerland</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Richard Kaufman</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>21 MAY - 27 MAY</Date>
+      <TName>Open Parc Auvergne-Rhône-Alpes Lyon</TName>
+      <City>Lyon</City>
+      <Country>France</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Edward James</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>28 MAY - 11 JUN</Date>
+      <TName>Roland Garros</TName>
+      <City>Paris</City>
+      <Country>France</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>2000</Category>
+      <Prize_Money>€14,880,000</Prize_Money>
+      <Supervisor>Enric Molina</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>12 JUN - 18 JUN</Date>
+      <TName>MercedesCup</TName>
+      <City>Stuttgart</City>
+      <Country>Germany</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>250</Category>
+      <Prize_Money>€701,975</Prize_Money>
+      <Supervisor>Dana Loconto</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>12 JUN - 18 JUN</Date>
+      <TName>Ricoh Open</TName>
+      <City>s-Hertogenbosch</City>
+      <Country>Netherlands</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>250</Category>
+      <Prize_Money>€660,375</Prize_Money>
+      <Supervisor>Gerry Armstrong</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>19 JUN - 25 JUN</Date>
+      <TName>Aegon Championships</TName>
+      <City>London</City>
+      <Country>Great Britain</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>500</Category>
+      <Prize_Money>€1,966,095</Prize_Money>
+      <Supervisor>Paulo Pereira</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>19 JUN - 25 JUN</Date>
+      <TName>Gerry Weber Open</TName>
+      <City>Halle</City>
+      <Country>Germany</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>500</Category>
+      <Prize_Money>€1,966,095</Prize_Money>
+      <Supervisor>Pedro Bravo</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>25 JUN - 01 JUL</Date>
+      <TName>Aegon International</TName>
+      <City>Eastbourne</City>
+      <Country>Great Britain</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>250</Category>
+      <Prize_Money>€693,910</Prize_Money>
+      <Supervisor>Anne Lasserre Ullrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>25 JUN - 01 JUL</Date>
+      <TName>Antalya Open</TName>
+      <City>Antalya</City>
+      <Country>Turkey</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>250</Category>
+      <Prize_Money>$497,255</Prize_Money>
+      <Supervisor>Bertie Bowron</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>03 JUL - 16 JUL</Date>
+      <TName>Wimbledon</TName>
+      <City>London</City>
+      <Country>Great Britain</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>2000</Category>
+      <Prize_Money>£10,856,000</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>17 JUL - 23 JUL</Date>
+      <TName>Dell Technologies Hall of Fame Open</TName>
+      <City>Newport</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Grass</Surface>
+      <Category>250</Category>
+      <Prize_Money>$600,345</Prize_Money>
+      <Supervisor>Dana Loconto</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>17 JUL - 23 JUL</Date>
+      <TName>Konzum Croatia Open Umag</TName>
+      <City>Umag</City>
+      <Country>Croatia</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Gerry Armstrong</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>17 JUL - 23 JUL</Date>
+      <TName>SkiStar Swedish Open</TName>
+      <City>Bastad</City>
+      <Country>Sweden</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Richard Ings</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>24 JUL - 30 JUL</Date>
+      <TName>German Tennis Championships</TName>
+      <City>Hamburg</City>
+      <Country>Germany</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>500</Category>
+      <Prize_Money>€1,629,375</Prize_Money>
+      <Supervisor>Richard Kaufman</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>24 JUL - 30 JUL</Date>
+      <TName>J. Safra Sarasin Swiss Open Gstaad</TName>
+      <City>Gstaad</City>
+      <Country>Switzerland</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Anne Lasserre Ullrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>24 JUL - 30 JUL</Date>
+      <TName>BB&amp;T Atlanta Open</TName>
+      <City>Atlanta</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$720,410</Prize_Money>
+      <Supervisor>Bertie Bowron</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>31 JUL - 06 AUG</Date>
+      <TName>Citi Open</TName>
+      <City>Washington</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>$2,002,460</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>31 JUL - 06 AUG</Date>
+      <TName>Abierto Mexicano de Tenis Mifel presentado por Cinemex</TName>
+      <City>Los Cabos</City>
+      <Country>Mexico</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$727,995</Prize_Money>
+      <Supervisor>Edward James</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>31 JUL - 06 AUG</Date>
+      <TName>Generali Open</TName>
+      <City>Kitzbuhel</City>
+      <Country>Austria</Country>
+      <Surface>Outdoor Clay</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Enric Molina</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>07 AUG - 13 AUG</Date>
+      <TName>Coupe Rogers</TName>
+      <City>Montreal</City>
+      <Country>Canada</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>1000</Category>
+      <Prize_Money>$5,275,595</Prize_Money>
+      <Supervisor>Fabian Cherny</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>13 AUG - 20 AUG</Date>
+      <TName>Western &amp; Southern Open</TName>
+      <City>Cincinnati</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>1000</Category>
+      <Prize_Money>$5,627,305</Prize_Money>
+      <Supervisor>Fiona Edwards</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>20 AUG - 26 AUG</Date>
+      <TName>Winston-Salem Open</TName>
+      <City>Winston-Salem</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$748,960</Prize_Money>
+      <Supervisor>Steve Ulrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>28 AUG - 10 SEP</Date>
+      <TName>US Open</TName>
+      <City>New York</City>
+      <Country>USA</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>2000</Category>
+      <Prize_Money>$36,324,000</Prize_Money>
+      <Supervisor>Anne Lasserre Ullrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>15 SEP - 17 SEP</Date>
+      <TName>Davis Cup Semi-Finals</TName>
+      <City>Multiple Locations</City>
+      <Country>Multiple Locations</Country>
+      <Surface>Multiple Choice</Surface>
+      <Category>0</Category>
+      <Prize_Money>Not Announced</Prize_Money>
+      <Supervisor>Bertie Bowron</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>18 SEP - 24 SEP</Date>
+      <TName>Moselle Open</TName>
+      <City>Metz</City>
+      <Country>France</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>€540,310</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>18 SEP - 24 SEP</Date>
+      <TName>St. Petersburg Open</TName>
+      <City>St. Petersburg</City>
+      <Country>Russia</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$1,025,205</Prize_Money>
+      <Supervisor>Frank Hammond</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>25 SEP - 01 OCT</Date>
+      <TName>Chengdu Open</TName>
+      <City>Chengdu</City>
+      <Country>China</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$1,138,910</Prize_Money>
+      <Supervisor>Freddie Sore</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>25 SEP - 01 OCT</Date>
+      <TName>Shenzhen Open</TName>
+      <City>Shenzhen</City>
+      <Country>China</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$731,680</Prize_Money>
+      <Supervisor>Georgina Clark</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>02 OCT - 10 OCT</Date>
+      <TName>China Open</TName>
+      <City>Beijing</City>
+      <Country>China</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>$4,280,460</Prize_Money>
+      <Supervisor>Gerry Armstrong</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>02 OCT - 10 OCT</Date>
+      <TName>Rakuten Japan Open Tennis Championships</TName>
+      <City>Tokyo</City>
+      <Country>Japan</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>$1,706,175</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>08 OCT - 15 OCT</Date>
+      <TName>Shanghai Rolex Masters</TName>
+      <City>Shanghai</City>
+      <Country>China</Country>
+      <Surface>Outdoor Hard</Surface>
+      <Category>1000</Category>
+      <Prize_Money>$8,092,625</Prize_Money>
+      <Supervisor>Paulo Pereira</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>16 OCT - 22 OCT</Date>
+      <TName>VTB Kremlin Cup</TName>
+      <City>Moscow</City>
+      <Country>Russia</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>$823,600</Prize_Money>
+      <Supervisor>Pedro Bravo</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>16 OCT - 22 OCT</Date>
+      <TName>If Stockholm Open</TName>
+      <City>Stockholm</City>
+      <Country>Sweden</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>€660,375</Prize_Money>
+      <Supervisor>Anne Lasserre Ullrich</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>16 OCT - 22 OCT</Date>
+      <TName>European Open</TName>
+      <City>Antwerp</City>
+      <Country>Belgium</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>250</Category>
+      <Prize_Money>€660,375</Prize_Money>
+      <Supervisor>Bertie Bowron</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>23 OCT - 29 OCT</Date>
+      <TName>Erste Bank Open 500</TName>
+      <City>Vienna</City>
+      <Country>Austria</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>€2,621,850</Prize_Money>
+      <Supervisor>Cecil Hollins</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>23 OCT - 29 OCT</Date>
+      <TName>Swiss Indoors Basel</TName>
+      <City>Basel</City>
+      <Country>Switzerland</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>500</Category>
+      <Prize_Money>€2,291,860</Prize_Money>
+      <Supervisor>Christina Olaussen</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>30 OCT - 05 NOV</Date>
+      <TName>Paris Masters</TName>
+      <City>Paris</City>
+      <Country>France</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>1000</Category>
+      <Prize_Money>€4,835,975</Prize_Money>
+      <Supervisor>David Littlefield</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>07 NOV - 11 NOV</Date>
+      <TName>Next Gen ATP Finals</TName>
+      <City>Milan</City>
+      <Country>Italy</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>0</Category>
+      <Prize_Money>Not Announced</Prize_Money>
+      <Supervisor>Denis Overberg</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>12 NOV - 19 NOV</Date>
+      <TName>ATP Finals</TName>
+      <City>London</City>
+      <Country>Great Britain</Country>
+      <Surface>Indoor Hard</Surface>
+      <Category>1000</Category>
+      <Prize_Money>$7,500,000</Prize_Money>
+      <Supervisor>Dessie Samuels</Supervisor>
+    </Tournaments>
+    <Tournaments>
+      <Date>24 NOV - 26 NOV</Date>
+      <TName>Davis Cup Final</TName>
+      <City>Multiple Locations</City>
+      <Country>Multiple Locations</Country>
+      <Surface>Multiple Choice</Surface>
+      <Category>0</Category>
+      <Prize_Money>Not Announced</Prize_Money>
+      <Supervisor>Donna Kelso</Supervisor>
+    </Tournaments>
+  </Tournaments>
+</InfoSerializing>

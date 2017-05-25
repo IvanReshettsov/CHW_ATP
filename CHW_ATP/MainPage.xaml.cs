@@ -25,78 +25,12 @@ namespace CHW_ATP
         List<Players> PlayersInfo = new List<Players>();
         const string FileNameT = "tournaments.txt";
         List<Tournaments> TournamentsInfo = new List<Tournaments>();
-        int color = 0;
         public MainPage()
         {
 
             InitializeComponent();
             label_LOGGED.Visibility = Visibility.Hidden;
         }
-
-        //    Background = new SolidColorBrush(SystemColors.ControlColor);
-
-        //    ColorAnimation animation = new ColorAnimation();
-        //    animation.To = Colors.LightSkyBlue;
-        //    animation.Duration = new Duration(TimeSpan.FromSeconds(3));
-        //    Storyboard.SetTarget(animation, MainGrid);
-        //    Storyboard.SetTargetProperty(animation, new PropertyPath(SolidColorBrush.ColorProperty));
-
-
-        //    //для второй анимации
-        //    //Storyboard.SetTarget(scd_animation, MainGrid);
-        //    //Storyboard.SetTargetProperty(scd_animation, new PropertyPath(SolidColorBrush.ColorProperty));
-
-
-        //    Background.BeginAnimation(SolidColorBrush.ColorProperty, animation);
-        //    animation.Completed += ScdAnimation;
-
-        //    ColorAnimation scd_animation = new ColorAnimation();
-        //    scd_animation.From = Colors.LightSkyBlue;
-        //    scd_animation.To = Colors.MistyRose;
-        //    scd_animation.Duration = new Duration(TimeSpan.FromSeconds(3));
-
-        //    Background.BeginAnimation(SolidColorBrush.ColorProperty, scd_animation);
-
-        //    //////Background.BeginAnimation(SolidColorBrush.ColorProperty, scd_animation);
-        //    //////var storyboard = new Storyboard();
-
-        //    //////storyboard.Children.Add(animation);
-        //    //////storyboard.Children.Add(scd_animation);
-        //    //////storyboard.Children = new TimelineCollection { animation, scd_animation, };
-
-        //    //////storyboard.Begin(this);
-
-
-
-        //    //////ColorAnimation ca = new ColorAnimation(Colors.Red, Colors.Blue, new Duration(TimeSpan.FromSeconds(4)));
-        //    //////Storyboard.SetTarget(ca, this);
-        //    //////Storyboard.SetTargetProperty(ca, new PropertyPath("Background.Color"));
-
-
-        //    //////Storyboard stb = new Storyboard();
-        //    //////stb.Children.Add(ca);
-
-
-        //    //////ColorAnimation ca1 = new ColorAnimation(Colors.Blue, Colors.Green, new Duration(TimeSpan.FromSeconds(4)));
-        //    //////Storyboard.SetTarget(ca1, this);
-        //    //////Storyboard.SetTargetProperty(ca1, new PropertyPath("Background.Color"));
-
-
-        //    //////stb.Children = new TimelineCollection { ca, ca1 };
-
-        //    //////stb.Begin();
-
-
-        //}
-
-        //private void ScdAnimation(object sender, EventArgs e)
-        //{
-        //    ColorAnimation scd_animation = new ColorAnimation();
-        //    scd_animation.From = Colors.LightSkyBlue;
-        //    scd_animation.To = Colors.MistyRose;
-        //    scd_animation.Duration = new Duration(TimeSpan.FromSeconds(3));
-        //    Background.BeginAnimation(SolidColorBrush.ColorProperty, scd_animation);
-        //}
 
         private void EnableAuthorization()
         {
@@ -119,6 +53,7 @@ namespace CHW_ATP
             players_height.Duration = TimeSpan.FromSeconds(0.5);
             buttonPLAYERS.BeginAnimation(HeightProperty, players_height);
         }
+        
         private void WidthAnimationTournamentsBtn()
         {
             DoubleAnimation tournaments_width = new DoubleAnimation();
@@ -208,26 +143,7 @@ namespace CHW_ATP
                 NavigationService.Navigate(RegPages.PlayerPage);
             }
 
-           
-
-
-            
-
-
-            //homeWindow.gridPlayers.ItemsSource = null;
-            //homeWindow.gridPlayers.Columns.Clear();
-            //PlayersInfo.Clear();
-            //string[] playersMass = File.ReadAllLines(FileNameP, Encoding.GetEncoding(1251));
-            //for (int i = 0; i < playersMass.Length; i++)
-            //{
-            //    string[] PlayersMass1 = playersMass[i].Split(new char[] { ';' });
-            //    Players exampleP = new Players(PlayersMass1[0], int.Parse(PlayersMass1[1]), PlayersMass1[2], PlayersMass1[3], int.Parse(PlayersMass1[4]), int.Parse(PlayersMass1[5]), int.Parse(PlayersMass1[6]), int.Parse(PlayersMass1[7]));
-            //    PlayersInfo.Add(exampleP);
-
-
-            //}
-            //homeWindow.gridPlayers.ItemsSource = PlayersInfo;
-
+   
         }
 
 
@@ -251,23 +167,7 @@ namespace CHW_ATP
                 RegPages.TournamentPage.button_Remove.IsEnabled = false;
                 NavigationService.Navigate(RegPages.TournamentPage);
             }
-            
-
-
-            //tournamentsWindow.gridTournaments.ItemsSource = null;
-            //tournamentsWindow.gridTournaments.Columns.Clear();
-            //TournamentsInfo.Clear();
-            //string[] tournamentsMass = File.ReadAllLines(FileNameT, Encoding.GetEncoding(1251));
-            //for (int i = 0; i < tournamentsMass.Length; i++)
-            //{
-            //    string[] TournamentsMass1 = tournamentsMass[i].Split(new char[] { ';' });
-            //    Tournaments exampleT = new Tournaments(TournamentsMass1[0], TournamentsMass1[1], TournamentsMass1[2], TournamentsMass1[3], TournamentsMass1[4], int.Parse(TournamentsMass1[5]), TournamentsMass1[6]);
-            //    TournamentsInfo.Add(exampleT);
-
-
-            //}
-
-            //tournamentsWindow.gridTournaments.ItemsSource = TournamentsInfo;
+       
         }
 
         private void buttonREGISTRATION_Click(object sender, RoutedEventArgs e)
@@ -312,6 +212,7 @@ namespace CHW_ATP
 
             HeightAnimationPlayersBtn();
             WidthAnimationPlayersBtn();
+       
 
         }
 
@@ -326,8 +227,12 @@ namespace CHW_ATP
             players_height.From = buttonPLAYERS.ActualWidth;
             players_height.To = 40;
             players_height.Duration = TimeSpan.FromMilliseconds(0.1);
+
+            
+
             buttonPLAYERS.BeginAnimation(WidthProperty, players_width);
             buttonPLAYERS.BeginAnimation(HeightProperty, players_height);
+       
 
 
         }
@@ -399,6 +304,7 @@ namespace CHW_ATP
         {
             HeightAnimationLogoutBtn();
             WidthAnimationLogoutBtn();
+            
 
         }
 
